@@ -1,5 +1,4 @@
-#[path = "some-mod/mod.rs"]
-mod some_mod;
+mod minimum_path_sum;
 
 fn main() {
     

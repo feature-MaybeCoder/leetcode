@@ -11,11 +11,9 @@
             "id": "4a43e6ae88f77ed5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Templates/leetcodeDraw.excalidraw.md",
-                "mode": "source",
-                "source": false
+                "file": "Templates/leetcodeDraw.excalidraw.md"
               }
             }
           },
@@ -25,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/submissionTemplate.md",
+                "file": "src/minimum_path_sum/minimum_path_sum.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/submissionTemplate.md",
+                "file": "src/minimum_path_sum/minimum_path_sum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/submissionTemplate.md",
+                "file": "src/minimum_path_sum/minimum_path_sum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/submissionTemplate.md"
+                "file": "src/minimum_path_sum/minimum_path_sum.md"
               }
             }
           }
@@ -161,30 +159,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "17336dcf64314a4e",
+  "active": "e4c433b66891c2a4",
   "lastOpenFiles": [
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsfkaom37a-1x5osi7-a7t3dctxgl0i2zuljec8kxszz/ysbzjpxchodxsja.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsfkaom37a-1x5osi7-a7t3dctxgl0i2zuljec8kxszz/xktin0kwxgyfmju.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsfkaom37a-1x5osi7-a7t3dctxgl0i2zuljec8kxszz/work-products.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsfkaom37a-1x5osi7-a7t3dctxgl0i2zuljec8kxszz/vv6o6piqqgtlpw.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsfkaom37a-1x5osi7-a7t3dctxgl0i2zuljec8kxszz/u7sc0pwiu5mgbo3.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsfkaom37a-1x5osi7-a7t3dctxgl0i2zuljec8kxszz/suse7kcmsrfdc6g.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsfkaom37a-1x5osi7-a7t3dctxgl0i2zuljec8kxszz/query-cache.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsfkaom37a-1x5osi7-a7t3dctxgl0i2zuljec8kxszz/dep-graph.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsfkaom37a-1x5osi7-a7t3dctxgl0i2zuljec8kxszz/9ndo7gzt52u3f9x.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsfkaom37a-1x5osi7-a7t3dctxgl0i2zuljec8kxszz/6npqk7does7v85c.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsfkaom37a-1x5osi7-a7t3dctxgl0i2zuljec8kxszz/59jhkrhgqhlx1p6u.o",
+    "Templates/submissionTemplate.md",
+    "src/minimum_path_sum/minimum_path_sum.excalidraw.md",
+    "src/minimum_path_sum/minimum_path_sum.md",
     "Templates/leetcodeDraw.excalidraw.md",
     "src/accounts-merge/accounts-merge.md",
-    "Templates/submissionTemplate.md",
     "src/sofwefew/sofwefew.excalidraw.md",
     "src/sofwefew/sofwefew.md",
-    "src/sofwefew",
     "leetcode/some /Drawing 2024-01-13 18.51.08.excalidraw.md",
     "leetcode/some /some .excalidraw.md",
     "leetcode/some /some.md",
-    "leetcode/some ",
-    "leetcode",
     "leetcode/some-another/some-another.excalidraw.md",
     "leetcode/some-another/some-another.md",
-    "leetcode/some-another",
     "leetcode/some/some.excalidraw.md",
     "leetcode/some/some.md",
-    "leetcode/some",
     "src/accounts-merge/accounts-merge.excalidraw.md",
-    "Templates",
     "templates/leetcodeDraw.excalidraw.md",
-    "templates",
-    "templates/submissionTemplate.md",
-    "src/accounts-merge"
+    "templates/submissionTemplate.md"
   ]
 }
