@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/leetcodeDraw.excalidraw.md",
+                "file": "Templates/submissionTemplate.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/leetcodeDraw.excalidraw.md",
+                "file": "Templates/submissionTemplate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/leetcodeDraw.excalidraw.md",
+                "file": "Templates/submissionTemplate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/leetcodeDraw.excalidraw.md"
+                "file": "Templates/submissionTemplate.md"
               }
             }
           }
@@ -163,8 +163,8 @@
   },
   "active": "17336dcf64314a4e",
   "lastOpenFiles": [
-    "src/accounts-merge/accounts-merge.md",
     "Templates/leetcodeDraw.excalidraw.md",
+    "src/accounts-merge/accounts-merge.md",
     "Templates/submissionTemplate.md",
     "src/sofwefew/sofwefew.excalidraw.md",
     "src/sofwefew/sofwefew.md",

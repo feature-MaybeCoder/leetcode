@@ -1,4 +1,6 @@
-use crate::
+#[path = "some-mod/mod.rs"]
+mod some_mod;
+
 fn main() {
-    println!("Hello, world!");
+    
 }
