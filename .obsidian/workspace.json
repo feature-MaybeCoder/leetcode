@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "708ecaa421c58e53",
+    "type": "split",
+    "children": [
+      {
+        "id": "48506a53b5fe6610",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a43e6ae88f77ed5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/leetcodeDraw.excalidraw.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17336dcf64314a4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/leetcodeDraw.excalidraw.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a6795a2c11ff8350",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d0fbe0eea255a87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4c433b66891c2a4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3fa9cbfeb7faff7c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d24c3f5666962690",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "98633b25d0fad17d",
+    "type": "split",
+    "children": [
+      {
+        "id": "990189b8373b2f99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef4aa1bd890d7626",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Templates/leetcodeDraw.excalidraw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "18413349ff8660cc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Templates/leetcodeDraw.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb80618899d48de5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e4c3e8e8f033d5b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Templates/leetcodeDraw.excalidraw.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "17336dcf64314a4e",
+  "lastOpenFiles": [
+    "src/accounts-merge/accounts-merge.md",
+    "Templates/leetcodeDraw.excalidraw.md",
+    "Templates/submissionTemplate.md",
+    "src/sofwefew/sofwefew.excalidraw.md",
+    "src/sofwefew/sofwefew.md",
+    "src/sofwefew",
+    "leetcode/some /Drawing 2024-01-13 18.51.08.excalidraw.md",
+    "leetcode/some /some .excalidraw.md",
+    "leetcode/some /some.md",
+    "leetcode/some ",
+    "leetcode",
+    "leetcode/some-another/some-another.excalidraw.md",
+    "leetcode/some-another/some-another.md",
+    "leetcode/some-another",
+    "leetcode/some/some.excalidraw.md",
+    "leetcode/some/some.md",
+    "leetcode/some",
+    "src/accounts-merge/accounts-merge.excalidraw.md",
+    "Templates",
+    "templates/leetcodeDraw.excalidraw.md",
+    "templates",
+    "templates/submissionTemplate.md",
+    "src/accounts-merge"
+  ]
+}
