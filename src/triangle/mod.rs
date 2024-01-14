@@ -1,14 +1,14 @@
-pub fn minimum_total(triangle: Vec<Vec<i32>>) -> i32 {
-    let mut row: Vec<i32> = triangle.last().unwrap().clone();
+pub fn minimum_total(mut triangle: Vec<Vec<i32>>) -> i32 {
+    
     let len = triangle.len()-1;
     for x in (0..len).rev() {
-        
-        row = triangle[x].iter().enumerate().map(|(idx, &num)|{
-            num + std::cmp::min(row[idx], row[idx + 1])
-        }).collect();
+        for y in 0..triangle[x].len(){
+            triangle[x][y] = triangle[x][y]+ std::cmp::min(triangle[x+1][y],triangle[x+1][y+1]);
+        }
+       
      
     }
-    return row[0];
+    return triangle[0][0];
 }
 #[cfg(test)]
 mod tests {
