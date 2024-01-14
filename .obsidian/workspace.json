@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "48506a53b5fe6610",
+        "id": "7124719412866566",
         "type": "tabs",
         "children": [
           {
-            "id": "4a43e6ae88f77ed5",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Templates/leetcodeDraw.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "17336dcf64314a4e",
+            "id": "ea6144d3b1403137",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/minimum_path_sum/minimum_path_sum.md",
+                "file": "src/triangle/triangle.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "98633b25d0fad17d",
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/minimum_path_sum/minimum_path_sum.md",
+                "file": "src/triangle/triangle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/minimum_path_sum/minimum_path_sum.md",
+                "file": "src/triangle/triangle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/minimum_path_sum/minimum_path_sum.md"
+                "file": "src/triangle/triangle.md"
               }
             }
           }
@@ -159,8 +148,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e4c433b66891c2a4",
+  "active": "ea6144d3b1403137",
   "lastOpenFiles": [
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsg5di8dka-lzpnc-b6li17bbxqje8yxl00kplmmuu/work-products.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsg5di8dka-lzpnc-b6li17bbxqje8yxl00kplmmuu/query-cache.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsg5di8dka-lzpnc-b6li17bbxqje8yxl00kplmmuu/dep-graph.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsg5di8dka-lzpnc-b6li17bbxqje8yxl00kplmmuu",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsg5di8jcf-gpf8av-1rk86idjd2bafl2kzyhs85fsf/work-products.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsg5di8jcf-gpf8av-1rk86idjd2bafl2kzyhs85fsf/query-cache.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsg5di8jcf-gpf8av-1rk86idjd2bafl2kzyhs85fsf/dep-graph.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsg5di8jcf-gpf8av-1rk86idjd2bafl2kzyhs85fsf",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsg5di8jcf-gpf8av-working/work-products.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsg5di8jcf-gpf8av-working/query-cache.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsg5di8jcf-gpf8av-working/dep-graph.part.bin",
+    "src/triangle/triangle.excalidraw.md",
+    "src/triangle/triangle.md",
+    "Templates/leetcodeDraw.excalidraw.md",
+    "src/spiral-matrix/spiral-matrix.excalidraw.md",
+    "src/snakes-and-ladders/snakes-and-ladders.md",
+    "src/snakes-and-ladders/snakes-and-ladders.excalidraw.md",
+    "src/shortest-path-with-alternating-colors/shortest-path-with-alternating-colors.md",
+    "src/shortest-path-with-alternating-colors/shortest-path-with-alternating-colors.excalidraw.md",
+    "src/set-matrix-zeroes/set-matrix-zeroes.md",
+    "src/set-matrix-zeroes/set-matrix-zeroes.excalidraw.md",
+    "src/rotate-image/rotate-image.md",
+    "src/rotate-list/rotate-list.md",
+    "src/rotate-list/rotate-list.excalidraw.md",
+    "src/minimum_path_sum/minimum_path_sum.md",
     "src/word-break/word-break.md",
     "src/word-break/word-break.excalidraw.md",
     "src/valid-sudoku/valid-sudoku.md",
@@ -171,31 +185,6 @@
     "src/trapping-rain-water/trapping-rain-water.excalidraw.md",
     "src/time-needed-to-inform-all-employees/time-needed-to-inform-all-employees.md",
     "src/time-needed-to-inform-all-employees/time-needed-to-inform-all-employees.excalidraw.md",
-    "src/surrounded-regions/surrounded-regions.excalidraw.md",
-    "src/surrounded-regions/surrounded-regions.md",
-    "src/spiral-matrix/spiral-matrix.excalidraw.md",
-    "src/spiral-matrix/spiral-matrix.md",
-    "src/snakes-and-ladders/snakes-and-ladders.md",
-    "src/snakes-and-ladders/snakes-and-ladders.excalidraw.md",
-    "src/simplify-path/simplify-path.excalidraw.md",
-    "src/simplify-path/simplify-path.md",
-    "src/shortest-path-with-alternating-colors/shortest-path-with-alternating-colors.md",
-    "src/shortest-path-with-alternating-colors/shortest-path-with-alternating-colors.excalidraw.md",
-    "src/shortest-bridge/shortest-bridge.md",
-    "src/shortest-bridge/shortest-bridge.excalidraw.md",
-    "src/set-matrix-zeroes/set-matrix-zeroes.excalidraw.md",
-    "src/set-matrix-zeroes/set-matrix-zeroes.md",
-    "src/satisfiability-of-equality-equations/satisfiability-of-equality-equations.excalidraw.md",
-    "src/satisfiability-of-equality-equations/satisfiability-of-equality-equations.md",
-    "src/word-break",
-    "src/valid-sudoku",
-    "src/two-sum-ii",
-    "src/trapping-rain-water",
-    "src/time-needed-to-inform-all-employees",
-    "src/surrounded-regions",
-    "src/spiral-matrix",
-    "src/snakes-and-ladders",
-    "src/simplify-path",
-    "src/shortest-path-with-alternating-colors"
+    "src/surrounded-regions/surrounded-regions.excalidraw.md"
   ]
 }
