@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/triangle/triangle.md",
+                "file": "Templates/submissionTemplate.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "minimum_p",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/triangle/triangle.md",
+                "file": "Templates/submissionTemplate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/triangle/triangle.md",
+                "file": "Templates/submissionTemplate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/triangle/triangle.md"
+                "file": "Templates/submissionTemplate.md"
               }
             }
           }
@@ -150,19 +150,19 @@
   },
   "active": "ea6144d3b1403137",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgasg08jl-pw06gl-4711u56xkwffy25qmjvr45z8x/ysbzjpxchodxsja.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgasg08jl-pw06gl-4711u56xkwffy25qmjvr45z8x/xktin0kwxgyfmju.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgasg08jl-pw06gl-4711u56xkwffy25qmjvr45z8x/work-products.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgasg08jl-pw06gl-4711u56xkwffy25qmjvr45z8x/vv6o6piqqgtlpw.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgasg08jl-pw06gl-4711u56xkwffy25qmjvr45z8x/u7sc0pwiu5mgbo3.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgasg08jl-pw06gl-4711u56xkwffy25qmjvr45z8x/suse7kcmsrfdc6g.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgasg08jl-pw06gl-4711u56xkwffy25qmjvr45z8x/query-cache.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgasg08jl-pw06gl-4711u56xkwffy25qmjvr45z8x/dep-graph.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgasg08jl-pw06gl-4711u56xkwffy25qmjvr45z8x/5qblhaatcbq8roy.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgasg08jl-pw06gl-4711u56xkwffy25qmjvr45z8x/5a0rokcxh4sstccy.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgasg08jl-pw06gl-4711u56xkwffy25qmjvr45z8x/56gic2jq83ebqhpd.o",
-    "src/triangle/triangle.excalidraw.md",
+    "src/minimum_path_sum/minimum_path_sum.md",
     "src/triangle/triangle.md",
+    "target/debug/deps/leetcode-d6e8468f8f678a18.ld_OpNLLb",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgb6bfrq4-1135w08-eveputpagkx8age3p1mlx29uf/ysbzjpxchodxsja.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgb6bfrq4-1135w08-eveputpagkx8age3p1mlx29uf/xktin0kwxgyfmju.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgb6bfrq4-1135w08-eveputpagkx8age3p1mlx29uf/work-products.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgb6bfrq4-1135w08-eveputpagkx8age3p1mlx29uf/vv6o6piqqgtlpw.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgb6bfrq4-1135w08-eveputpagkx8age3p1mlx29uf/u7sc0pwiu5mgbo3.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgb6bfrq4-1135w08-eveputpagkx8age3p1mlx29uf/suse7kcmsrfdc6g.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgb6bfrq4-1135w08-eveputpagkx8age3p1mlx29uf/query-cache.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgb6bfrq4-1135w08-eveputpagkx8age3p1mlx29uf/dep-graph.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsgb6bfrq4-1135w08-eveputpagkx8age3p1mlx29uf/9ndo7gzt52u3f9x.o",
+    "src/triangle/triangle.excalidraw.md",
     "Templates/leetcodeDraw.excalidraw.md",
     "src/spiral-matrix/spiral-matrix.excalidraw.md",
     "src/snakes-and-ladders/snakes-and-ladders.md",
@@ -174,7 +174,6 @@
     "src/rotate-image/rotate-image.md",
     "src/rotate-list/rotate-list.md",
     "src/rotate-list/rotate-list.excalidraw.md",
-    "src/minimum_path_sum/minimum_path_sum.md",
     "src/word-break/word-break.md",
     "src/word-break/word-break.excalidraw.md",
     "src/valid-sudoku/valid-sudoku.md",

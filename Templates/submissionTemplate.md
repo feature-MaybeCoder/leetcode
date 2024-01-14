@@ -44,11 +44,3 @@ Tags: ${selectedTags.join(" ")}
 
 ## solution explanation:
 
-
-## last submission:
-```javascript
-
-```
-
-
-
