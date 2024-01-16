@@ -11,11 +11,9 @@
             "id": "f58108c0bedc0c05",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "src/unique_paths_ii/unique_paths_ii.md",
-                "mode": "source",
-                "source": false
+                "file": "src/interleaving_string/interleaving_string.excalidraw.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/unique_paths_ii/unique_paths_ii.md",
+                "file": "src/interleaving_string/interleaving_string.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/unique_paths_ii/unique_paths_ii.md",
+                "file": "src/interleaving_string/interleaving_string.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/unique_paths_ii/unique_paths_ii.md"
+                "file": "src/interleaving_string/interleaving_string.excalidraw.md"
               }
             }
           }
@@ -150,18 +148,20 @@
   },
   "active": "f58108c0bedc0c05",
   "lastOpenFiles": [
-    "src/unique_paths_ii/unique_paths_ii.excalidraw.md",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsh8o2bw02-1amraem-cwykxobpqd5hk7mueuzogbzks/ysbzjpxchodxsja.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsh8o2bw02-1amraem-cwykxobpqd5hk7mueuzogbzks/work-products.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsh8o2bw02-1amraem-cwykxobpqd5hk7mueuzogbzks/vv6o6piqqgtlpw.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsh8o2bw02-1amraem-cwykxobpqd5hk7mueuzogbzks/u7sc0pwiu5mgbo3.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsh8o2bw02-1amraem-cwykxobpqd5hk7mueuzogbzks/query-cache.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsh8o2bw02-1amraem-cwykxobpqd5hk7mueuzogbzks/dep-graph.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsh8o2bw02-1amraem-cwykxobpqd5hk7mueuzogbzks/5a0rokcxh4sstccy.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsh8o2bw02-1amraem-cwykxobpqd5hk7mueuzogbzks/56gic2jq83ebqhpd.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsh8o2bw02-1amraem-cwykxobpqd5hk7mueuzogbzks/546d24umr3w6fedx.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsh8o2bw02-1amraem-cwykxobpqd5hk7mueuzogbzks/51sn0yar9316zp5c.o",
+    "src/interleaving_string/interleaving_string.md",
+    "src/interleaving_string/interleaving_string.excalidraw.md",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/ysbzjpxchodxsja.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/xktin0kwxgyfmju.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/work-products.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/wn4qg2lo0w8epgr.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/vv6o6piqqgtlpw.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/u7sc0pwiu5mgbo3.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/suse7kcmsrfdc6g.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/query-cache.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/mcs7g8xwbzch5n6.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/dep-graph.bin",
     "src/unique_paths_ii/unique_paths_ii.md",
+    "src/unique_paths_ii/unique_paths_ii.excalidraw.md",
     "src/01-matrix/01-matrix.md",
     "src/01-matrix/01-matrix.excalidraw.md",
     "Templates/submissionTemplate.md",
@@ -182,8 +182,6 @@
     "src/word-break/word-break.md",
     "src/word-break/word-break.excalidraw.md",
     "src/valid-sudoku/valid-sudoku.md",
-    "src/valid-sudoku/valid-sudoku.excalidraw.md",
-    "src/two-sum-ii/two-sum-ii.excalidraw.md",
-    "src/two-sum-ii/two-sum-ii.md"
+    "src/valid-sudoku/valid-sudoku.excalidraw.md"
   ]
 }
