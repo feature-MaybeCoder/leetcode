@@ -13,6 +13,7 @@ await tp.file.move(titleRelative + "/" + title)
 
 tp.file.create_new(tp.file.find_tfile("leetcodeDraw.excalidraw"), excalidrawTitle, false, folder)
 
+
 const allTags = Object.entries(app.metadataCache.getTags() )
    .sort( (a, b) => a[0].localeCompare(b[0]) ) // Sorted alphabetically
    // .sort( (a, b) => b[1] - a[1], "desc" ) // Sorted related to frequency

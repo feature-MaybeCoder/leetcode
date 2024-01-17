@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "7d043c4193c17d88",
+        "id": "bb5452e29f65a14d",
         "type": "tabs",
         "children": [
           {
-            "id": "f58108c0bedc0c05",
+            "id": "ce85f2f884e1cf4f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "src/interleaving_string/interleaving_string.excalidraw.md"
+                "file": "src/edit_distance/edit_distance.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/interleaving_string/interleaving_string.excalidraw.md",
+                "file": "src/edit_distance/edit_distance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/interleaving_string/interleaving_string.excalidraw.md",
+                "file": "src/edit_distance/edit_distance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/interleaving_string/interleaving_string.excalidraw.md"
+                "file": "src/edit_distance/edit_distance.md"
               }
             }
           }
@@ -146,25 +148,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f58108c0bedc0c05",
+  "active": "ce85f2f884e1cf4f",
   "lastOpenFiles": [
-    "src/interleaving_string/interleaving_string.md",
+    "src/edit_distance/edit_distance.excalidraw.md",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/ysbzjpxchodxsja.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/xktin0kwxgyfmju.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/work-products.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/wn4qg2lo0w8epgr.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/u7sc0pwiu5mgbo3.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/vv6o6piqqgtlpw.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/suse7kcmsrfdc6g.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/query-cache.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/mcs7g8xwbzch5n6.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/dep-graph.bin",
+    "src/edit_distance/edit_distance.md",
+    "Templates/submissionTemplate.md",
+    "src/some-rust/mod.rs.md",
+    "src/some-rust/some-rust.md",
+    "src/some-rust/some-rust.excalidraw.md",
+    "src/some-new/mod.rs.md",
+    "src/some-new/some-new.md",
+    "src/some-new/some-new.excalidraw.md",
     "src/interleaving_string/interleaving_string.excalidraw.md",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/ysbzjpxchodxsja.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/xktin0kwxgyfmju.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/work-products.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/wn4qg2lo0w8epgr.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/vv6o6piqqgtlpw.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/u7sc0pwiu5mgbo3.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/suse7kcmsrfdc6g.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/query-cache.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/mcs7g8xwbzch5n6.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsik0rvj4h-1mttdzz-btd08j285gbb95bz4r6m2bfrp/dep-graph.bin",
+    "src/interleaving_string/interleaving_string.md",
     "src/unique_paths_ii/unique_paths_ii.md",
     "src/unique_paths_ii/unique_paths_ii.excalidraw.md",
     "src/01-matrix/01-matrix.md",
     "src/01-matrix/01-matrix.excalidraw.md",
-    "Templates/submissionTemplate.md",
     "src/minimum_path_sum/minimum_path_sum.md",
     "src/triangle/triangle.md",
     "src/triangle/triangle.excalidraw.md",
@@ -174,14 +184,6 @@
     "src/snakes-and-ladders/snakes-and-ladders.excalidraw.md",
     "src/shortest-path-with-alternating-colors/shortest-path-with-alternating-colors.md",
     "src/shortest-path-with-alternating-colors/shortest-path-with-alternating-colors.excalidraw.md",
-    "src/set-matrix-zeroes/set-matrix-zeroes.md",
-    "src/set-matrix-zeroes/set-matrix-zeroes.excalidraw.md",
-    "src/rotate-image/rotate-image.md",
-    "src/rotate-list/rotate-list.md",
-    "src/rotate-list/rotate-list.excalidraw.md",
-    "src/word-break/word-break.md",
-    "src/word-break/word-break.excalidraw.md",
-    "src/valid-sudoku/valid-sudoku.md",
-    "src/valid-sudoku/valid-sudoku.excalidraw.md"
+    "src/set-matrix-zeroes/set-matrix-zeroes.md"
   ]
 }

@@ -1,4 +1,4 @@
-mod interleaving_string;
+mod edit_distance;
 
 fn main() {
     
