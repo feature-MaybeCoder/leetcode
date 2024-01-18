@@ -1,4 +1,4 @@
-mod edit_distance;
+mod maximal_square;
 
 fn main() {
     

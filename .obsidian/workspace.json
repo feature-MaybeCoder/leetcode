@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/edit_distance/edit_distance.md",
+                "file": "src/maximal_square/maximal-square.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "38f8ab59b4f5a6dc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "src/maximal_square/maximal-square.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "minimum_p",
+                "query": "maximal-sq",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +76,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "98633b25d0fad17d",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/edit_distance/edit_distance.md",
+                "file": "src/maximal_square/maximal-square.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/edit_distance/edit_distance.md",
+                "file": "src/maximal_square/maximal-square.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/edit_distance/edit_distance.md"
+                "file": "src/maximal_square/maximal-square.excalidraw.md"
               }
             }
           }
@@ -148,20 +161,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ce85f2f884e1cf4f",
+  "active": "38f8ab59b4f5a6dc",
   "lastOpenFiles": [
-    "src/edit_distance/edit_distance.excalidraw.md",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/ysbzjpxchodxsja.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/xktin0kwxgyfmju.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/work-products.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/wn4qg2lo0w8epgr.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/u7sc0pwiu5mgbo3.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/vv6o6piqqgtlpw.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/suse7kcmsrfdc6g.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/query-cache.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/mcs7g8xwbzch5n6.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsjsynlykd-1w1pmny-9qj58a6jja75sitxt4xyzovvx/dep-graph.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gskzdcvi9k-6zb0qn-a50iws4ugi12jaep0unrb5ahx/work-products.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gskzdcvi9k-6zb0qn-a50iws4ugi12jaep0unrb5ahx/query-cache.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gskzdcvi9k-6zb0qn-a50iws4ugi12jaep0unrb5ahx/dep-graph.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gskzdcvi9k-6zb0qn-a50iws4ugi12jaep0unrb5ahx",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gskzdcvb9h-11ehlih-c9wsyd8i7whrnvczbb2r754g4/work-products.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gskzdcvb9h-11ehlih-c9wsyd8i7whrnvczbb2r754g4/query-cache.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gskzdcvb9h-11ehlih-c9wsyd8i7whrnvczbb2r754g4/dep-graph.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gskzdcvb9h-11ehlih-c9wsyd8i7whrnvczbb2r754g4",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gskzdcvi9k-6zb0qn-working/work-products.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gskzdcvi9k-6zb0qn-working/query-cache.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gskzdcvi9k-6zb0qn-working/dep-graph.part.bin",
+    "src/maximal_square/maximal-square.md",
+    "src/maximal-square/maximal-square.excalidraw.md",
+    "src/maximal_square/maximal-square.excalidraw.md",
+    "src/maximal-square/maximal-square.md",
     "src/edit_distance/edit_distance.md",
+    "src/edit_distance/edit_distance.excalidraw.md",
     "Templates/submissionTemplate.md",
     "src/some-rust/mod.rs.md",
     "src/some-rust/some-rust.md",
@@ -180,10 +198,6 @@
     "src/triangle/triangle.excalidraw.md",
     "Templates/leetcodeDraw.excalidraw.md",
     "src/spiral-matrix/spiral-matrix.excalidraw.md",
-    "src/snakes-and-ladders/snakes-and-ladders.md",
-    "src/snakes-and-ladders/snakes-and-ladders.excalidraw.md",
-    "src/shortest-path-with-alternating-colors/shortest-path-with-alternating-colors.md",
-    "src/shortest-path-with-alternating-colors/shortest-path-with-alternating-colors.excalidraw.md",
-    "src/set-matrix-zeroes/set-matrix-zeroes.md"
+    "src/snakes-and-ladders/snakes-and-ladders.md"
   ]
 }
