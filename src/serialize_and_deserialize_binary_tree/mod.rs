@@ -28,75 +28,53 @@ impl Codec {
     fn new() -> Self {
         return Self {};
     }
-    fn inorder(&self, node: &Option<Rc<RefCell<TreeNode>>>, serialize_str: &mut String) {
+    fn dfs(&self, node: &Option<Rc<RefCell<TreeNode>>>, ser_out: &mut String) {
         if let Some(node) = node {
-            let cur = node.borrow();
-            self.inorder(&cur.left, serialize_str);
-            let mut val_str = cur.val.to_string();
-            val_str.push(',');
-            serialize_str.push_str(&val_str);
-            self.inorder(&cur.right, serialize_str);
+            let unwraped = node.borrow();
+            let mut ser_value = unwraped.val.to_string();
+            ser_value.push(',');
+            ser_out.push_str(&ser_value);
+            self.dfs(&unwraped.left, ser_out);
+            self.dfs(&unwraped.right, ser_out);
+            return;
         }
+        ser_out.push_str("null,")
     }
-    fn postorder(&self, node: &Option<Rc<RefCell<TreeNode>>>, serialize_str: &mut String) {
-        if let Some(node) = node {
-            let cur = node.borrow();
-            let mut val_str = cur.val.to_string();
-            val_str.push(',');
-            self.postorder(&cur.left, serialize_str);
-            self.postorder(&cur.right, serialize_str);
-            serialize_str.push_str(&val_str);
-        }
-    }
-
     fn serialize(&self, root: Option<Rc<RefCell<TreeNode>>>) -> String {
         let mut res = String::new();
-        self.inorder(&root, &mut res);
-        if res.len() > 0 {
-            res.pop();
-        }
-        res.push(';');
-        self.postorder(&root, &mut res);
-        if res.len() > 1 {
+        self.dfs(&root, &mut res);
+        if !res.is_empty() {
             res.pop();
         }
         return res;
     }
-    fn construct_bst_from_traversals(
+    fn construct_bt_from_traversal(
         &self,
-        i_start: i32,
-        i_end: i32,
-        inorder: &Vec<i32>,
-        postorder: &mut Vec<i32>,
-    ) -> Option<Rc<RefCell<TreeNode>>> {
-        if (i_end - i_start) < 0 {
-            return None;
+        index: usize,
+        traversal: &Vec<Option<i32>>,
+    ) -> (usize, Option<Rc<RefCell<TreeNode>>>) {
+        if let Some(val) = traversal[index] {
+            let mut node = TreeNode::new(val);
+            let (left_index, left_node) = self.construct_bt_from_traversal(index + 1, traversal);
+            let (right_index, right_node) =
+                self.construct_bt_from_traversal(left_index + 1, traversal);
+
+            node.left = left_node;
+            node.right = right_node;
+
+            return (right_index, Some(Rc::new(RefCell::new(node))));
         }
-        println!("{:?}, {:?}, {:?}, {:?}", inorder,postorder, i_start, i_end);
-        let head_val = postorder.pop().unwrap();
-        let inorder_index = inorder.iter().position(|val| *val == head_val).unwrap() as i32;
-        let mut root = TreeNode::new(head_val);
-        root.right =
-            self.construct_bst_from_traversals(inorder_index + 1, i_end, inorder, postorder);
-        root.left =
-            self.construct_bst_from_traversals(i_start, inorder_index - 1, inorder, postorder);
-        return Some(Rc::new(RefCell::new(root)));
+        return (index, None);
     }
     fn deserialize(&self, data: String) -> Option<Rc<RefCell<TreeNode>>> {
-        let splited: Vec<&str> = data.split(';').collect();
-        
-        if splited[0].is_empty(){
-            return None
-        }
-        let inorder: Vec<_> = splited[0]
+        let splited: Vec<_> = data
             .split(',')
-            .map(|char| char.parse::<i32>().unwrap())
+            .map(|item| match item {
+                "null" => None,
+                _ => Some(item.parse::<i32>().unwrap()),
+            })
             .collect();
-        let mut postorder: Vec<_> = splited[1]
-            .split(',')
-            .map(|char| char.parse::<i32>().unwrap())
-            .collect();
-        return self.construct_bst_from_traversals(0, inorder.len() as i32 - 1, &inorder, &mut postorder);
+        return self.construct_bt_from_traversal(0, &splited).1;
     }
 }
 
@@ -122,15 +100,15 @@ mod test {
         let root = Some(Rc::new(RefCell::new(root_node)));
         let serialized = serializer.serialize(root);
 
-        assert_eq!(serialized, "1,2,3;1,3,2");
+        assert_eq!(serialized, "2,1,null,null,3,null,null");
         serializer.deserialize(serialized);
     }
     #[test]
     fn none_edge_case() {
         let serializer = Codec::new();
-        
+
         let serialized = serializer.serialize(None);
-        assert_eq!(serialized, ";");
+        assert_eq!(serialized, "null");
         serializer.deserialize(serialized);
     }
     #[test]
@@ -141,7 +119,7 @@ mod test {
         root_node.right = Some(Rc::new(RefCell::new(TreeNode::new(2))));
         let root = Some(Rc::new(RefCell::new(root_node)));
         let serialized = serializer.serialize(root);
-        assert_eq!(serialized, "2,1,2;2,2,1");
+        assert_eq!(serialized, "1,2,null,null,2,null,null");
         serializer.deserialize(serialized);
     }
 }
