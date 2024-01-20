@@ -25,7 +25,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "src/maximal_square/maximal-square.excalidraw.md"
+                "file": "src/serialize_and_deserialize_binary_tree/serialize_and_deserialize_binary_tree.excalidraw.md"
               }
             }
           }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/maximal_square/maximal-square.excalidraw.md",
+                "file": "src/serialize_and_deserialize_binary_tree/serialize_and_deserialize_binary_tree.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/maximal_square/maximal-square.excalidraw.md",
+                "file": "src/serialize_and_deserialize_binary_tree/serialize_and_deserialize_binary_tree.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/maximal_square/maximal-square.excalidraw.md"
+                "file": "src/serialize_and_deserialize_binary_tree/serialize_and_deserialize_binary_tree.excalidraw.md"
               }
             }
           }
@@ -163,20 +163,22 @@
   },
   "active": "38f8ab59b4f5a6dc",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gslnih1fju-uzj6qs-ea8x2pai0vejncw34kj2givjm/ysbzjpxchodxsja.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gslnih1fju-uzj6qs-ea8x2pai0vejncw34kj2givjm/xktin0kwxgyfmju.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gslnih1fju-uzj6qs-ea8x2pai0vejncw34kj2givjm/vv6o6piqqgtlpw.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gslnih1fju-uzj6qs-ea8x2pai0vejncw34kj2givjm/work-products.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gslnih1fju-uzj6qs-ea8x2pai0vejncw34kj2givjm/u7sc0pwiu5mgbo3.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gslnih1fju-uzj6qs-ea8x2pai0vejncw34kj2givjm/suse7kcmsrfdc6g.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gslnih1fju-uzj6qs-ea8x2pai0vejncw34kj2givjm/query-cache.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gslnih1fju-uzj6qs-ea8x2pai0vejncw34kj2givjm/5a0rokcxh4sstccy.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gslnih1fju-uzj6qs-ea8x2pai0vejncw34kj2givjm/dep-graph.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gslnih1fju-uzj6qs-ea8x2pai0vejncw34kj2givjm/56gic2jq83ebqhpd.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gslnih1fju-uzj6qs-ea8x2pai0vejncw34kj2givjm/546d24umr3w6fedx.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsmqvx2ml8-i8g1r0-dzrit5j1x6qqihiznee7a4hbt/ysbzjpxchodxsja.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsmqvx2ml8-i8g1r0-dzrit5j1x6qqihiznee7a4hbt/xktin0kwxgyfmju.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsmqvx2ml8-i8g1r0-dzrit5j1x6qqihiznee7a4hbt/work-products.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsmqvx2ml8-i8g1r0-dzrit5j1x6qqihiznee7a4hbt/wn4qg2lo0w8epgr.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsmqvx2ml8-i8g1r0-dzrit5j1x6qqihiznee7a4hbt/vv6o6piqqgtlpw.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsmqvx2ml8-i8g1r0-dzrit5j1x6qqihiznee7a4hbt/u7sc0pwiu5mgbo3.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsmqvx2ml8-i8g1r0-dzrit5j1x6qqihiznee7a4hbt/suse7kcmsrfdc6g.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsmqvx2ml8-i8g1r0-dzrit5j1x6qqihiznee7a4hbt/query-cache.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsmqvx2ml8-i8g1r0-dzrit5j1x6qqihiznee7a4hbt/owwablyib8lw94t.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsmqvx2ml8-i8g1r0-dzrit5j1x6qqihiznee7a4hbt/mcs7g8xwbzch5n6.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gsmqvx2ml8-i8g1r0-dzrit5j1x6qqihiznee7a4hbt/dep-graph.bin",
+    "src/serialize_and_deserialize_binary_tree/serialize_and_deserialize_binary_tree.md",
+    "src/maximal_square/maximal-square.excalidraw.md",
+    "src/serialize_and_deserialize_binary_tree/serialize_and_deserialize_binary_tree.excalidraw.md",
     "src/maximal_square/maximal-square.md",
     "src/maximal-square/maximal-square.excalidraw.md",
-    "src/maximal_square/maximal-square.excalidraw.md",
     "src/maximal-square/maximal-square.md",
     "src/edit_distance/edit_distance.md",
     "src/edit_distance/edit_distance.excalidraw.md",
@@ -196,8 +198,6 @@
     "src/minimum_path_sum/minimum_path_sum.md",
     "src/triangle/triangle.md",
     "src/triangle/triangle.excalidraw.md",
-    "Templates/leetcodeDraw.excalidraw.md",
-    "src/spiral-matrix/spiral-matrix.excalidraw.md",
-    "src/snakes-and-ladders/snakes-and-ladders.md"
+    "Templates/leetcodeDraw.excalidraw.md"
   ]
 }
