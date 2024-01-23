@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/critical_connections_in_a_network/critical-connections-in-a-network.md",
+                "file": "src/unique_binary_search_trees_ii/unique_binary_search_trees_ii.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "65de90484a35f777",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "src/unique_binary_search_trees/unique_binary_search_trees.excalidraw.md"
               }
             }
           }
@@ -65,8 +75,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/critical_connections_in_a_network/critical-connections-in-a-network.md",
+                "file": "src/unique_binary_search_trees_ii/unique_binary_search_trees_ii.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/critical_connections_in_a_network/critical-connections-in-a-network.md",
+                "file": "src/unique_binary_search_trees_ii/unique_binary_search_trees_ii.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/critical_connections_in_a_network/critical-connections-in-a-network.md"
+                "file": "src/unique_binary_search_trees_ii/unique_binary_search_trees_ii.md"
               }
             }
           }
@@ -149,21 +158,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3fa9cbfeb7faff7c",
+  "active": "6226c276dc677c99",
   "lastOpenFiles": [
-    "src/critical_connections_in_a_network/critical-connections-in-a-network.excalidraw.md",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gso2z24bfh-9yq439-d4lyr48vfkrarb86y2rxgpcqp/ysbzjpxchodxsja.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gso2z24bfh-9yq439-d4lyr48vfkrarb86y2rxgpcqp/xktin0kwxgyfmju.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gso2z24bfh-9yq439-d4lyr48vfkrarb86y2rxgpcqp/work-products.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gso2z24bfh-9yq439-d4lyr48vfkrarb86y2rxgpcqp/vv6o6piqqgtlpw.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gso2z24bfh-9yq439-d4lyr48vfkrarb86y2rxgpcqp/u7sc0pwiu5mgbo3.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gso2z24bfh-9yq439-d4lyr48vfkrarb86y2rxgpcqp/suse7kcmsrfdc6g.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gso2z24bfh-9yq439-d4lyr48vfkrarb86y2rxgpcqp/query-cache.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gso2z24bfh-9yq439-d4lyr48vfkrarb86y2rxgpcqp/dep-graph.bin",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gso2z24bfh-9yq439-d4lyr48vfkrarb86y2rxgpcqp/56gic2jq83ebqhpd.o",
-    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gso2z24bfh-9yq439-d4lyr48vfkrarb86y2rxgpcqp/546d24umr3w6fedx.o",
-    "src/critical-connections-in-a-network/critical-connections-in-a-network.md",
+    "src/unique_binary_search_trees/unique_binary_search_trees.md",
+    "src/unique_binary_search_trees_ii/unique_binary_search_trees_ii.excalidraw.md",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsq24shqne-qz8v33-56pzt86yei92w1gorfmkjjx7u/work-products.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsq24shqne-qz8v33-56pzt86yei92w1gorfmkjjx7u/query-cache.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsq24shqne-qz8v33-56pzt86yei92w1gorfmkjjx7u/dep-graph.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsq24shqne-qz8v33-56pzt86yei92w1gorfmkjjx7u",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsq24shpew-vv6zdf-dd64a2bmu3zpifzbejr177lu9/work-products.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsq24shpew-vv6zdf-dd64a2bmu3zpifzbejr177lu9/query-cache.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsq24shpew-vv6zdf-dd64a2bmu3zpifzbejr177lu9/dep-graph.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsq24shpew-vv6zdf-dd64a2bmu3zpifzbejr177lu9",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsq24shqne-qz8v33-working/work-products.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsq24shqne-qz8v33-working/query-cache.bin",
+    "src/unique_binary_search_trees/unique_binary_search_trees.excalidraw.md",
+    "src/unique_binary_search_trees_ii/unique_binary_search_trees_ii.md",
     "src/critical_connections_in_a_network/critical-connections-in-a-network.md",
+    "src/critical_connections_in_a_network/critical-connections-in-a-network.excalidraw.md",
+    "src/critical-connections-in-a-network/critical-connections-in-a-network.md",
     "src/critical-connections-in-a-network/critical-connections-in-a-network.excalidraw.md",
     "src/maximal_square/maximal-square.md",
     "src/serialize_and_deserialize_binary_tree/serialize_and_deserialize_binary_tree.excalidraw.md",
@@ -181,10 +194,6 @@
     "src/some-new/some-new.md",
     "src/some-new/some-new.excalidraw.md",
     "src/interleaving_string/interleaving_string.excalidraw.md",
-    "src/interleaving_string/interleaving_string.md",
-    "src/unique_paths_ii/unique_paths_ii.md",
-    "src/unique_paths_ii/unique_paths_ii.excalidraw.md",
-    "src/01-matrix/01-matrix.md",
-    "src/01-matrix/01-matrix.excalidraw.md"
+    "src/interleaving_string/interleaving_string.md"
   ]
 }
