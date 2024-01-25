@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/candy/candy.md",
+                "file": "src/word_ladder/word_ladder.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/candy/candy.md",
+                "file": "src/word_ladder/word_ladder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/candy/candy.md",
+                "file": "src/word_ladder/word_ladder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/candy/candy.md"
+                "file": "src/word_ladder/word_ladder.md"
               }
             }
           }
@@ -160,18 +160,20 @@
   },
   "active": "6226c276dc677c99",
   "lastOpenFiles": [
-    "src/candy/candy.excalidraw.md",
+    "src/word_ladder/word_ladder.excalidraw.md",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gss8rem58q-n9nppa-6ohsxjra2axwzo3fu56r13zhs/zmwrpeshuhfmb61.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gss8rem58q-n9nppa-6ohsxjra2axwzo3fu56r13zhs/ysbzjpxchodxsja.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gss8rem58q-n9nppa-6ohsxjra2axwzo3fu56r13zhs/xktin0kwxgyfmju.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gss8rem58q-n9nppa-6ohsxjra2axwzo3fu56r13zhs/work-products.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gss8rem58q-n9nppa-6ohsxjra2axwzo3fu56r13zhs/wn4qg2lo0w8epgr.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gss8rem58q-n9nppa-6ohsxjra2axwzo3fu56r13zhs/vv6o6piqqgtlpw.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gss8rem58q-n9nppa-6ohsxjra2axwzo3fu56r13zhs/u7sc0pwiu5mgbo3.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gss8rem58q-n9nppa-6ohsxjra2axwzo3fu56r13zhs/suse7kcmsrfdc6g.o",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gss8rem58q-n9nppa-6ohsxjra2axwzo3fu56r13zhs/query-cache.bin",
+    "target/debug/incremental/leetcode-2g7sd4teeipfk/s-gss8rem58q-n9nppa-6ohsxjra2axwzo3fu56r13zhs/owwablyib8lw94t.o",
+    "src/word_ladder/word_ladder.md",
     "src/candy/candy.md",
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsr4rd5lcs-379ww8-cejcehcez96l2xiz05gtjyi7e/work-products.bin",
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsr4rd5lcs-379ww8-cejcehcez96l2xiz05gtjyi7e/query-cache.bin",
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsr4rd5lcs-379ww8-cejcehcez96l2xiz05gtjyi7e/dep-graph.bin",
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsr4rd5lcs-379ww8-cejcehcez96l2xiz05gtjyi7e",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsr4rd4y6m-ces596-oppocazvqg95a2yyevjlktfr/work-products.bin",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsr4rd4y6m-ces596-oppocazvqg95a2yyevjlktfr/query-cache.bin",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsr4rd4y6m-ces596-oppocazvqg95a2yyevjlktfr/dep-graph.bin",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsr4rd4y6m-ces596-oppocazvqg95a2yyevjlktfr",
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsr4rd5lcs-379ww8-working/work-products.bin",
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsr4rd5lcs-379ww8-working/query-cache.bin",
+    "src/candy/candy.excalidraw.md",
     "src/unique_binary_search_trees_ii/unique_binary_search_trees_ii.excalidraw.md",
     "src/unique_binary_search_trees_ii/unique_binary_search_trees_ii.md",
     "src/unique_binary_search_trees/unique_binary_search_trees.md",
@@ -192,8 +194,6 @@
     "src/some-rust/mod.rs.md",
     "src/some-rust/some-rust.md",
     "src/some-rust/some-rust.excalidraw.md",
-    "src/some-new/mod.rs.md",
-    "src/some-new/some-new.md",
-    "src/some-new/some-new.excalidraw.md"
+    "src/some-new/mod.rs.md"
   ]
 }

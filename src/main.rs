@@ -1,4 +1,4 @@
-mod candy;
+mod word_ladder;
 
 fn main() {
     
