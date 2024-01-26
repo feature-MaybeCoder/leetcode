@@ -13,4 +13,4 @@ Tags: #graph #hard #leetcode #breath-first-search
 
 
 ## solution explanation:
-main time compexity is in traversing input string to graph representations, that lead us to O^2 complexity, than we need just basic bfs traversal of a graph, with first match of last index return cur iteration depth, if we didnt reach last index after all bfs traversal return 0
+main time complexity is in traversing input string to graph representations, that lead us to On^2 complexity, than we need just basic bfs traversal of a graph, with first match of last index return cur iteration depth, if we didnt reach last index after all bfs traversal return 0
