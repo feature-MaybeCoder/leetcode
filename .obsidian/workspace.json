@@ -11,9 +11,11 @@
             "id": "3fb6cfa8a8c11985",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "src/sum4sum_ii/sum4sum_ii.excalidraw.md"
+                "file": "src/similar_string_groups/similar_string_groups.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "98633b25d0fad17d",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/sum4sum_ii/sum4sum_ii.excalidraw.md",
+                "file": "src/similar_string_groups/similar_string_groups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/sum4sum_ii/sum4sum_ii.excalidraw.md",
+                "file": "src/similar_string_groups/similar_string_groups.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/sum4sum_ii/sum4sum_ii.excalidraw.md"
+                "file": "src/similar_string_groups/similar_string_groups.md"
               }
             }
           }
@@ -149,20 +150,21 @@
   },
   "active": "3fb6cfa8a8c11985",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsyxkx8bv1-5kdun4-80t5ogn5ng0iwfsf0w09s0gk7/work-products.bin",
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsyxkx8bv1-5kdun4-80t5ogn5ng0iwfsf0w09s0gk7/query-cache.bin",
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsyxkx8bv1-5kdun4-80t5ogn5ng0iwfsf0w09s0gk7/dep-graph.bin",
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gsyxkx8bv1-5kdun4-80t5ogn5ng0iwfsf0w09s0gk7",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsyxkx8bv5-1woekkj-bnid6pdstvr4ev2sh5gjxwqz1/work-products.bin",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsyxkx8bv5-1woekkj-bnid6pdstvr4ev2sh5gjxwqz1/query-cache.bin",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsyxkx8bv5-1woekkj-bnid6pdstvr4ev2sh5gjxwqz1/dep-graph.bin",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsyxkx8bv5-1woekkj-bnid6pdstvr4ev2sh5gjxwqz1",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsyxkx8bv5-1woekkj-working/work-products.bin",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsyxkx8bv5-1woekkj-working/query-cache.bin",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gsyxkx8bv5-1woekkj-working/dep-graph.part.bin",
+    "src/similar_string_groups/similar_string_groups.excalidraw.md",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gszads8r0r-474zox-4hf67cj8jmp18oo3kh7y9ea3m/work-products.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gszads8r0r-474zox-4hf67cj8jmp18oo3kh7y9ea3m/query-cache.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gszads8r0r-474zox-4hf67cj8jmp18oo3kh7y9ea3m/dep-graph.bin",
+    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gszads8r0r-474zox-4hf67cj8jmp18oo3kh7y9ea3m",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gszads8r0r-dgnk9z-b8jyii797s83f79o7ebnhf6jj/work-products.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gszads8r0r-dgnk9z-b8jyii797s83f79o7ebnhf6jj/query-cache.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gszads8r0r-dgnk9z-b8jyii797s83f79o7ebnhf6jj/dep-graph.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gszads8r0r-dgnk9z-b8jyii797s83f79o7ebnhf6jj",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gszads8r0r-dgnk9z-working/work-products.bin",
+    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gszads8r0r-dgnk9z-working/query-cache.bin",
+    "src/similar_string_groups/similar_string_groups.md",
     "src/sum4sum_ii/sum4sum_ii.md",
-    "src/sum4sum/4sum.md",
     "src/sum4sum_ii/sum4sum_ii.excalidraw.md",
+    "src/sum4sum/4sum.md",
     "src/sum4sum/4sum.excalidraw.md",
     "src/4sum/4sum.excalidraw.md",
     "src/4sum/4sum.md",
@@ -182,8 +184,6 @@
     "src/critical_connections_in_a_network/critical-connections-in-a-network.excalidraw.md",
     "src/critical-connections-in-a-network/critical-connections-in-a-network.md",
     "src/critical-connections-in-a-network/critical-connections-in-a-network.excalidraw.md",
-    "src/maximal_square/maximal-square.md",
-    "src/serialize_and_deserialize_binary_tree/serialize_and_deserialize_binary_tree.excalidraw.md",
-    "src/serialize_and_deserialize_binary_tree/serialize_and_deserialize_binary_tree.md"
+    "src/maximal_square/maximal-square.md"
   ]
 }
