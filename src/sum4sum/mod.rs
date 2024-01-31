@@ -65,7 +65,7 @@ fn dfs(
     let len_right = nums.len() as i32 - (index as i32);
     let needed_len = 4 - cur_res.len() as i32;
 
-    if needed_len > len_right || i32::MAX < sum {
+    if needed_len > len_right{
         return;
     }
 
