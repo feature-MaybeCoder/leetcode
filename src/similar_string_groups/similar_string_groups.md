@@ -2,7 +2,7 @@
 
 ----
 
-Tags: #leetcode #graph #hard #string 
+Tags: #leetcode #graph #hard #string #union-find
 
 ----
 

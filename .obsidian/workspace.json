@@ -11,11 +11,9 @@
             "id": "3fb6cfa8a8c11985",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "src/similar_string_groups/similar_string_groups.md",
-                "mode": "source",
-                "source": false
+                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "98633b25d0fad17d",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/similar_string_groups/similar_string_groups.md",
+                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/similar_string_groups/similar_string_groups.md",
+                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/similar_string_groups/similar_string_groups.md"
+                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md"
               }
             }
           }
@@ -150,18 +149,21 @@
   },
   "active": "3fb6cfa8a8c11985",
   "lastOpenFiles": [
-    "src/similar_string_groups/similar_string_groups.excalidraw.md",
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gszads8r0r-474zox-4hf67cj8jmp18oo3kh7y9ea3m/work-products.bin",
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gszads8r0r-474zox-4hf67cj8jmp18oo3kh7y9ea3m/query-cache.bin",
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gszads8r0r-474zox-4hf67cj8jmp18oo3kh7y9ea3m/dep-graph.bin",
-    "target/debug/incremental/leetcode-3rk51wze9xjzi/s-gszads8r0r-474zox-4hf67cj8jmp18oo3kh7y9ea3m",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gszads8r0r-dgnk9z-b8jyii797s83f79o7ebnhf6jj/work-products.bin",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gszads8r0r-dgnk9z-b8jyii797s83f79o7ebnhf6jj/query-cache.bin",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gszads8r0r-dgnk9z-b8jyii797s83f79o7ebnhf6jj/dep-graph.bin",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gszads8r0r-dgnk9z-b8jyii797s83f79o7ebnhf6jj",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gszads8r0r-dgnk9z-working/work-products.bin",
-    "target/debug/incremental/leetcode-1oxac9pt5s09/s-gszads8r0r-dgnk9z-working/query-cache.bin",
+    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-118axy1hfpd69srj17ocvzrui/work-products.bin",
+    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-118axy1hfpd69srj17ocvzrui/query-cache.bin",
+    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-118axy1hfpd69srj17ocvzrui/dep-graph.bin",
+    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-118axy1hfpd69srj17ocvzrui",
+    "target/debug/incremental/leetcode-3mp7b792rt41g/s-gt3kn7q559-1opim88-9mukoklaco2o16ssxxbqgi915/work-products.bin",
+    "target/debug/incremental/leetcode-3mp7b792rt41g/s-gt3kn7q559-1opim88-9mukoklaco2o16ssxxbqgi915/query-cache.bin",
+    "target/debug/incremental/leetcode-3mp7b792rt41g/s-gt3kn7q559-1opim88-9mukoklaco2o16ssxxbqgi915/dep-graph.bin",
+    "target/debug/incremental/leetcode-3mp7b792rt41g/s-gt3kn7q559-1opim88-9mukoklaco2o16ssxxbqgi915",
+    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-working/work-products.bin",
+    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-working/query-cache.bin",
+    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-working/dep-graph.part.bin",
+    "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.md",
     "src/similar_string_groups/similar_string_groups.md",
+    "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md",
+    "src/similar_string_groups/similar_string_groups.excalidraw.md",
     "src/sum4sum_ii/sum4sum_ii.md",
     "src/sum4sum_ii/sum4sum_ii.excalidraw.md",
     "src/sum4sum/4sum.md",
@@ -182,8 +184,6 @@
     "src/unique_binary_search_trees/unique_binary_search_trees.excalidraw.md",
     "src/critical_connections_in_a_network/critical-connections-in-a-network.md",
     "src/critical_connections_in_a_network/critical-connections-in-a-network.excalidraw.md",
-    "src/critical-connections-in-a-network/critical-connections-in-a-network.md",
-    "src/critical-connections-in-a-network/critical-connections-in-a-network.excalidraw.md",
-    "src/maximal_square/maximal-square.md"
+    "src/critical-connections-in-a-network/critical-connections-in-a-network.md"
   ]
 }
