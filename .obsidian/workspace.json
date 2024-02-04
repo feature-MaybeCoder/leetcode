@@ -11,9 +11,11 @@
             "id": "3fb6cfa8a8c11985",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md"
+                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "98633b25d0fad17d",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md",
+                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md",
+                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md"
+                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.md"
               }
             }
           }
@@ -149,6 +150,7 @@
   },
   "active": "3fb6cfa8a8c11985",
   "lastOpenFiles": [
+    "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md",
     "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-118axy1hfpd69srj17ocvzrui/work-products.bin",
     "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-118axy1hfpd69srj17ocvzrui/query-cache.bin",
     "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-118axy1hfpd69srj17ocvzrui/dep-graph.bin",
@@ -159,10 +161,8 @@
     "target/debug/incremental/leetcode-3mp7b792rt41g/s-gt3kn7q559-1opim88-9mukoklaco2o16ssxxbqgi915",
     "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-working/work-products.bin",
     "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-working/query-cache.bin",
-    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-working/dep-graph.part.bin",
     "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.md",
     "src/similar_string_groups/similar_string_groups.md",
-    "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md",
     "src/similar_string_groups/similar_string_groups.excalidraw.md",
     "src/sum4sum_ii/sum4sum_ii.md",
     "src/sum4sum_ii/sum4sum_ii.excalidraw.md",
