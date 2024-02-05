@@ -1,3 +1,3 @@
-mod sort_items_by_groups_respecting_dependencies;
+mod largest_color_value_in_a_directed_graph;
 
 fn main() {}

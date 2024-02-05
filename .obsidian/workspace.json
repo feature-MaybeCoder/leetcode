@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.md",
+                "file": "src/largest_color_value_in_a_directed_graph/largest_color_value_in_a_directed_graph.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.md",
+                "file": "src/largest_color_value_in_a_directed_graph/largest_color_value_in_a_directed_graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.md",
+                "file": "src/largest_color_value_in_a_directed_graph/largest_color_value_in_a_directed_graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.md"
+                "file": "src/largest_color_value_in_a_directed_graph/largest_color_value_in_a_directed_graph.md"
               }
             }
           }
@@ -150,18 +150,20 @@
   },
   "active": "3fb6cfa8a8c11985",
   "lastOpenFiles": [
-    "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md",
-    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-118axy1hfpd69srj17ocvzrui/work-products.bin",
-    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-118axy1hfpd69srj17ocvzrui/query-cache.bin",
-    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-118axy1hfpd69srj17ocvzrui/dep-graph.bin",
-    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-118axy1hfpd69srj17ocvzrui",
-    "target/debug/incremental/leetcode-3mp7b792rt41g/s-gt3kn7q559-1opim88-9mukoklaco2o16ssxxbqgi915/work-products.bin",
-    "target/debug/incremental/leetcode-3mp7b792rt41g/s-gt3kn7q559-1opim88-9mukoklaco2o16ssxxbqgi915/query-cache.bin",
-    "target/debug/incremental/leetcode-3mp7b792rt41g/s-gt3kn7q559-1opim88-9mukoklaco2o16ssxxbqgi915/dep-graph.bin",
-    "target/debug/incremental/leetcode-3mp7b792rt41g/s-gt3kn7q559-1opim88-9mukoklaco2o16ssxxbqgi915",
-    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-working/work-products.bin",
-    "target/debug/incremental/leetcode-2gtpfq6k2541c/s-gt3kn7qb8a-1h6swxk-working/query-cache.bin",
+    "src/largest_color_value_in_a_directed_graph/largest_color_value_in_a_directed_graph.excalidraw.md",
+    "target/debug/incremental/leetcode-2l7tk7eqnwydf/s-gt4vc6txh9-tvgi5b-931nwqcmnlja734p15eomi8y1/zrsv67yro17l25l.o",
+    "target/debug/incremental/leetcode-2l7tk7eqnwydf/s-gt4vc6txh9-tvgi5b-931nwqcmnlja734p15eomi8y1/zdistc3np8tp61i.o",
+    "target/debug/incremental/leetcode-2l7tk7eqnwydf/s-gt4vc6txh9-tvgi5b-931nwqcmnlja734p15eomi8y1/work-products.bin",
+    "target/debug/incremental/leetcode-2l7tk7eqnwydf/s-gt4vc6txh9-tvgi5b-931nwqcmnlja734p15eomi8y1/w3h41opvy3g1lbz.o",
+    "target/debug/incremental/leetcode-2l7tk7eqnwydf/s-gt4vc6txh9-tvgi5b-931nwqcmnlja734p15eomi8y1/vh3btcoy160z4ff.o",
+    "target/debug/incremental/leetcode-2l7tk7eqnwydf/s-gt4vc6txh9-tvgi5b-931nwqcmnlja734p15eomi8y1/rl2zl9cghg5srx5.o",
+    "target/debug/incremental/leetcode-2l7tk7eqnwydf/s-gt4vc6txh9-tvgi5b-931nwqcmnlja734p15eomi8y1/query-cache.bin",
+    "target/debug/incremental/leetcode-2l7tk7eqnwydf/s-gt4vc6txh9-tvgi5b-931nwqcmnlja734p15eomi8y1/mf48a6iw12ewjq7.o",
+    "target/debug/incremental/leetcode-2l7tk7eqnwydf/s-gt4vc6txh9-tvgi5b-931nwqcmnlja734p15eomi8y1/fasexmb8x29nkj3.o",
+    "target/debug/incremental/leetcode-2l7tk7eqnwydf/s-gt4vc6txh9-tvgi5b-931nwqcmnlja734p15eomi8y1/dep-graph.bin",
+    "src/largest_color_value_in_a_directed_graph/largest_color_value_in_a_directed_graph.md",
     "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.md",
+    "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md",
     "src/similar_string_groups/similar_string_groups.md",
     "src/similar_string_groups/similar_string_groups.excalidraw.md",
     "src/sum4sum_ii/sum4sum_ii.md",
@@ -182,8 +184,6 @@
     "src/unique_binary_search_trees_ii/unique_binary_search_trees_ii.md",
     "src/unique_binary_search_trees/unique_binary_search_trees.md",
     "src/unique_binary_search_trees/unique_binary_search_trees.excalidraw.md",
-    "src/critical_connections_in_a_network/critical-connections-in-a-network.md",
-    "src/critical_connections_in_a_network/critical-connections-in-a-network.excalidraw.md",
-    "src/critical-connections-in-a-network/critical-connections-in-a-network.md"
+    "src/critical_connections_in_a_network/critical-connections-in-a-network.md"
   ]
 }

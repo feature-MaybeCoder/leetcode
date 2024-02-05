@@ -144,7 +144,7 @@ mod test {
             vec![],
             vec![],
         ];
-
+        
         assert_eq!(
             sort_items(8, 2, group_sample, before_sample),
             [6, 3, 4, 1, 5, 2, 0, 7]
