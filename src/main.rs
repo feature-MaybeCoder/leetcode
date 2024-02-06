@@ -1,3 +1,3 @@
-mod largest_color_value_in_a_directed_graph;
+mod substring_with_concatenation_of_all_words;
 
 fn main() {}
