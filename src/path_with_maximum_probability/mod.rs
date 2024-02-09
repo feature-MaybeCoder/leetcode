@@ -1,34 +1,18 @@
 use std::{cmp::Ordering, collections::BinaryHeap};
 
 #[derive(PartialEq, Debug)]
-struct MinNonNan(f64);
-
-impl Eq for MinNonNan {}
-
-impl PartialOrd for MinNonNan {
-    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        other.0.partial_cmp(&self.0)
-    }
-}
-
-impl Ord for MinNonNan {
-    fn cmp(&self, other: &MinNonNan) -> Ordering {
-        self.partial_cmp(other).unwrap()
-    }
-}
-#[derive(PartialEq, Debug)]
-struct StackNode(MinNonNan, usize);
+struct StackNode(f64, usize);
 
 impl Eq for StackNode {}
 
 impl PartialOrd for StackNode {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        other.0.partial_cmp(&self.0)
+        self.0.partial_cmp(&other.0)
     }
 }
 
 impl Ord for StackNode {
-    fn cmp(&self, other: &StackNode) -> Ordering {
+    fn cmp(&self, other: &Self) -> Ordering {
         self.partial_cmp(other).unwrap()
     }
 }
@@ -52,8 +36,9 @@ pub fn max_probability(
         graph[edge[0] as usize].push((edge[1] as usize, succ_prob[index]));
         graph[edge[1] as usize].push((edge[0] as usize, succ_prob[index]));
     }
+
     let mut stack: BinaryHeap<StackNode> = BinaryHeap::with_capacity(stack_cap);
-    stack.push(StackNode(MinNonNan(1.0), start_node as usize));
+    stack.push(StackNode(1.0, start_node as usize));
     while !stack.is_empty() {
         let stack_node = stack.pop().unwrap();
         let prob = stack_node.0;
@@ -62,17 +47,17 @@ pub fn max_probability(
             continue;
         }
         visited[node] = true;
-        probs[node] = prob.0;
+        probs[node] = prob;
         if node == end_node as usize {
-            return prob.0;
+            return prob;
         }
         for (neighb, n_prob) in &graph[node] {
             let neighb = *neighb;
             let n_prob = *n_prob;
-            if probs[neighb] > n_prob{
-                continue
+            if probs[neighb] > n_prob {
+                continue;
             }
-            stack.push(StackNode(MinNonNan(prob.0 * n_prob), neighb));
+            stack.push(StackNode(prob * n_prob, neighb));
         }
     }
     return 0.0;
