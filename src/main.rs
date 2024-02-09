@@ -1,3 +1,3 @@
-mod substring_with_concatenation_of_all_words;
+mod path_with_maximum_probability;
 
 fn main() {}

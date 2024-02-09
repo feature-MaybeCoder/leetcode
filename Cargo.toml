@@ -5,4 +5,5 @@ edition = "2021"
 path = "src/main.rs"
 
 [dependencies]
+ordered-float = "4.2.0"
 serde_json = "1.0.113"
