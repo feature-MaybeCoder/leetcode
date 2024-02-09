@@ -47,6 +47,7 @@ pub fn max_probability(
         graph.push(Vec::new());
     }
     let stack_cap = edges.len();
+    let mut probs = vec![0.0f64; n as usize];
     for (index, edge) in edges.into_iter().enumerate() {
         graph[edge[0] as usize].push((edge[1] as usize, succ_prob[index]));
         graph[edge[1] as usize].push((edge[0] as usize, succ_prob[index]));
@@ -61,12 +62,16 @@ pub fn max_probability(
             continue;
         }
         visited[node] = true;
+        probs[node] = prob.0;
         if node == end_node as usize {
             return prob.0;
         }
         for (neighb, n_prob) in &graph[node] {
             let neighb = *neighb;
             let n_prob = *n_prob;
+            if probs[neighb] > n_prob{
+                continue
+            }
             stack.push(StackNode(MinNonNan(prob.0 * n_prob), neighb));
         }
     }
