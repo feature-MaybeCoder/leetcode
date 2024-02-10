@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/path_with_maximum_probability/path_with_maximum_probability.md",
+                "file": "src/number_of_ways_to_arrive_at_destination/number-of-ways-to-arrive-at-destination.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/path_with_maximum_probability/path_with_maximum_probability.md",
+                "file": "src/number_of_ways_to_arrive_at_destination/number-of-ways-to-arrive-at-destination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/path_with_maximum_probability/path_with_maximum_probability.md",
+                "file": "src/number_of_ways_to_arrive_at_destination/number-of-ways-to-arrive-at-destination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/path_with_maximum_probability/path_with_maximum_probability.md"
+                "file": "src/number_of_ways_to_arrive_at_destination/number-of-ways-to-arrive-at-destination.md"
               }
             }
           }
@@ -150,20 +150,24 @@
   },
   "active": "3fb6cfa8a8c11985",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gt8v4ud69z-1svcat-106ce491hvc3apnwq4v7lqnff/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gt8v4ud69z-1svcat-106ce491hvc3apnwq4v7lqnff/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gt8v4ud69z-1svcat-106ce491hvc3apnwq4v7lqnff/dep-graph.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gt8v4ud69z-1svcat-106ce491hvc3apnwq4v7lqnff",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gt8v4ud69z-az9tfh-3ql3t22pc3dih4tqt8jeovcag/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gt8v4ud69z-az9tfh-3ql3t22pc3dih4tqt8jeovcag/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gt8v4ud69z-az9tfh-3ql3t22pc3dih4tqt8jeovcag/dep-graph.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gt8v4ud69z-az9tfh-3ql3t22pc3dih4tqt8jeovcag",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gt8v4ud69z-1svcat-working/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gt8v4ud69z-1svcat-working/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gt8v4ud69z-1svcat-working/dep-graph.part.bin",
+    "src/number_of_ways_to_arrive_at_destination/mod.rs",
+    "src/sum4sum_ii/mod.rs",
+    "src/path_with_maximum_probability/path_with_maximum_probability.md",
+    "target/debug/deps/leetcode-344b9713328cc9d3.ld_W6dXLT",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtaca1h8qe-2a8i7h-f2o5rzksgvqo1vyxus4lq4cwe/yz9dptl251p2e7z.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtaca1h8qe-2a8i7h-f2o5rzksgvqo1vyxus4lq4cwe/work-products.bin",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtaca1h8qe-2a8i7h-f2o5rzksgvqo1vyxus4lq4cwe/vh2m4w14sw4gsil.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtaca1h8qe-2a8i7h-f2o5rzksgvqo1vyxus4lq4cwe/query-cache.bin",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtaca1h8qe-2a8i7h-f2o5rzksgvqo1vyxus4lq4cwe/pzcqtv209ni7q47.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtaca1h8qe-2a8i7h-f2o5rzksgvqo1vyxus4lq4cwe/naritft8og5966j.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtaca1h8qe-2a8i7h-f2o5rzksgvqo1vyxus4lq4cwe/n9gph8fwxncziwm.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtaca1h8qe-2a8i7h-f2o5rzksgvqo1vyxus4lq4cwe/juazevlu8wed470.o",
+    "src/number-of-ways-to-arrive-at-destination/number-of-ways-to-arrive-at-destination.md",
+    "src/number_of_ways_to_arrive_at_destination/number-of-ways-to-arrive-at-destination.md",
+    "src/number_of_ways_to_arrive_at_destination/number-of-ways-to-arrive-at-destination.excalidraw.md",
+    "src/number-of-ways-to-arrive-at-destination/number-of-ways-to-arrive-at-destination.excalidraw.md",
     "src/basic_calculator/basic_calculator.excalidraw.md",
     "src/path_with_maximum_probability/path_with_maximum_probability.excalidraw.md",
-    "src/path_with_maximum_probability/path_with_maximum_probability.md",
     "src/basic_calculator/basic_calculator.md",
     "src/minimum_window_substring/minimum_window_substring.md",
     "src/substring_with_concatenation_of_all_words/substring_with_concatenation_of_all_words.md",
@@ -181,10 +185,6 @@
     "src/sum4sum/4sum.excalidraw.md",
     "src/4sum/4sum.excalidraw.md",
     "src/4sum/4sum.md",
-    "src/text_justification/text_justification.md",
-    "src/text_justification/text_justification.excalidraw.md",
-    "src/shortest_path_to_get_all_keys/shortest_path_to_get_all_keys.excalidraw.md",
-    "src/shortest_path_to_get_all_keys/shortest_path_to_get_all_keys.md",
-    "src/word_ladder/word_ladder.md"
+    "src/text_justification/text_justification.md"
   ]
 }
