@@ -1,3 +1,3 @@
-mod number_of_ways_to_arrive_at_destination;
+mod the_time_when_the_network_becomes_idle;
 
 fn main() {}
