@@ -1,3 +1,3 @@
-mod the_time_when_the_network_becomes_idle;
+mod detonate_the_maximum_bombs;
 
 fn main() {}
