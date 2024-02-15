@@ -1,3 +1,3 @@
-mod detonate_the_maximum_bombs;
+mod basic_calculator;
 
 fn main() {}

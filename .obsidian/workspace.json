@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/detonate_the_maximum_bombs/detonate_the_maximum_bombs.md",
+                "file": "src/basic_calculator/basic_calculator.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/detonate_the_maximum_bombs/detonate_the_maximum_bombs.md",
+                "file": "src/basic_calculator/basic_calculator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/detonate_the_maximum_bombs/detonate_the_maximum_bombs.md",
+                "file": "src/basic_calculator/basic_calculator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/detonate_the_maximum_bombs/detonate_the_maximum_bombs.md"
+                "file": "src/basic_calculator/basic_calculator.md"
               }
             }
           }
@@ -150,20 +150,21 @@
   },
   "active": "3fb6cfa8a8c11985",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtdmrd236z-urw77v-e02n520ebmw3g3a0f0903ewbr/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtdmrd236z-urw77v-e02n520ebmw3g3a0f0903ewbr/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtdmrd236z-urw77v-e02n520ebmw3g3a0f0903ewbr/dep-graph.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtdmrd236z-urw77v-e02n520ebmw3g3a0f0903ewbr",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtdmrd2386-1e83bs9-e3srhnkorv8cjnc9g0606wah8/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtdmrd2386-1e83bs9-e3srhnkorv8cjnc9g0606wah8/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtdmrd2386-1e83bs9-e3srhnkorv8cjnc9g0606wah8/dep-graph.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtdmrd2386-1e83bs9-e3srhnkorv8cjnc9g0606wah8",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtdmrd2386-1e83bs9-working/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtdmrd2386-1e83bs9-working/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtdmrd2386-1e83bs9-working/dep-graph.part.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-1mak7j0e18l9ihvzukljo209q/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-1mak7j0e18l9ihvzukljo209q/query-cache.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-1mak7j0e18l9ihvzukljo209q/dep-graph.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-1mak7j0e18l9ihvzukljo209q",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtfemxuitj-tlyrb3-7aa7s4s2xnzzdi6x0uoc4d28i/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtfemxuitj-tlyrb3-7aa7s4s2xnzzdi6x0uoc4d28i/query-cache.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtfemxuitj-tlyrb3-7aa7s4s2xnzzdi6x0uoc4d28i/dep-graph.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtfemxuitj-tlyrb3-7aa7s4s2xnzzdi6x0uoc4d28i",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-working/dep-graph.part.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-working/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-working/query-cache.bin",
+    "src/detonate_the_maximum_bombs/detonate_the_maximum_bombs.md",
+    "Untitled.md",
     "src/the_time_when_the_network_becomes_idle/the_time_when_the_network_becomes_idle.md",
     "src/detonate_the_maximum_bombs/detonate_the_maximum_bombs.excalidraw.md",
-    "src/detonate_the_maximum_bombs/detonate_the_maximum_bombs.md",
     "src/the_time_when_the_network_becomes_idle/the_time_when_the_network_becomes_idle.excalidraw.md",
     "src/number_of_ways_to_arrive_at_destination/number-of-ways-to-arrive-at-destination.md",
     "src/path_with_maximum_probability/path_with_maximum_probability.md",
@@ -184,7 +185,6 @@
     "src/similar_string_groups/similar_string_groups.md",
     "src/similar_string_groups/similar_string_groups.excalidraw.md",
     "src/sum4sum_ii/sum4sum_ii.md",
-    "src/sum4sum_ii/sum4sum_ii.excalidraw.md",
-    "src/sum4sum/4sum.md"
+    "src/sum4sum_ii/sum4sum_ii.excalidraw.md"
   ]
 }

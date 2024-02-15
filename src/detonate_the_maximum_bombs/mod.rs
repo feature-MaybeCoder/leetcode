@@ -14,10 +14,10 @@ fn merge_bomb(
     let r_j = right[2] as i64;
 
     let d = (x_i - x_j) * (x_i - x_j) + (y_i - y_j) * (y_i - y_j);
-     if d <= r_i {
+    if d <= r_i {
         graph[left_i].push(right_i);
     }
-        if d <= r_j * r_j {
+    if d <= r_j * r_j {
         graph[right_i].push(left_i);
     }
 }
