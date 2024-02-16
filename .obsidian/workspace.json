@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e788e4edcb5e9080",
+        "id": "f2a081fe187dc844",
         "type": "tabs",
         "children": [
           {
-            "id": "3fb6cfa8a8c11985",
+            "id": "450da7251b00d44f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "src/basic_calculator/basic_calculator.md",
-                "mode": "source",
-                "source": false
+                "file": "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.excalidraw.md"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "98633b25d0fad17d",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/basic_calculator/basic_calculator.md",
+                "file": "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/basic_calculator/basic_calculator.md",
+                "file": "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/basic_calculator/basic_calculator.md"
+                "file": "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.excalidraw.md"
               }
             }
           }
@@ -148,21 +147,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3fb6cfa8a8c11985",
+  "active": "450da7251b00d44f",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-1mak7j0e18l9ihvzukljo209q/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-1mak7j0e18l9ihvzukljo209q/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-1mak7j0e18l9ihvzukljo209q/dep-graph.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-1mak7j0e18l9ihvzukljo209q",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtfemxuitj-tlyrb3-7aa7s4s2xnzzdi6x0uoc4d28i/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtfemxuitj-tlyrb3-7aa7s4s2xnzzdi6x0uoc4d28i/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtfemxuitj-tlyrb3-7aa7s4s2xnzzdi6x0uoc4d28i/dep-graph.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtfemxuitj-tlyrb3-7aa7s4s2xnzzdi6x0uoc4d28i",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-working/dep-graph.part.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-working/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtfemxuiw5-h6tm97-working/query-cache.bin",
+    "src/reverse_nodes_in_k_group/index.js",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtgpcoku0y-1xdbs2x-cuf69iwwqzukq0e1fe8u7oc4v/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtgpcoku0y-1xdbs2x-cuf69iwwqzukq0e1fe8u7oc4v/query-cache.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtgpcoku0y-1xdbs2x-cuf69iwwqzukq0e1fe8u7oc4v/dep-graph.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtgpcoku0y-1xdbs2x-cuf69iwwqzukq0e1fe8u7oc4v",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtgpcoku0y-u0y77p-e6tvyb14l2iv1nfkdgurkmfqe/query-cache.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtgpcoku0y-u0y77p-e6tvyb14l2iv1nfkdgurkmfqe/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtgpcoku0y-u0y77p-e6tvyb14l2iv1nfkdgurkmfqe/dep-graph.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtgpcoku0y-u0y77p-e6tvyb14l2iv1nfkdgurkmfqe",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtgpcoku0y-u0y77p-working/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtgpcoku0y-u0y77p-working/query-cache.bin",
+    "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.excalidraw.md",
+    "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.md",
+    "src/basic_calculator/basic_calculator.md",
     "src/detonate_the_maximum_bombs/detonate_the_maximum_bombs.md",
-    "Untitled.md",
     "src/the_time_when_the_network_becomes_idle/the_time_when_the_network_becomes_idle.md",
     "src/detonate_the_maximum_bombs/detonate_the_maximum_bombs.excalidraw.md",
     "src/the_time_when_the_network_becomes_idle/the_time_when_the_network_becomes_idle.excalidraw.md",
@@ -173,7 +174,6 @@
     "src/number-of-ways-to-arrive-at-destination/number-of-ways-to-arrive-at-destination.excalidraw.md",
     "src/basic_calculator/basic_calculator.excalidraw.md",
     "src/path_with_maximum_probability/path_with_maximum_probability.excalidraw.md",
-    "src/basic_calculator/basic_calculator.md",
     "src/minimum_window_substring/minimum_window_substring.md",
     "src/substring_with_concatenation_of_all_words/substring_with_concatenation_of_all_words.md",
     "src/minimum_window_substring/minimum_window_substring.excalidraw.md",
@@ -184,7 +184,6 @@
     "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md",
     "src/similar_string_groups/similar_string_groups.md",
     "src/similar_string_groups/similar_string_groups.excalidraw.md",
-    "src/sum4sum_ii/sum4sum_ii.md",
-    "src/sum4sum_ii/sum4sum_ii.excalidraw.md"
+    "src/sum4sum_ii/sum4sum_ii.md"
   ]
 }
