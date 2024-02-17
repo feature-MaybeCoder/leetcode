@@ -4,20 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "f2a081fe187dc844",
+        "id": "0104a19f7af256dd",
         "type": "tabs",
         "children": [
           {
-            "id": "450da7251b00d44f",
+            "id": "8334e2ecc37821eb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "6a4ec0e01e874aeb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.excalidraw.md"
+                "file": "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -67,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "98633b25d0fad17d",
@@ -84,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.excalidraw.md",
+                "file": "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.excalidraw.md",
+                "file": "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,8 +136,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.excalidraw.md"
+                "file": "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.md"
               }
+            }
+          },
+          {
+            "id": "4f8f3429e8a2bc29",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "ff46db70350b20e2",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
             }
           }
         ]
@@ -144,22 +172,26 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "juggl:Juggl global graph": false
     }
   },
-  "active": "450da7251b00d44f",
+  "active": "e4c433b66891c2a4",
   "lastOpenFiles": [
-    "src/reverse_nodes_in_k_group/index.js",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtgpcoku0y-1xdbs2x-cuf69iwwqzukq0e1fe8u7oc4v/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtgpcoku0y-1xdbs2x-cuf69iwwqzukq0e1fe8u7oc4v/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtgpcoku0y-1xdbs2x-cuf69iwwqzukq0e1fe8u7oc4v/dep-graph.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtgpcoku0y-1xdbs2x-cuf69iwwqzukq0e1fe8u7oc4v",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtgpcoku0y-u0y77p-e6tvyb14l2iv1nfkdgurkmfqe/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtgpcoku0y-u0y77p-e6tvyb14l2iv1nfkdgurkmfqe/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtgpcoku0y-u0y77p-e6tvyb14l2iv1nfkdgurkmfqe/dep-graph.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtgpcoku0y-u0y77p-e6tvyb14l2iv1nfkdgurkmfqe",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtgpcoku0y-u0y77p-working/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtgpcoku0y-u0y77p-working/query-cache.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-5po8321qowyovv7fr8lvmveqm/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-5po8321qowyovv7fr8lvmveqm/query-cache.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-5po8321qowyovv7fr8lvmveqm/dep-graph.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-5po8321qowyovv7fr8lvmveqm",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gti27c12za-12u23dg-3v3m90kbha741puxcx4otk7qu/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gti27c12za-12u23dg-3v3m90kbha741puxcx4otk7qu/query-cache.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gti27c12za-12u23dg-3v3m90kbha741puxcx4otk7qu/dep-graph.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gti27c12za-12u23dg-3v3m90kbha741puxcx4otk7qu",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-working/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-working/query-cache.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-working/dep-graph.part.bin",
+    "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.excalidraw.md",
+    "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.md",
+    "src/surrounded-regions/surrounded-regions.md",
     "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.excalidraw.md",
     "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.md",
     "src/basic_calculator/basic_calculator.md",
@@ -181,9 +213,6 @@
     "src/largest_color_value_in_a_directed_graph/largest_color_value_in_a_directed_graph.md",
     "src/largest_color_value_in_a_directed_graph/largest_color_value_in_a_directed_graph.excalidraw.md",
     "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.md",
-    "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md",
-    "src/similar_string_groups/similar_string_groups.md",
-    "src/similar_string_groups/similar_string_groups.excalidraw.md",
-    "src/sum4sum_ii/sum4sum_ii.md"
+    "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md"
   ]
 }
