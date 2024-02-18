@@ -1,3 +1,3 @@
-mod binary_tree_maximum_path_sum;
+mod add_strings;
 
 fn main() {}
