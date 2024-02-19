@@ -8,29 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8334e2ecc37821eb",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "juggl_view",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
             "id": "6a4ec0e01e874aeb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.md",
+                "file": "src/word_search_ii/word_search_ii.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.md",
+                "file": "src/word_search_ii/word_search_ii.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.md",
+                "file": "src/word_search_ii/word_search_ii.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.md"
+                "file": "src/word_search_ii/word_search_ii.md"
               }
             }
           },
@@ -172,25 +161,25 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false,
-      "juggl:Juggl global graph": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "e4c433b66891c2a4",
+  "active": "6a4ec0e01e874aeb",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-5po8321qowyovv7fr8lvmveqm/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-5po8321qowyovv7fr8lvmveqm/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-5po8321qowyovv7fr8lvmveqm/dep-graph.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-5po8321qowyovv7fr8lvmveqm",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gti27c12za-12u23dg-3v3m90kbha741puxcx4otk7qu/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gti27c12za-12u23dg-3v3m90kbha741puxcx4otk7qu/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gti27c12za-12u23dg-3v3m90kbha741puxcx4otk7qu/dep-graph.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gti27c12za-12u23dg-3v3m90kbha741puxcx4otk7qu",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-working/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-working/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gti27c12za-1wqpj1c-working/dep-graph.part.bin",
-    "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.excalidraw.md",
+    "src/word_search_ii/word_search_ii.excalidraw.md",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtk8kexcqd-1vpdfka-gsfag7x6xo0krteqef356mq7/work-products.bin",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtk8kexcqd-1vpdfka-gsfag7x6xo0krteqef356mq7/yz9dptl251p2e7z.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtk8kexcqd-1vpdfka-gsfag7x6xo0krteqef356mq7/56eh3wfqwlhdqog0.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtk8kexcqd-1vpdfka-gsfag7x6xo0krteqef356mq7/w4ll3prl3bmu0xy.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtk8kexcqd-1vpdfka-gsfag7x6xo0krteqef356mq7/vh2m4w14sw4gsil.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtk8kexcqd-1vpdfka-gsfag7x6xo0krteqef356mq7/sdrxvucm9sqaj0w.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtk8kexcqd-1vpdfka-gsfag7x6xo0krteqef356mq7/query-cache.bin",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtk8kexcqd-1vpdfka-gsfag7x6xo0krteqef356mq7/pzcqtv209ni7q47.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtk8kexcqd-1vpdfka-gsfag7x6xo0krteqef356mq7/pc61x2uf14uhbn0.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtk8kexcqd-1vpdfka-gsfag7x6xo0krteqef356mq7/naritft8og5966j.o",
+    "src/word_search_ii/word_search_ii.md",
     "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.md",
+    "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.excalidraw.md",
     "src/surrounded-regions/surrounded-regions.md",
     "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.excalidraw.md",
     "src/reverse_nodes_in_k_group/reverse_nodes_in_k_group.md",
@@ -211,8 +200,6 @@
     "src/minimum_window_substring/minimum_window_substring.excalidraw.md",
     "src/substring_with_concatenation_of_all_words/substring_with_concatenation_of_all_words.excalidraw.md",
     "src/largest_color_value_in_a_directed_graph/largest_color_value_in_a_directed_graph.md",
-    "src/largest_color_value_in_a_directed_graph/largest_color_value_in_a_directed_graph.excalidraw.md",
-    "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.md",
-    "src/sort_items_by_groups_respecting_dependencies/sort_items_by_groups_respecting_dependencies.excalidraw.md"
+    "src/largest_color_value_in_a_directed_graph/largest_color_value_in_a_directed_graph.excalidraw.md"
   ]
 }
