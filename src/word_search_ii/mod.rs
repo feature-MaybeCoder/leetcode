@@ -1,21 +1,42 @@
-use std::collections::HashMap;
-#[derive(Debug)]
-struct Node{
-    chars: HashMap<char, Node>,
-    end: Option<usize>
+#[derive(Debug, Default)]
+struct Node {
+    chars: [Children; 26],
+    amount: i32,
+    end: Option<usize>,
+}
+type Children = Option<Box<Node>>;
+impl Node {
+    fn contains_key(&self, key: char) -> bool {
+        let i = key as usize - 'a' as usize;
+        return self.chars[i].is_some();
+    }
+    fn get(&self, key: char) -> &Children {
+        let i = key as usize - 'a' as usize;
+        return &self.chars[i];
+    }
+    fn get_mut(&mut self, key: char) -> &mut Children {
+        let i = key as usize - 'a' as usize;
+        return &mut self.chars[i];
+    }
+    fn delete(&mut self, key: char) {
+        let i = key as usize - 'a' as usize;
+        self.chars[i] = None;
+    }
 }
 fn dfs(
     board: &mut Vec<Vec<char>>,
-    node: &mut Node,
+    node: &mut Box<Node>,
     words: &Vec<String>,
     res: &mut Vec<String>,
     x: usize,
     y: usize,
     dirs: &[i32],
     width: usize,
-    height: usize
-) {
+    height: usize,
+)->i32 {
+    let mut founded = 0;
     if let Some(index) = node.end {
+        founded+=1;
         res.push(words[index].clone());
         node.end = None;
     }
@@ -35,50 +56,78 @@ fn dfs(
             continue;
         }
         let next = board[dx][dy];
-        if node.chars.contains_key(&next){
-            dfs(board, node.chars.get_mut(&next).unwrap(), words, res, dx, dy, dirs, width, height);
+        if next == '1'{
+            continue;
         }
         
+        if node.contains_key(next) {
+            let p = node.get_mut(next).as_mut().unwrap();
+            founded += dfs(
+                board,
+                p,
+                words,
+                res,
+                dx,
+                dy,
+                dirs,
+                width,
+                height,
+            );
+            if p.amount == 0{
+                node.delete(next);
+            }
+        }
     }
+    node.amount-=founded;
     board[x][y] = temp;
+    return founded
 }
 
 pub fn find_words(mut board: Vec<Vec<char>>, words: Vec<String>) -> Vec<String> {
-let mut res: Vec<String> = Vec::with_capacity(words.len());
-let mut root = Node{
-    chars: HashMap::new(),
-    end: None
-};
-for (index, word) in words.iter().enumerate(){
-    let mut cur = &mut root;
-    for char in word.chars(){
-        if cur.chars.contains_key(&char){
-            cur = cur.chars.get_mut(&char).unwrap();
-            continue;
+    let mut res: Vec<String> = Vec::with_capacity(words.len());
+    let mut root: Children = None;
+    for (index, word) in words.iter().enumerate() {
+        let mut cur = &mut root;
+        for char in word.chars() {
+            let next_node = cur.get_or_insert_with(Box::default);
+            next_node.amount += 1;
+            cur = next_node.get_mut(char);
         }
-        let new_node = Node{
-            chars: HashMap::new(),
-            end: None
-        };
-        cur.chars.insert(char, new_node);
-        cur = cur.chars.get_mut(&char).unwrap();
+        let last = cur.get_or_insert_with(Box::default);
+        last.amount += 1;
+        last.end = Some(index);
     }
-    cur.end = Some(index);
-}
-let width = board[0].len();
-let height = board.len();
-let dirs = [0, 1, 0, -1, 0];
-for x in 0..height {
-    for y in 0..width {
-        let char = board[x][y];
-        if !root.chars.contains_key(&char){
-            continue
+    let Some(root) = &mut root else {
+        return vec![];
+    };
+    let width = board[0].len();
+    let height = board.len();
+    let dirs = [0, 1, 0, -1, 0];
+    'outer: for x in 0..height {
+        for y in 0..width {
+            let char = board[x][y];
+            if !root.contains_key(char) {
+                continue;
+            }
+            let founded = dfs(
+                &mut board,
+                root.get_mut(char).as_mut().unwrap(),
+                &words,
+                &mut res,
+                x,
+                y,
+                &dirs,
+                width,
+                height,
+            );
+            root.amount -= founded;
+            if root.amount == 0{
+                break 'outer;
+            }
         }
-        dfs(&mut board, root.chars.get_mut(&char).unwrap(), &words, &mut res, x, y, &dirs, width, height);
     }
-}
 
-return res;
+    return res;
 }
 
 #[cfg(test)]
@@ -134,8 +183,13 @@ mod test {
     }
     #[test]
     fn multipple_match_case() {
-        let matrix = [["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]];
-        let words =["oath","pea","eat","rain","hklf", "hf"];
+        let matrix = [
+            ["o", "a", "a", "n"],
+            ["e", "t", "a", "e"],
+            ["i", "h", "k", "r"],
+            ["i", "f", "l", "v"],
+        ];
+        let words = ["oath", "pea", "eat", "rain", "hklf", "hf"];
         assert_eq!(
             find_words(
                 matrix
@@ -150,7 +204,7 @@ mod test {
                     .map(|word| word.to_string())
                     .collect::<Vec<_>>()
             ),
-            ["oath","eat","hklf","hf"]
+            ["oath", "eat", "hklf", "hf"]
         );
     }
 }
