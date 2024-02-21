@@ -11,9 +11,11 @@
             "id": "6a4ec0e01e874aeb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "src/word_search_ii/word_search_ii.excalidraw.md"
+                "file": "src/ipo/ipo.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/word_search_ii/word_search_ii.excalidraw.md",
+                "file": "src/ipo/ipo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/word_search_ii/word_search_ii.excalidraw.md",
+                "file": "src/ipo/ipo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/word_search_ii/word_search_ii.excalidraw.md"
+                "file": "src/ipo/ipo.md"
               }
             }
           },
@@ -164,19 +166,21 @@
   },
   "active": "6a4ec0e01e874aeb",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtlaiwkalg-1hgb45z-4meibm58evuleykxuf7g044nn/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtlaiwkalg-1hgb45z-4meibm58evuleykxuf7g044nn/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtlaiwkalg-1hgb45z-4meibm58evuleykxuf7g044nn/dep-graph.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtlaiwkalg-1hgb45z-4meibm58evuleykxuf7g044nn",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtlaiwkfxp-f57fff-7us33cu9z87w05a5aore499nf/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtlaiwkfxp-f57fff-7us33cu9z87w05a5aore499nf/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtlaiwkfxp-f57fff-7us33cu9z87w05a5aore499nf/dep-graph.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtlaiwkfxp-f57fff-7us33cu9z87w05a5aore499nf",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtlaiwkfxp-f57fff-working/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtlaiwkfxp-f57fff-working/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtlaiwkfxp-f57fff-working/dep-graph.part.bin",
-    "src/word_search_ii/word_search_ii.md",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtm39vvmki-1gqtpci-cgoqmih7bmrn9h93e8l5rjuhs/jeubcnpgj931as2.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtm39vvmki-1gqtpci-cgoqmih7bmrn9h93e8l5rjuhs/juazevlu8wed470.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtm39vvmki-1gqtpci-cgoqmih7bmrn9h93e8l5rjuhs/yz9dptl251p2e7z.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtm39vvmki-1gqtpci-cgoqmih7bmrn9h93e8l5rjuhs/work-products.bin",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtm39vvmki-1gqtpci-cgoqmih7bmrn9h93e8l5rjuhs/vh2m4w14sw4gsil.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtm39vvmki-1gqtpci-cgoqmih7bmrn9h93e8l5rjuhs/query-cache.bin",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtm39vvmki-1gqtpci-cgoqmih7bmrn9h93e8l5rjuhs/pzcqtv209ni7q47.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtm39vvmki-1gqtpci-cgoqmih7bmrn9h93e8l5rjuhs/naritft8og5966j.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtm39vvmki-1gqtpci-cgoqmih7bmrn9h93e8l5rjuhs/n9gph8fwxncziwm.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtm39vvmki-1gqtpci-cgoqmih7bmrn9h93e8l5rjuhs/jfc5zi3w23wabn5.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtm39vvmki-1gqtpci-cgoqmih7bmrn9h93e8l5rjuhs/hsrbotco8j5afi0.o",
     "src/word_search_ii/word_search_ii.excalidraw.md",
+    "src/ipo/ipo.excalidraw.md",
+    "src/ipo/ipo.md",
+    "src/word_search_ii/word_search_ii.md",
     "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.md",
     "src/binary_tree_maximum_path_sum/binary_tree_maximum_path_sum.excalidraw.md",
     "src/surrounded-regions/surrounded-regions.md",
@@ -197,8 +201,6 @@
     "src/minimum_window_substring/minimum_window_substring.md",
     "src/substring_with_concatenation_of_all_words/substring_with_concatenation_of_all_words.md",
     "src/minimum_window_substring/minimum_window_substring.excalidraw.md",
-    "src/substring_with_concatenation_of_all_words/substring_with_concatenation_of_all_words.excalidraw.md",
-    "src/largest_color_value_in_a_directed_graph/largest_color_value_in_a_directed_graph.md",
-    "src/largest_color_value_in_a_directed_graph/largest_color_value_in_a_directed_graph.excalidraw.md"
+    "src/substring_with_concatenation_of_all_words/substring_with_concatenation_of_all_words.excalidraw.md"
   ]
 }

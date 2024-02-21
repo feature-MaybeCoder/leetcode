@@ -1,3 +1,3 @@
-mod word_search_ii;
+mod ipo;
 
 fn main() {}
