@@ -13,7 +13,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "src/find_median_from_data_stream/find_median_from_data_stream.excalidraw.md"
+                "file": "src/single_number_ii/single_number_ii.excalidraw.md"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/find_median_from_data_stream/find_median_from_data_stream.excalidraw.md",
+                "file": "src/single_number_ii/single_number_ii.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/find_median_from_data_stream/find_median_from_data_stream.excalidraw.md",
+                "file": "src/single_number_ii/single_number_ii.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/find_median_from_data_stream/find_median_from_data_stream.excalidraw.md"
+                "file": "src/single_number_ii/single_number_ii.excalidraw.md"
               }
             }
           },
@@ -164,20 +164,22 @@
   },
   "active": "6a4ec0e01e874aeb",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtnmvwn7hd-um7qlp-b7veuma6fygnt8qvtuou65cqu/zsexwf0gbnzlqgs.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtnmvwn7hd-um7qlp-b7veuma6fygnt8qvtuou65cqu/yz9dptl251p2e7z.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtnmvwn7hd-um7qlp-b7veuma6fygnt8qvtuou65cqu/work-products.bin",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtnmvwn7hd-um7qlp-b7veuma6fygnt8qvtuou65cqu/vh2m4w14sw4gsil.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtnmvwn7hd-um7qlp-b7veuma6fygnt8qvtuou65cqu/query-cache.bin",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtnmvwn7hd-um7qlp-b7veuma6fygnt8qvtuou65cqu/pzcqtv209ni7q47.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtnmvwn7hd-um7qlp-b7veuma6fygnt8qvtuou65cqu/naritft8og5966j.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtnmvwn7hd-um7qlp-b7veuma6fygnt8qvtuou65cqu/n9gph8fwxncziwm.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtnmvwn7hd-um7qlp-b7veuma6fygnt8qvtuou65cqu/juazevlu8wed470.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtnmvwn7hd-um7qlp-b7veuma6fygnt8qvtuou65cqu/jfc5zi3w23wabn5.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gtnmvwn7hd-um7qlp-b7veuma6fygnt8qvtuou65cqu/jeubcnpgj931as2.o",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtpjcveeb3-1h8p6m9-b3hdoml1n172nyq1c1ug6gqpf/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtpjcveeb3-1h8p6m9-b3hdoml1n172nyq1c1ug6gqpf/query-cache.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtpjcveeb3-1h8p6m9-b3hdoml1n172nyq1c1ug6gqpf/dep-graph.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtpjcveeb3-1h8p6m9-b3hdoml1n172nyq1c1ug6gqpf",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtpjcvec9e-1asgqmi-cr42y3hi506mtfwzs7qnutd59/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtpjcvec9e-1asgqmi-cr42y3hi506mtfwzs7qnutd59/query-cache.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtpjcvec9e-1asgqmi-cr42y3hi506mtfwzs7qnutd59/dep-graph.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtpjcvec9e-1asgqmi-cr42y3hi506mtfwzs7qnutd59",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtpjcveeb3-1h8p6m9-working/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtpjcveeb3-1h8p6m9-working/query-cache.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtpjcveeb3-1h8p6m9-working/dep-graph.part.bin",
+    "src/single_number_ii/single_number_ii.md",
+    "src/find_median_from_data_stream/find_median_from_data_stream.excalidraw.md",
+    "src/single_number_ii/single_number_ii.excalidraw.md",
     "src/find_median_from_data_stream/find_median_from_data_stream.md",
     "src/ipo/ipo.md",
-    "src/find_median_from_data_stream/find_median_from_data_stream.excalidraw.md",
     "src/word_search_ii/word_search_ii.excalidraw.md",
     "src/ipo/ipo.excalidraw.md",
     "src/word_search_ii/word_search_ii.md",
@@ -197,8 +199,6 @@
     "src/number_of_ways_to_arrive_at_destination/number-of-ways-to-arrive-at-destination.excalidraw.md",
     "src/number-of-ways-to-arrive-at-destination/number-of-ways-to-arrive-at-destination.excalidraw.md",
     "src/basic_calculator/basic_calculator.excalidraw.md",
-    "src/path_with_maximum_probability/path_with_maximum_probability.excalidraw.md",
-    "src/minimum_window_substring/minimum_window_substring.md",
-    "src/substring_with_concatenation_of_all_words/substring_with_concatenation_of_all_words.md"
+    "src/path_with_maximum_probability/path_with_maximum_probability.excalidraw.md"
   ]
 }
