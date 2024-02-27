@@ -11,11 +11,9 @@
             "id": "6a4ec0e01e874aeb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "src/bitwise_and_of_numbers_range/bitwise_and_of_numbers_range.md",
-                "mode": "source",
-                "source": false
+                "file": "src/bitwise_and_of_numbers_range/bitwise_and_of_numbers_range.excalidraw.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/bitwise_and_of_numbers_range/bitwise_and_of_numbers_range.md",
+                "file": "src/bitwise_and_of_numbers_range/bitwise_and_of_numbers_range.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/bitwise_and_of_numbers_range/bitwise_and_of_numbers_range.md",
+                "file": "src/bitwise_and_of_numbers_range/bitwise_and_of_numbers_range.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/bitwise_and_of_numbers_range/bitwise_and_of_numbers_range.md"
+                "file": "src/bitwise_and_of_numbers_range/bitwise_and_of_numbers_range.excalidraw.md"
               }
             }
           },
@@ -166,6 +164,7 @@
   },
   "active": "6a4ec0e01e874aeb",
   "lastOpenFiles": [
+    "src/bitwise_and_of_numbers_range/bitwise_and_of_numbers_range.md",
     "src/bitwise_and_of_numbers_range/bitwise_and_of_numbers_range.excalidraw.md",
     "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtswkrj57k-mvbxvo-95tmo7du45ebewe3h4vj5dkyi/work-products.bin",
     "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtswkrj57k-mvbxvo-95tmo7du45ebewe3h4vj5dkyi/query-cache.bin",
@@ -177,7 +176,6 @@
     "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtswkrj4oc-mixpxe-97rz7501u5iqxfg9lj071csye",
     "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtswkrj57k-mvbxvo-working/work-products.bin",
     "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtswkrj57k-mvbxvo-working/query-cache.bin",
-    "src/bitwise_and_of_numbers_range/bitwise_and_of_numbers_range.md",
     "src/best_time_to_buy_and_sell_stock_iv/best_time_to_buy_and_sell_stock_iv.excalidraw.md",
     "src/best_time_to_buy_and_sell_stock_iii/best_time_to_buy_and_sell_stock_iii.excalidraw.md",
     "src/best_time_to_buy_and_sell_stock_iv/best_time_to_buy_and_sell_stock_iv.md",
