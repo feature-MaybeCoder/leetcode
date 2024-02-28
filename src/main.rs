@@ -1,3 +1,3 @@
-mod bitwise_and_of_numbers_range;
+mod course_schedule_iv;
 
 fn main() {}
