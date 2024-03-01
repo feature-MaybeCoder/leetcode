@@ -1,3 +1,3 @@
-mod course_schedule_iv;
+mod odd_even_linked_list;
 
 fn main() {}
