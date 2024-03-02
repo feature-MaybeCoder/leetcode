@@ -22,6 +22,3 @@ break tree in subtrees and solve recursion relative to current node
 ```javascript
 
 ```
-
-
-

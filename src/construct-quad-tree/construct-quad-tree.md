@@ -24,6 +24,3 @@ timeComplexity: n * n
 ```javascript
 
 ```
-
-
-

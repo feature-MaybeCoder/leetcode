@@ -46,16 +46,7 @@ pub fn reverse_k_group(mut head: Option<Box<ListNode>>, k: i32) -> Option<Box<Li
 #[cfg(test)]
 mod tests {
     use super::{reverse_k_group, ListNode};
-    pub fn construct_list(mut vec: Vec<i32>) -> Option<Box<ListNode>> {
-        vec.reverse();
-        let mut head = None;
-        for item in vec {
-            let mut node = ListNode::new(item);
-            node.next = head;
-            head = Some(Box::new(node));
-        }
-        head
-    }
+    
     #[test]
     fn base_case() {
         assert_eq!(

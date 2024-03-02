@@ -103,6 +103,3 @@ var shortestAlternatingPaths = function (n, redEdges, blueEdges) {
 
 };
 ```
-
-
-

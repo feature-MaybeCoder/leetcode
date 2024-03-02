@@ -64,6 +64,3 @@ var deleteDuplicates = function (head) {
 
 };
 ```
-
-
-

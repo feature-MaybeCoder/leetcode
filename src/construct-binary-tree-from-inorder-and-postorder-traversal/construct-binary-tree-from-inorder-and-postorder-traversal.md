@@ -55,6 +55,3 @@ var buildTree = function (inorder, postorder) {
     return constuct(0, inorder.length - 1)
 };
 ```
-
-
-

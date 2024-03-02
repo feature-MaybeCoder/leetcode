@@ -65,6 +65,3 @@ var reverseBetween = function (head, left, right) {
     return dummy.next
 };
 ```
-
-
-
