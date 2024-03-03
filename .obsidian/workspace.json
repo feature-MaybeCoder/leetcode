@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/convert_sorted_list_to_binary_search_tree/convert_sorted_list_to_binary_search_tree.md",
+                "file": "src/longest_turbulent_subarray/longest_turbulent_subarray.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/convert_sorted_list_to_binary_search_tree/convert_sorted_list_to_binary_search_tree.md",
+                "file": "src/longest_turbulent_subarray/longest_turbulent_subarray.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/convert_sorted_list_to_binary_search_tree/convert_sorted_list_to_binary_search_tree.md",
+                "file": "src/longest_turbulent_subarray/longest_turbulent_subarray.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/convert_sorted_list_to_binary_search_tree/convert_sorted_list_to_binary_search_tree.md"
+                "file": "src/longest_turbulent_subarray/longest_turbulent_subarray.md"
               }
             }
           },
@@ -166,18 +166,20 @@
   },
   "active": "6a4ec0e01e874aeb",
   "lastOpenFiles": [
-    "src/convert_sorted_list_to_binary_search_tree/convert_sorted_list_to_binary_search_tree.excalidraw.md",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtx9dj3bme-1gzqnhk-6k0eskcbhvhy43icgrdd3453u/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtx9dj3bme-1gzqnhk-6k0eskcbhvhy43icgrdd3453u/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtx9dj3bme-1gzqnhk-6k0eskcbhvhy43icgrdd3453u/dep-graph.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtx9dj3bme-1gzqnhk-6k0eskcbhvhy43icgrdd3453u",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtx9dj3ble-6h47uq-14e0xxhf9pk1vpm4etoaapehc/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtx9dj3ble-6h47uq-14e0xxhf9pk1vpm4etoaapehc/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtx9dj3ble-6h47uq-14e0xxhf9pk1vpm4etoaapehc/dep-graph.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gtx9dj3ble-6h47uq-14e0xxhf9pk1vpm4etoaapehc",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtx9dj3bme-1gzqnhk-working/dep-graph.part.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gtx9dj3bme-1gzqnhk-working/work-products.bin",
+    "src/longest_turbulent_subarray/longest_turbulent_subarray.excalidraw.md",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gty8or3wnp-14s57un-sse47h6vndaixl1rsmv8gfa7/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gty8or3wnp-14s57un-sse47h6vndaixl1rsmv8gfa7/query-cache.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gty8or3wnp-14s57un-sse47h6vndaixl1rsmv8gfa7/dep-graph.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gty8or3wnp-14s57un-sse47h6vndaixl1rsmv8gfa7",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gty8or3wuh-1ku6jkb-13h6esn687bix4tn7uy80xugk/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gty8or3wuh-1ku6jkb-13h6esn687bix4tn7uy80xugk/query-cache.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gty8or3wuh-1ku6jkb-13h6esn687bix4tn7uy80xugk/dep-graph.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gty8or3wuh-1ku6jkb-13h6esn687bix4tn7uy80xugk",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gty8or3wuh-1ku6jkb-working/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gty8or3wuh-1ku6jkb-working/query-cache.bin",
+    "src/longest_turbulent_subarray/longest_turbulent_subarray.md",
     "src/convert_sorted_list_to_binary_search_tree/convert_sorted_list_to_binary_search_tree.md",
+    "src/convert_sorted_list_to_binary_search_tree/convert_sorted_list_to_binary_search_tree.excalidraw.md",
     "src/odd_even_linked_list/odd-even-linked-list.md",
     "src/odd_even_linked_list/odd-even-linked-list.excalidraw.md",
     "src/delete_node_in_a_linked_list/delete_node_in_a_linked_list.md",
@@ -198,8 +200,6 @@
     "src/single_number_ii/single_number_ii.md",
     "src/find_median_from_data_stream/find_median_from_data_stream.excalidraw.md",
     "src/find_median_from_data_stream/find_median_from_data_stream.md",
-    "src/ipo/ipo.md",
-    "src/word_search_ii/word_search_ii.excalidraw.md",
-    "src/ipo/ipo.excalidraw.md"
+    "src/ipo/ipo.md"
   ]
 }
