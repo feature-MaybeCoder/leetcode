@@ -1,3 +1,3 @@
-mod range_sum_query_2d_immutable;
+mod subarray_sum_equals_k;
 mod test_helpers;
 fn main() {}
