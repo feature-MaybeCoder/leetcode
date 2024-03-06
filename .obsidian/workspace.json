@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/longest_repeating_character_replacement/longest_repeating_character_replacement.md",
+                "file": "src/maximum_twin_sum_of_a_linked_list/maximum_twin_sum_of_a_linked_list.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,9 +48,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tTarjans",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.5
+    "width": 342.5
   },
   "right": {
     "id": "98633b25d0fad17d",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/longest_repeating_character_replacement/longest_repeating_character_replacement.md",
+                "file": "src/maximum_twin_sum_of_a_linked_list/maximum_twin_sum_of_a_linked_list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/longest_repeating_character_replacement/longest_repeating_character_replacement.md",
+                "file": "src/maximum_twin_sum_of_a_linked_list/maximum_twin_sum_of_a_linked_list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/longest_repeating_character_replacement/longest_repeating_character_replacement.md"
+                "file": "src/maximum_twin_sum_of_a_linked_list/maximum_twin_sum_of_a_linked_list.md"
               }
             }
           },
@@ -166,19 +166,22 @@
   },
   "active": "6a4ec0e01e874aeb",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gu0fzn7ngj-w91lql-8nb8r0ydm1lvzp3upx9g6smtj/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gu0fzn7ngj-w91lql-8nb8r0ydm1lvzp3upx9g6smtj/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gu0fzn7ngj-w91lql-8nb8r0ydm1lvzp3upx9g6smtj/dep-graph.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gu0fzn7ngj-w91lql-8nb8r0ydm1lvzp3upx9g6smtj",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gu0fzn6ih5-537hlr-7wl568liok81qd49taaqf9jid/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gu0fzn6ih5-537hlr-7wl568liok81qd49taaqf9jid/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gu0fzn6ih5-537hlr-7wl568liok81qd49taaqf9jid/dep-graph.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gu0fzn6ih5-537hlr-7wl568liok81qd49taaqf9jid",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gu0fzn7ngj-w91lql-working/dep-graph.part.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gu0fzn7ngj-w91lql-working/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gu0fzn7ngj-w91lql-working/query-cache.bin",
-    "src/longest_repeating_character_replacement/longest_repeating_character_replacement.excalidraw.md",
+    "src/maximum_twin_sum_of_a_linked_list/maximum_twin_sum_of_a_linked_list.excalidraw.md",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gu1h34g82c-tp9j0a-dqn49s33sv79l9z21n784h4s2/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gu1h34g82c-tp9j0a-dqn49s33sv79l9z21n784h4s2/query-cache.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gu1h34g82c-tp9j0a-dqn49s33sv79l9z21n784h4s2/dep-graph.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gu1h34g82c-tp9j0a-dqn49s33sv79l9z21n784h4s2",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gu1h34g3j6-1yyjaey-b4wb7tinf6bkkbm29rku5qqso/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gu1h34g3j6-1yyjaey-b4wb7tinf6bkkbm29rku5qqso/query-cache.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gu1h34g3j6-1yyjaey-b4wb7tinf6bkkbm29rku5qqso/dep-graph.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gu1h34g3j6-1yyjaey-b4wb7tinf6bkkbm29rku5qqso",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gu1h34g82c-tp9j0a-working/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gu1h34g82c-tp9j0a-working/query-cache.bin",
+    "src/maximum_twin_sum_of_a_linked_list/maximum_twin_sum_of_a_linked_list.md",
+    "src/number-of-restricted-paths-from-first-to-last-node/number-of-restricted-paths-from-first-to-last-node.md",
+    "src/network-delay-time/network-delay-time.md",
     "src/longest_repeating_character_replacement/longest_repeating_character_replacement.md",
+    "src/longest_repeating_character_replacement/longest_repeating_character_replacement.excalidraw.md",
     "src/subarray_sum_equals_k/subarray_sum_equals_k.md",
     "src/subarray_sum_equals_k/subarray_sum_equals_k.excalidraw.md",
     "src/range_sum_query_2d_immutable/range_sum_query_2d_immutable.excalidraw.md",
@@ -197,10 +200,6 @@
     "src/delete_node_in_a_linked_list/delete_node_in_a_linked_list.excalidraw.md",
     "src/factorial_trailing_zeroes/factorial_trailing_zeroes.md",
     "src/factorial_trailing_zeroes/factorial_trailing_zeroes.excalidraw.md",
-    "src/course_schedule_iv/course_schedule_iv.md",
-    "src/course_schedule_iv/course_schedule_iv.excalidraw.md",
-    "src/bitwise_and_of_numbers_range/bitwise_and_of_numbers_range.excalidraw.md",
-    "src/bitwise_and_of_numbers_range/bitwise_and_of_numbers_range.md",
-    "src/best_time_to_buy_and_sell_stock_iv/best_time_to_buy_and_sell_stock_iv.excalidraw.md"
+    "src/course_schedule_iv/course_schedule_iv.md"
   ]
 }
