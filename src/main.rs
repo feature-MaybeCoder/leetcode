@@ -1,3 +1,3 @@
-mod maximum_twin_sum_of_a_linked_list;
+mod prefix_and_suffix_search;
 mod test_helpers;
 fn main() {}
