@@ -1,3 +1,3 @@
-mod prefix_and_suffix_search;
+mod sqrtx;
 mod test_helpers;
 fn main() {}
