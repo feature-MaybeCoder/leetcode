@@ -11,11 +11,9 @@
             "id": "6a4ec0e01e874aeb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "src/add_two_numbers_ii/add_two_numbers_ii.md",
-                "mode": "source",
-                "source": false
+                "file": "src/range_sum_query_mutable/range_sum_query_mutable.excalidraw.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/add_two_numbers_ii/add_two_numbers_ii.md",
+                "file": "src/range_sum_query_mutable/range_sum_query_mutable.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/add_two_numbers_ii/add_two_numbers_ii.md",
+                "file": "src/range_sum_query_mutable/range_sum_query_mutable.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/add_two_numbers_ii/add_two_numbers_ii.md"
+                "file": "src/range_sum_query_mutable/range_sum_query_mutable.excalidraw.md"
               }
             }
           },
@@ -157,7 +155,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "src/add_two_numbers_ii/add_two_numbers_ii.md",
+                "file": "src/range_sum_query_mutable/range_sum_query_mutable.excalidraw.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,20 +205,22 @@
   },
   "active": "6a4ec0e01e874aeb",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gudpz3lbjv-pwxymd-c7iv6li4hmq6ycvmwd7b5pves/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gudpz3lbjv-pwxymd-c7iv6li4hmq6ycvmwd7b5pves/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gudpz3lbjv-pwxymd-c7iv6li4hmq6ycvmwd7b5pves/dep-graph.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gudpz3lbjv-pwxymd-c7iv6li4hmq6ycvmwd7b5pves",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gudpz3lm5s-11qbgbj-b5knfer22obn051kjuy1hi6l3/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gudpz3lm5s-11qbgbj-b5knfer22obn051kjuy1hi6l3/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gudpz3lm5s-11qbgbj-b5knfer22obn051kjuy1hi6l3/dep-graph.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gudpz3lm5s-11qbgbj-b5knfer22obn051kjuy1hi6l3",
-    "target/debug/deps/rmeta4m7Afp",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gudpz3lm5s-11qbgbj-working/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gudpz3lm5s-11qbgbj-working/query-cache.bin",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gug3n7n89r-1q8v81c-31qy5g3ufdx3uc6j2cqyrb0pu/yz9dptl251p2e7z.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gug3n7n89r-1q8v81c-31qy5g3ufdx3uc6j2cqyrb0pu/work-products.bin",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gug3n7n89r-1q8v81c-31qy5g3ufdx3uc6j2cqyrb0pu/vh2m4w14sw4gsil.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gug3n7n89r-1q8v81c-31qy5g3ufdx3uc6j2cqyrb0pu/query-cache.bin",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gug3n7n89r-1q8v81c-31qy5g3ufdx3uc6j2cqyrb0pu/pzcqtv209ni7q47.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gug3n7n89r-1q8v81c-31qy5g3ufdx3uc6j2cqyrb0pu/naritft8og5966j.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gug3n7n89r-1q8v81c-31qy5g3ufdx3uc6j2cqyrb0pu/n9gph8fwxncziwm.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gug3n7n89r-1q8v81c-31qy5g3ufdx3uc6j2cqyrb0pu/juazevlu8wed470.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gug3n7n89r-1q8v81c-31qy5g3ufdx3uc6j2cqyrb0pu/jfc5zi3w23wabn5.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gug3n7n89r-1q8v81c-31qy5g3ufdx3uc6j2cqyrb0pu/jeubcnpgj931as2.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gug3n7n89r-1q8v81c-31qy5g3ufdx3uc6j2cqyrb0pu/dg1z923y4glm243.o",
+    "src/range_sum_query_mutable/range_sum_query_mutable.md",
+    "src/add_two_numbers_ii/add_two_numbers_ii.md",
+    "src/range_sum_query_mutable/range_sum_query_mutable.excalidraw.md",
     "src/max_points_on_a_line/max_points_on_a_line.md",
     "src/add_two_numbers_ii/add_two_numbers_ii.excalidraw.md",
-    "src/add_two_numbers_ii/add_two_numbers_ii.md",
     "src/max_points_on_a_line/max_points_on_a_line.excalidraw.md",
     "src/sqrtx/sqrtx.excalidraw.md",
     "src/sqrtx/sqrtx.md",
@@ -240,8 +240,6 @@
     "src/subarray_sum_equals_k/subarray_sum_equals_k.md",
     "src/subarray_sum_equals_k/subarray_sum_equals_k.excalidraw.md",
     "src/range_sum_query_2d_immutable/range_sum_query_2d_immutable.excalidraw.md",
-    "src/range_sum_query_2d_immutable/range_sum_query_2d_immutable.md",
-    "src/number_of_sub_arrays_of_size_k_and_average_greater_than_or_equal_to_threshold/number_of_sub_arrays_of_size_k_and_average_greater_than_or_equal_to_threshold.md",
-    "src/number_of_sub_arrays_of_size_k_and_average_greater_than_or_equal_to_threshold/number_of_sub_arrays_of_size_k_and_average_greater_than_or_equal_to_threshold.excalidraw.md"
+    "src/range_sum_query_2d_immutable/range_sum_query_2d_immutable.md"
   ]
 }
