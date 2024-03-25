@@ -90,8 +90,8 @@ impl NumArray {
             return;
         }
         if left == right{
-self.tree[tree_index] += diff;
-return
+            self.tree[tree_index] += diff;
+            return
         }
         self.tree[tree_index] += diff;
         let mid = left + right >> 1;
