@@ -11,9 +11,11 @@
             "id": "37f95f580e5ce3ec",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "src/longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.excalidraw.md"
+                "file": "src/longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.excalidraw.md",
+                "file": "src/longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.excalidraw.md",
+                "file": "src/longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.excalidraw.md"
+                "file": "src/longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.md"
               }
             }
           },
@@ -155,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "src/longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.excalidraw.md",
+                "file": "src/longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -205,20 +207,19 @@
   },
   "active": "37f95f580e5ce3ec",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gumuhk633y-16fqpca-96kzy8wv14yh0fsh41rnwpwdb/yz9dptl251p2e7z.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gumuhk633y-16fqpca-96kzy8wv14yh0fsh41rnwpwdb/work-products.bin",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gumuhk633y-16fqpca-96kzy8wv14yh0fsh41rnwpwdb/vh2m4w14sw4gsil.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gumuhk633y-16fqpca-96kzy8wv14yh0fsh41rnwpwdb/query-cache.bin",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gumuhk633y-16fqpca-96kzy8wv14yh0fsh41rnwpwdb/pzcqtv209ni7q47.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gumuhk633y-16fqpca-96kzy8wv14yh0fsh41rnwpwdb/naritft8og5966j.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gumuhk633y-16fqpca-96kzy8wv14yh0fsh41rnwpwdb/n9gph8fwxncziwm.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gumuhk633y-16fqpca-96kzy8wv14yh0fsh41rnwpwdb/juazevlu8wed470.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gumuhk633y-16fqpca-96kzy8wv14yh0fsh41rnwpwdb/jfc5zi3w23wabn5.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gumuhk633y-16fqpca-96kzy8wv14yh0fsh41rnwpwdb/jeubcnpgj931as2.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gumuhk633y-16fqpca-96kzy8wv14yh0fsh41rnwpwdb/dg1z923y4glm243.o",
+    "src/longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.excalidraw.md",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guom0gdoab-yye45v-arib9z6t2d8bt8fq29rn14mqr/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guom0gdoab-yye45v-arib9z6t2d8bt8fq29rn14mqr/query-cache.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guom0gdoab-yye45v-arib9z6t2d8bt8fq29rn14mqr/dep-graph.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guom0gdoab-yye45v-arib9z6t2d8bt8fq29rn14mqr",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-guom0gdnjs-1h65svs-eymdik0n2scpbob0o5598235i/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-guom0gdnjs-1h65svs-eymdik0n2scpbob0o5598235i/query-cache.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-guom0gdnjs-1h65svs-eymdik0n2scpbob0o5598235i/dep-graph.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-guom0gdnjs-1h65svs-eymdik0n2scpbob0o5598235i",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guom0gdoab-yye45v-working/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guom0gdoab-yye45v-working/query-cache.bin",
     "src/queue_reconstruction_by_height/queue_reconstruction_by_height.md",
     "src/queue_reconstruction_by_height/queue_reconstruction_by_height.excalidraw.md",
-    "src/longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.excalidraw.md",
     "src/longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.md",
     "src/my_calendar_i/my_calendar_i.md",
     "src/my_calendar_i/my_calendar_i.excalidraw.md",
