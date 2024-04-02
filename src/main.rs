@@ -1,3 +1,3 @@
-mod swim_in_rising_water;
+mod sliding_window_median;
 mod test_helpers;
 fn main() {}

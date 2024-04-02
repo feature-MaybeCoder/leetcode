@@ -11,11 +11,9 @@
             "id": "6056a6298a10e2f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "src/swim_in_rising_water/swim_in_rising_water.md",
-                "mode": "source",
-                "source": false
+                "file": "src/sliding_window_median/sliding_window_median.excalidraw.md"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "98633b25d0fad17d",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/swim_in_rising_water/swim_in_rising_water.md",
+                "file": "src/sliding_window_median/sliding_window_median.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/swim_in_rising_water/swim_in_rising_water.md",
+                "file": "src/sliding_window_median/sliding_window_median.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/swim_in_rising_water/swim_in_rising_water.md"
+                "file": "src/sliding_window_median/sliding_window_median.excalidraw.md"
               }
             }
           },
@@ -157,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "src/swim_in_rising_water/swim_in_rising_water.md",
+                "file": "src/sliding_window_median/sliding_window_median.excalidraw.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,18 +206,21 @@
   },
   "active": "6056a6298a10e2f4",
   "lastOpenFiles": [
-    "src/swim_in_rising_water/swim_in_rising_water.excalidraw.md",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gut3al4xjs-1t863c0-48aoaazkks348mpuloc8kq6vk/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gut3al4xjs-1t863c0-48aoaazkks348mpuloc8kq6vk/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gut3al4xjs-1t863c0-48aoaazkks348mpuloc8kq6vk/dep-graph.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gut3al4xjs-1t863c0-48aoaazkks348mpuloc8kq6vk",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gut3al4u4x-16j0f8u-byi42oqh7c7bks0rgg1728hj9/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gut3al4u4x-16j0f8u-byi42oqh7c7bks0rgg1728hj9/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gut3al4u4x-16j0f8u-byi42oqh7c7bks0rgg1728hj9/dep-graph.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gut3al4u4x-16j0f8u-byi42oqh7c7bks0rgg1728hj9",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gut3al4xjs-1t863c0-working/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gut3al4xjs-1t863c0-working/query-cache.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guvpvvwqh2-1iyer9m-8uy33mq0am87xycs2bh2ttx7v/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guvpvvwqh2-1iyer9m-8uy33mq0am87xycs2bh2ttx7v/query-cache.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guvpvvwqh2-1iyer9m-8uy33mq0am87xycs2bh2ttx7v/dep-graph.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guvpvvwqh2-1iyer9m-8uy33mq0am87xycs2bh2ttx7v",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-guvpvvwqej-1hsb0ta-59l4om11pa57y5knv25zump1a/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-guvpvvwqej-1hsb0ta-59l4om11pa57y5knv25zump1a/query-cache.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-guvpvvwqej-1hsb0ta-59l4om11pa57y5knv25zump1a/dep-graph.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-guvpvvwqej-1hsb0ta-59l4om11pa57y5knv25zump1a",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guvpvvwqh2-1iyer9m-working/dep-graph.part.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guvpvvwqh2-1iyer9m-working/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guvpvvwqh2-1iyer9m-working/query-cache.bin",
+    "src/sliding_window_median/sliding_window_median.md",
     "src/swim_in_rising_water/swim_in_rising_water.md",
+    "src/sliding_window_median/sliding_window_median.excalidraw.md",
+    "src/swim_in_rising_water/swim_in_rising_water.excalidraw.md",
     "src/subsets_ii/subsets_ii.excalidraw 1.md",
     "src/subsets_ii/subsets_ii.md",
     "src/subsets_ii/subsets_ii.excalidraw.md",
@@ -239,8 +241,6 @@
     "src/sqrtx/sqrtx.excalidraw.md",
     "src/sqrtx/sqrtx.md",
     "src/prefix_and_suffix_search/prefix_and_suffix_search.excalidraw.md",
-    "src/prefix_and_suffix_search/prefix_and_suffix_search.md",
-    "src/word_search_ii/word_search_ii.md",
-    "src/find_the_duplicate_number/find_the_duplicate_number.md"
+    "src/prefix_and_suffix_search/prefix_and_suffix_search.md"
   ]
 }
