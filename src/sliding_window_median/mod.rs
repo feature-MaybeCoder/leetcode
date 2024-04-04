@@ -3,7 +3,9 @@ use std::{
     collections::{BinaryHeap, HashMap},
 };
 struct TwoHeapsMidean {
+    // left heap will contains items to the left from the median less or equal and keep track of max value in left side
     left: BinaryHeap<i32>,
+    // right heap will contains items to the right from the median (greater) and keep track of min value in right side
     right: BinaryHeap<Reverse<i32>>,
     removed: HashMap<i32, i32>,
     is_odd: bool,
@@ -33,6 +35,9 @@ impl TwoHeapsMidean {
     }
     fn remove(&mut self, num: i32) {
         *self.removed.entry(num).or_insert(0) += 1;
+        // we will remove items from heaps only if current peek is in removed map, so complexity of it will be O(1)
+        // we need remove map, cause current peek not allways be a needed item to remove, so eventualy peek can become needed item to remove
+        // somewhere in the future
         while !self.left.is_empty() && self.removed.contains_key(self.left.peek().unwrap()) {
             let key = self.left.pop().unwrap();
             let num = self.removed.get_mut(&key).unwrap();
@@ -53,35 +58,41 @@ impl TwoHeapsMidean {
         }
     }
     fn balance(&mut self) {
+        // left heap should contain 1 more elements then right, so we pop min from right and push it to the left
         if self.right.len() > self.left.len() {
             self.left.push(self.right.pop().unwrap().0);
         }
     }
     fn push(&mut self, num: i32) {
         self.left.push(num);
+        // right will keep track of min peek of max items to the right of the median, so we pop max from left and balance it to the right
         self.right.push(Reverse(self.left.pop().unwrap()));
 
         self.balance();
     }
     fn balance_madian_push(&mut self, prev: i32, next: i32, prev_median: i32) {
         let mut balance = 0;
-        if prev > prev_median{
-            balance +=1;
-        }else{
+        // we will remove prev element from left heap cause left heap contains all numbers to the left of the median inclusevly
+        if prev <= prev_median{
+            // left heap will lack one item
             balance-=1;
+        }else{
+            // if prev number is greater then median, then prev number will be remove from right heap, and we need to balance
+            balance+=1;
         }
         if next > prev_median{
-            balance -=1;
+            // item to push is greater then prev median, we need to push it to the right heap
             self.right.push(Reverse(next));
-            
+            balance-=1;
         }else{
-            balance +=1;
             self.left.push(next);
+            balance+=1;
         }
-        if balance > 0{
+        // if balance is ge then 0 then left heap will contains more elements and we need to balance
+        if balance>0{
             self.right.push(Reverse(self.left.pop().unwrap()));
-            
-        }else if balance<0 {
+        }else if balance<0{
+            // else if balance is less then 0 then left heap will lack of number and we need to balance it
             self.left.push(self.right.pop().unwrap().0);
         }
     }
