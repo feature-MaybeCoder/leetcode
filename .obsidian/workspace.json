@@ -11,11 +11,9 @@
             "id": "6056a6298a10e2f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "src/sliding_window_median/sliding_window_median.md",
-                "mode": "source",
-                "source": false
+                "file": "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.excalidraw.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/sliding_window_median/sliding_window_median.md",
+                "file": "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/sliding_window_median/sliding_window_median.md",
+                "file": "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/sliding_window_median/sliding_window_median.md"
+                "file": "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.excalidraw.md"
               }
             }
           },
@@ -157,7 +155,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "src/sliding_window_median/sliding_window_median.md",
+                "file": "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.excalidraw.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,18 +205,21 @@
   },
   "active": "6056a6298a10e2f4",
   "lastOpenFiles": [
-    "src/sliding_window_median/sliding_window_median.excalidraw.md",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guxdwyxz3c-1a8yvv5-cownb5eq67871eflefgqtltzj/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guxdwyxz3c-1a8yvv5-cownb5eq67871eflefgqtltzj/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guxdwyxz3c-1a8yvv5-cownb5eq67871eflefgqtltzj/dep-graph.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guxdwyxz3c-1a8yvv5-cownb5eq67871eflefgqtltzj",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-guxdwyxyz6-15nzcm2-mbf1dqtl7kxdtyqwhsr5dmow/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-guxdwyxyz6-15nzcm2-mbf1dqtl7kxdtyqwhsr5dmow/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-guxdwyxyz6-15nzcm2-mbf1dqtl7kxdtyqwhsr5dmow/dep-graph.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-guxdwyxyz6-15nzcm2-mbf1dqtl7kxdtyqwhsr5dmow",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guxdwyxz3c-1a8yvv5-working/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-guxdwyxz3c-1a8yvv5-working/query-cache.bin",
+    "Untitled.js",
+    "target/debug/deps/leetcode-344b9713328cc9d3.ld_ZqU09l",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/yz9dptl251p2e7z.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/y8qe5lg6mz9fivt.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/xcdi1bmu4ankiyy.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/work-products.bin",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/vh2m4w14sw4gsil.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/query-cache.bin",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/pzcqtv209ni7q47.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/naritft8og5966j.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/n9gph8fwxncziwm.o",
+    "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.md",
     "src/sliding_window_median/sliding_window_median.md",
+    "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.excalidraw.md",
+    "src/sliding_window_median/sliding_window_median.excalidraw.md",
     "src/swim_in_rising_water/swim_in_rising_water.md",
     "src/swim_in_rising_water/swim_in_rising_water.excalidraw.md",
     "src/subsets_ii/subsets_ii.excalidraw 1.md",
@@ -239,8 +240,6 @@
     "src/add_two_numbers_ii/add_two_numbers_ii.excalidraw.md",
     "src/max_points_on_a_line/max_points_on_a_line.excalidraw.md",
     "src/sqrtx/sqrtx.excalidraw.md",
-    "src/sqrtx/sqrtx.md",
-    "src/prefix_and_suffix_search/prefix_and_suffix_search.excalidraw.md",
-    "src/prefix_and_suffix_search/prefix_and_suffix_search.md"
+    "src/sqrtx/sqrtx.md"
   ]
 }

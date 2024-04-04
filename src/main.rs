@@ -1,4 +1,3 @@
-mod sliding_window_median;
-mod lowest_common_ancestor_of_deepest_leaves;
+mod min_cost_to_connect_all_points;
 mod test_helpers;
 fn main() {}
