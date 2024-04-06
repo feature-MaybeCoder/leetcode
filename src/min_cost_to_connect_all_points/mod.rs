@@ -6,7 +6,7 @@ fn manhattan_distance(pt1: &Vec<i32>, pt2: &Vec<i32>) -> u32 {
 pub fn min_cost_connect_points_prims(points: Vec<Vec<i32>>) -> i32 {
     let len = points.len();
     let mut visit: Vec<bool> = vec![false; len];
-    let mut frontier: BinaryHeap<Reverse<(i32, usize)>> = BinaryHeap::with_capacity(len);
+    let mut frontier: BinaryHeap<Reverse<(u32, usize)>> = BinaryHeap::with_capacity(len);
     frontier.push(Reverse((0, 0)));
     let mut sum = 0;
     let mut visited_am = 0;
@@ -22,10 +22,10 @@ pub fn min_cost_connect_points_prims(points: Vec<Vec<i32>>) -> i32 {
             if neighboor == index || visit[neighboor] {
                 continue;
             }
-            // frontier.push(Reverse((manhattan_distance(&points[neighboor], &points[index]), neighboor)));
+            frontier.push(Reverse((manhattan_distance(&points[neighboor], &points[index]), neighboor)));
         }
     }
-    return sum;
+    return sum as i32;
 }
 pub fn min_cost_connect_points(points: Vec<Vec<i32>>) -> i32 {
     let len = points.len();

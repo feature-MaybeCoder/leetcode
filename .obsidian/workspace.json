@@ -11,9 +11,11 @@
             "id": "6056a6298a10e2f4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.excalidraw.md"
+                "file": "src/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.excalidraw.md",
+                "file": "src/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.excalidraw.md",
+                "file": "src/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.excalidraw.md"
+                "file": "src/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree.md"
               }
             }
           },
@@ -155,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.excalidraw.md",
+                "file": "src/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -205,20 +207,22 @@
   },
   "active": "6056a6298a10e2f4",
   "lastOpenFiles": [
-    "Untitled.js",
-    "target/debug/deps/leetcode-344b9713328cc9d3.ld_ZqU09l",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/yz9dptl251p2e7z.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/y8qe5lg6mz9fivt.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/xcdi1bmu4ankiyy.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/work-products.bin",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/vh2m4w14sw4gsil.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/query-cache.bin",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/pzcqtv209ni7q47.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/naritft8og5966j.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guximq0nkd-143id4f-2quc848hq6iehqdvzb5aymk4k/n9gph8fwxncziwm.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guzwv0kv2y-xu47ne-88oqxebzwaiadnvpjunf6sryk/yz9dptl251p2e7z.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guzwv0kv2y-xu47ne-88oqxebzwaiadnvpjunf6sryk/work-products.bin",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guzwv0kv2y-xu47ne-88oqxebzwaiadnvpjunf6sryk/vh2m4w14sw4gsil.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guzwv0kv2y-xu47ne-88oqxebzwaiadnvpjunf6sryk/query-cache.bin",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guzwv0kv2y-xu47ne-88oqxebzwaiadnvpjunf6sryk/pzcqtv209ni7q47.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guzwv0kv2y-xu47ne-88oqxebzwaiadnvpjunf6sryk/naritft8og5966j.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guzwv0kv2y-xu47ne-88oqxebzwaiadnvpjunf6sryk/n9gph8fwxncziwm.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guzwv0kv2y-xu47ne-88oqxebzwaiadnvpjunf6sryk/juazevlu8wed470.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guzwv0kv2y-xu47ne-88oqxebzwaiadnvpjunf6sryk/jfc5zi3w23wabn5.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guzwv0kv2y-xu47ne-88oqxebzwaiadnvpjunf6sryk/jeubcnpgj931as2.o",
+    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-guzwv0kv2y-xu47ne-88oqxebzwaiadnvpjunf6sryk/dg1z923y4glm243.o",
     "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.md",
-    "src/sliding_window_median/sliding_window_median.md",
+    "src/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree.excalidraw.md",
+    "src/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree.md",
     "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.excalidraw.md",
+    "src/sliding_window_median/sliding_window_median.md",
     "src/sliding_window_median/sliding_window_median.excalidraw.md",
     "src/swim_in_rising_water/swim_in_rising_water.md",
     "src/swim_in_rising_water/swim_in_rising_water.excalidraw.md",
@@ -238,8 +242,6 @@
     "src/add_two_numbers_ii/add_two_numbers_ii.md",
     "src/max_points_on_a_line/max_points_on_a_line.md",
     "src/add_two_numbers_ii/add_two_numbers_ii.excalidraw.md",
-    "src/max_points_on_a_line/max_points_on_a_line.excalidraw.md",
-    "src/sqrtx/sqrtx.excalidraw.md",
-    "src/sqrtx/sqrtx.md"
+    "src/max_points_on_a_line/max_points_on_a_line.excalidraw.md"
   ]
 }
