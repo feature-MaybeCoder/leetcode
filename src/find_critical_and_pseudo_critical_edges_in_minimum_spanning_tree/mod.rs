@@ -10,12 +10,12 @@ fn prims(
     visited: &mut Visited,
     queue: &mut Queue,
     init_cost: i32,
-    idle_cost: i32
+    idle_cost: i32,
 ) -> (i32, usize) {
     let mut cost = init_cost;
     let mut visited_am = 1;
     let visited_len = visited.len();
-    while !queue.is_empty() && visited_am < visited_len && cost < idle_cost {
+    while !queue.is_empty() && visited_am < visited_len && cost <= idle_cost {
         let (weight, node, _) = queue.pop().unwrap().0;
         if visited[node] {
             continue;
@@ -32,7 +32,108 @@ fn prims(
     }
     return (cost, visited_am);
 }
-pub fn find_critical_and_pseudo_critical_edges(n: i32, edges: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
+struct UnionFind {
+    len: i32,
+    p: Vec<usize>,
+    weights: Vec<i32>,
+}
+impl UnionFind {
+    fn new(len: usize) -> Self {
+        let mut p = Vec::with_capacity(len);
+        for idx in 0..len {
+            p.push(idx);
+        }
+        return Self {
+            len: len as i32 -1,
+            p,
+            weights: vec![1; len],
+        };
+    }
+    fn find(&mut self, mut node: usize) -> usize {
+        while node != self.p[node] {
+            self.p[node] = self.p[self.p[node]];
+            node = self.p[node];
+        }
+        return node;
+    }
+    fn union(&mut self, node1: usize, node2: usize) -> bool {
+        let p1 = self.find(node1);
+        let p2 = self.find(node2);
+        if p1 == p2 {
+            return false;
+        }
+        self.len -= 1;
+        if self.weights[p1] > self.weights[p2] {
+            self.p[p2] = p1;
+            self.weights[p1] += self.weights[p2];
+        } else {
+            self.p[p1] = p2;
+            self.weights[p2] += self.weights[p1];
+        }
+        return true;
+    }
+    fn reset(&mut self) {
+        self.len = self.weights.len() as i32 -1;
+        for idx in 0..self.weights.len() {
+            self.weights[idx] = 1;
+            self.p[idx] = idx;
+        }
+    }
+    fn find_mst(&mut self, edges: &Vec<Vec<i32>>, edges_len: usize, ignored_idx: i32) -> i32 {
+        let mut mst = 0;
+        let mut edge_idx: usize = 0;
+        while self.len > 0 && edge_idx < edges_len {
+            
+            let edge = &edges[edge_idx];
+            if edge[3] == ignored_idx{
+                edge_idx += 1;
+                continue;
+            }
+            if self.union(edge[0] as usize, edge[1] as usize) {
+                mst += edge[2];
+            }
+            edge_idx += 1;
+        }
+        return mst;
+    }
+}
+pub fn find_critical_and_pseudo_critical_edges(n: i32, mut edges: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
+    let n = n as usize;
+    let edges_len = edges.len();
+    for idx in 0..edges_len {
+        edges[idx].push(idx as i32);
+    }
+    let mut critical = Vec::with_capacity(edges_len);
+    let mut non_critical = Vec::with_capacity(edges_len);
+    let mut uf = UnionFind::new(n);
+    edges.sort_by_key(|edge| edge[2]);
+    let mst = uf.find_mst(&edges, edges_len, -1);
+    for edge_idx in 0..edges_len {
+        uf.reset();
+        let mut cur_mst = 0;
+        let cur_edge = &edges[edge_idx];
+        cur_mst += cur_edge[2];
+        uf.p[cur_edge[0] as usize] = cur_edge[1] as usize;
+        uf.weights[cur_edge[1] as usize] += 1;
+        uf.len-=1;
+        cur_mst += uf.find_mst(&edges, edges_len, -1);
+        if cur_mst > mst{
+            continue;
+        }
+        uf.reset();
+        let is_critical_mst = uf.find_mst(&edges, edges_len, edges[edge_idx][3]);
+        if uf.len > 0 || is_critical_mst>mst{
+            critical.push(edges[edge_idx][3]);
+            continue
+        }
+        non_critical.push(edges[edge_idx][3]);
+    }
+    return vec![critical, non_critical];
+}
+pub fn find_critical_and_pseudo_critical_edges_prims(
+    n: i32,
+    edges: Vec<Vec<i32>>,
+) -> Vec<Vec<i32>> {
     let n = n as usize;
     let edges_len = edges.len();
     let mut graph: Graph = vec![Vec::with_capacity(edges_len); n];
@@ -71,7 +172,14 @@ pub fn find_critical_and_pseudo_critical_edges(n: i32, edges: Vec<Vec<i32>>) -> 
         for edge in &graph[to] {
             queue.push(Reverse(*edge));
         }
-        let (new_cost_cr, _) = prims(&graph, edges_len, &mut visited, &mut queue, edges[idx][2], idle_cost + edges[idx][2]);
+        let (new_cost_cr, _) = prims(
+            &graph,
+            edges_len,
+            &mut visited,
+            &mut queue,
+            edges[idx][2],
+            idle_cost,
+        );
         if new_cost_cr > idle_cost {
             continue;
         }
@@ -86,7 +194,7 @@ pub fn find_critical_and_pseudo_critical_edges(n: i32, edges: Vec<Vec<i32>>) -> 
             queue.push(Reverse(*edge));
         }
         visited[0] = true;
-        let (new_cost, visited_am) = prims(&graph, idx, &mut visited, &mut queue,0,idle_cost);
+        let (new_cost, visited_am) = prims(&graph, idx, &mut visited, &mut queue, 0, idle_cost);
 
         if new_cost > idle_cost || visited_am < n {
             critical.push(idx as i32);
