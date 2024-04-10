@@ -113,9 +113,7 @@ pub fn find_critical_and_pseudo_critical_edges(n: i32, mut edges: Vec<Vec<i32>>)
         let mut cur_mst = 0;
         let cur_edge = &edges[edge_idx];
         cur_mst += cur_edge[2];
-        uf.p[cur_edge[0] as usize] = cur_edge[1] as usize;
-        uf.weights[cur_edge[1] as usize] += 1;
-        uf.len-=1;
+        uf.union(cur_edge[0] as usize,  cur_edge[1] as usize);
         cur_mst += uf.find_mst(&edges, edges_len, -1);
         if cur_mst > mst{
             continue;

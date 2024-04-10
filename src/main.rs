@@ -1,3 +1,3 @@
-mod find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree;
+mod target_sum;
 mod test_helpers;
 fn main() {}
