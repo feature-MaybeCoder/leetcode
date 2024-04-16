@@ -1,3 +1,3 @@
-mod ones_and_zeroes;
+mod minimum_cost_for_tickets;
 mod test_helpers;
 fn main() {}
