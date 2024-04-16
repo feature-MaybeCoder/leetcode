@@ -9,6 +9,12 @@ fn get_next_idx(mut idx: usize, mut amount: i32, days: &Vec<i32>) -> usize {
     }
     return idx;
 }
+fn get_next_idx_dp(mut start: usize, mut idx: usize, mut amount: i32, days: &Vec<i32>) -> usize {
+    while idx < days.len() && days[start] + amount > days[idx] {
+        idx += 1;
+    }
+    return idx;
+}
 fn dfs(idx: usize, cost: i32, days: &Vec<i32>, costs: &Vec<i32>, cache: &mut [i32; 365]) -> i32 {
     if idx == days.len() {
         return cost;
@@ -42,20 +48,22 @@ pub fn mincost_tickets_dfs(days: Vec<i32>, costs: Vec<i32>) -> i32 {
     dfs(0, 0, &days, &costs, &mut cache)
 }
 pub fn mincost_tickets(days: Vec<i32>, costs: Vec<i32>) -> i32 {
-    let mut cache: [i32; 366] = [0; 366];
+         let mut cache: [i32; 366] = [0; 366];
     let vars: [i32; 3] = [1, 7, 30];
     for idx in (0..days.len()).rev() {
         let mut min = i32::MAX;
+        let mut prev_idx = idx;
         for day in 0..3 {
             let cost = costs[day];
-            let nxt = get_next_idx(idx, vars[day], &days);
-    
-            min = min.min(cost + cache[nxt]);
+            prev_idx = get_next_idx_dp(idx, prev_idx, vars[day], &days);
+
+            min = min.min(cost + cache[prev_idx]);
         }
         cache[idx] = min;
     }
     return cache[0];
-}
+   
+    }
 #[cfg(test)]
 mod test {
     use super::mincost_tickets;
