@@ -1,3 +1,3 @@
-mod minimum_cost_for_tickets;
+mod relative_ranks;
 mod test_helpers;
 fn main() {}
