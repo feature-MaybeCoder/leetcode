@@ -11,9 +11,11 @@
             "id": "6056a6298a10e2f4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "src/string_to_integer_atoi/string_to_integer_atoi.excalidraw.md"
+                "file": "src/longest_common_subsequence/longest_common_subsequence.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/string_to_integer_atoi/string_to_integer_atoi.excalidraw.md",
+                "file": "src/longest_common_subsequence/longest_common_subsequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/string_to_integer_atoi/string_to_integer_atoi.excalidraw.md",
+                "file": "src/longest_common_subsequence/longest_common_subsequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/string_to_integer_atoi/string_to_integer_atoi.excalidraw.md"
+                "file": "src/longest_common_subsequence/longest_common_subsequence.md"
               }
             }
           },
@@ -155,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "src/string_to_integer_atoi/string_to_integer_atoi.excalidraw.md",
+                "file": "src/longest_common_subsequence/longest_common_subsequence.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -205,20 +207,22 @@
   },
   "active": "6056a6298a10e2f4",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvd0ozgcnv-1e2l45l-9fbrwqu0bzpfh9g028u8jarzj/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvd0ozgcnv-1e2l45l-9fbrwqu0bzpfh9g028u8jarzj/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvd0ozgcnv-1e2l45l-9fbrwqu0bzpfh9g028u8jarzj/dep-graph.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvd0ozgcnv-1e2l45l-9fbrwqu0bzpfh9g028u8jarzj",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvd0ozgcnj-1ojo8rm-4y78s785m24s109tz5c440fki/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvd0ozgcnj-1ojo8rm-4y78s785m24s109tz5c440fki/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvd0ozgcnj-1ojo8rm-4y78s785m24s109tz5c440fki/dep-graph.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvd0ozgcnj-1ojo8rm-4y78s785m24s109tz5c440fki",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvd0ozgcnj-1ojo8rm-working/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvd0ozgcnj-1ojo8rm-working/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvd0ozgcnj-1ojo8rm-working/dep-graph.part.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvhgrstvab-1qfv6um-7h8ch7ut8bz1n4deqzy83o429/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvhgrstvab-1qfv6um-7h8ch7ut8bz1n4deqzy83o429/query-cache.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvhgrstvab-1qfv6um-7h8ch7ut8bz1n4deqzy83o429/dep-graph.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvhgrstvab-1qfv6um-7h8ch7ut8bz1n4deqzy83o429",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvhgrstvaj-aw42kw-3si0jia134swzocx2y6z3c65d/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvhgrstvaj-aw42kw-3si0jia134swzocx2y6z3c65d/query-cache.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvhgrstvaj-aw42kw-3si0jia134swzocx2y6z3c65d/dep-graph.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvhgrstvaj-aw42kw-3si0jia134swzocx2y6z3c65d",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvhgrstvaj-aw42kw-working/dep-graph.part.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvhgrstvaj-aw42kw-working/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvhgrstvaj-aw42kw-working/query-cache.bin",
+    "src/longest_common_subsequence/longest_common_subsequence.excalidraw.md",
+    "src/longest_common_subsequence/longest_common_subsequence.md",
+    "src/string_to_integer_atoi/string_to_integer_atoi.excalidraw.md",
     "src/string_to_integer_atoi/string_to_integer_atoi.md",
     "src/coin_change_ii/coin_change_ii.excalidraw.md",
-    "src/string_to_integer_atoi/string_to_integer_atoi.excalidraw.md",
     "src/coin_change_ii/coin_change_ii.md",
     "src/minimum_cost_for_tickets/minimum_cost_for_tickets.excalidraw.md",
     "src/minimum_cost_for_tickets/minimum_cost_for_tickets.md",
@@ -238,8 +242,6 @@
     "src/sliding_window_median/sliding_window_median.excalidraw.md",
     "src/swim_in_rising_water/swim_in_rising_water.md",
     "src/swim_in_rising_water/swim_in_rising_water.excalidraw.md",
-    "src/subsets_ii/subsets_ii.excalidraw 1.md",
-    "src/subsets_ii/subsets_ii.md",
-    "src/subsets_ii/subsets_ii.excalidraw.md"
+    "src/subsets_ii/subsets_ii.excalidraw 1.md"
   ]
 }
