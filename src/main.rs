@@ -1,3 +1,3 @@
-mod longest_common_subsequence;
+mod distinct_subsequences;
 mod test_helpers;
 fn main() {}
