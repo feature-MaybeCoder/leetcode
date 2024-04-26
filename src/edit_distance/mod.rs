@@ -31,40 +31,33 @@ pub fn min_distance_dfs(word1: String, word2: String) -> i32 {
     return dfs(word1.as_bytes(), word2.as_bytes(), &mut HashMap::new());
 }
 pub fn min_distance(word1: String, word2: String) -> i32 {
-    let first_len = word1.len();
-    let second_len = word2.len();
-
-    if first_len == 0 && second_len == 0 {
+    let height = word1.len();
+    let width = word2.len();
+    if height == 0 && width == 0 {
         return 0;
     }
-    if first_len == 0 || second_len == 0 {
-        return first_len.max(second_len) as i32;
+    if height == 0 || width == 0 {
+        return height.max(width) as i32;
     }
-
-    let mut dp = vec![vec![0; second_len + 1]; first_len + 1];
-
-    for x in 0..first_len {
-        dp[x][second_len] = first_len as i32 - x as i32;
+    let word1 = word1.as_bytes();
+    let word2 = word2.as_bytes();
+    let mut dp = vec![vec![0; width + 1]; height + 1];
+    for x in 0..=height {
+        dp[x][width] = (height - x) as i32;
     }
-    for y in 0..second_len {
-        dp[first_len][y] = second_len as i32 - y as i32;
+    for y in 0..=width {
+        dp[height][y] = (width - y) as i32;
     }
-    dp[first_len][second_len] = 0;
-
-    let word1_b = word1.as_bytes();
-    let word2_b = word2.as_bytes();
-    for x in (0..first_len).rev() {
-        for y in (0..second_len).rev() {
-            let first_char = word1_b[x];
-            let second_char = word2_b[y];
-
-            if first_char == second_char {
+    for x in (0..height).rev() {
+        for y in (0..width).rev() {
+            if word1[x] == word2[y] {
                 dp[x][y] = dp[x + 1][y + 1];
                 continue;
-            }   
-            dp[x][y] = std::cmp::min(dp[x + 1][y], std::cmp::min(dp[x][y + 1], dp[x + 1][y + 1])) + 1;
+            }
+            dp[x][y] = (dp[x + 1][y].min(dp[x][y + 1])).min(dp[x + 1][y + 1]) + 1;
         }
     }
+
     return dp[0][0];
 }
 

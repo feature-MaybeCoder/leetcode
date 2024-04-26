@@ -13,7 +13,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "src/distinct_subsequences/distinct_subsequences.excalidraw.md"
+                "file": "src/shortest_common_supersequence/shortest_common_supersequence.excalidraw.md"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/distinct_subsequences/distinct_subsequences.excalidraw.md",
+                "file": "src/shortest_common_supersequence/shortest_common_supersequence.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/distinct_subsequences/distinct_subsequences.excalidraw.md",
+                "file": "src/shortest_common_supersequence/shortest_common_supersequence.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/distinct_subsequences/distinct_subsequences.excalidraw.md"
+                "file": "src/shortest_common_supersequence/shortest_common_supersequence.excalidraw.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "src/distinct_subsequences/distinct_subsequences.excalidraw.md",
+                "file": "src/shortest_common_supersequence/shortest_common_supersequence.excalidraw.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -205,20 +205,22 @@
   },
   "active": "6056a6298a10e2f4",
   "lastOpenFiles": [
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvjv8wxfeg-fbgxp0-cno4e8osumt0ztdh8uqtv6o7t/work-products.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvjv8wxfeg-fbgxp0-cno4e8osumt0ztdh8uqtv6o7t/query-cache.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvjv8wxfeg-fbgxp0-cno4e8osumt0ztdh8uqtv6o7t/dep-graph.bin",
-    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvjv8wxfeg-fbgxp0-cno4e8osumt0ztdh8uqtv6o7t",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvjv8wxfhs-jyvdkv-dd17e60yvyxj4ou2qh8m8s3tl/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvjv8wxfhs-jyvdkv-dd17e60yvyxj4ou2qh8m8s3tl/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvjv8wxfhs-jyvdkv-dd17e60yvyxj4ou2qh8m8s3tl/dep-graph.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvjv8wxfhs-jyvdkv-dd17e60yvyxj4ou2qh8m8s3tl",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvjv8wxfhs-jyvdkv-working/work-products.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvjv8wxfhs-jyvdkv-working/query-cache.bin",
-    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvjv8wxfhs-jyvdkv-working/dep-graph.part.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvlxjyeb7w-ybj1mv-4uzgk24ke8ryhv9lwy1ll95qk/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvlxjyeb7w-ybj1mv-4uzgk24ke8ryhv9lwy1ll95qk/query-cache.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvlxjyeb7w-ybj1mv-4uzgk24ke8ryhv9lwy1ll95qk/dep-graph.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvlxjyeb7w-ybj1mv-4uzgk24ke8ryhv9lwy1ll95qk",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvlxjye9q9-1lwgyu3-6r1ahhdjsij0hxyjr8kva5ex/work-products.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvlxjye9q9-1lwgyu3-6r1ahhdjsij0hxyjr8kva5ex/query-cache.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvlxjye9q9-1lwgyu3-6r1ahhdjsij0hxyjr8kva5ex/dep-graph.bin",
+    "target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvlxjye9q9-1lwgyu3-6r1ahhdjsij0hxyjr8kva5ex",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvlxjyeb7w-ybj1mv-working/work-products.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvlxjyeb7w-ybj1mv-working/query-cache.bin",
+    "target/debug/incremental/leetcode-10del9z2dcrp0/s-gvlxjyeb7w-ybj1mv-working/dep-graph.part.bin",
+    "src/shortest_common_supersequence/shortest_common_supersequence.md",
+    "src/distinct_subsequences/distinct_subsequences.excalidraw.md",
+    "src/shortest_common_supersequence/shortest_common_supersequence.excalidraw.md",
     "src/distinct_subsequences/distinct_subsequences.md",
     "src/longest_common_subsequence/longest_common_subsequence.md",
-    "src/distinct_subsequences/distinct_subsequences.excalidraw.md",
     "src/longest_common_subsequence/longest_common_subsequence.excalidraw.md",
     "src/string_to_integer_atoi/string_to_integer_atoi.excalidraw.md",
     "src/string_to_integer_atoi/string_to_integer_atoi.md",
@@ -238,8 +240,6 @@
     "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.md",
     "src/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree.excalidraw.md",
     "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.excalidraw.md",
-    "src/sliding_window_median/sliding_window_median.md",
-    "src/sliding_window_median/sliding_window_median.excalidraw.md",
-    "src/swim_in_rising_water/swim_in_rising_water.md"
+    "src/sliding_window_median/sliding_window_median.md"
   ]
 }
