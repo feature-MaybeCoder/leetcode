@@ -16,7 +16,7 @@ fn dfs(
         return cache[idx_1][idx_2].take().unwrap();
     }
     if str1[idx_1] == str2[idx_2] {
-        let mut res = dfs(idx_1 + 1, idx_2 + 1, str1, str2, cache);
+        let res = dfs(idx_1 + 1, idx_2 + 1, str1, str2, cache);
         let mut str = String::with_capacity(res.len() + 1);
         str.push(str1[idx_1]);
         str.push_str(res.as_str());
@@ -38,12 +38,53 @@ fn dfs(
     cache[idx_1][idx_2] = Some(str.clone());
     return str;
 }
-pub fn shortest_common_supersequence(str1: String, str2: String) -> String {
+pub fn shortest_common_supersequence_dfs(str1: String, str2: String) -> String {
     let str1: Vec<_> = str1.chars().collect();
     let str2: Vec<_> = str2.chars().collect();
     let mut cache: Cache = vec![vec![None; str2.len()]; str1.len()];
     let res = dfs(0, 0, &str1, &str2, &mut cache);
     return res;
+}
+pub fn shortest_common_supersequence(str1: String, str2: String) -> String {
+    let str1: Vec<_> = str1.chars().collect();
+    let str2: Vec<_> = str2.chars().collect();
+    let height = str1.len();
+    let width = str2.len();
+    let mut cache: Vec<Vec<Option<String>>> = vec![vec![None; width + 1]; height + 1];
+    for x in 0..height {
+        cache[x][width] = Some(str1[x..].iter().collect());
+    }
+    for y in 0..width {
+        cache[height][y] = Some(str2[y..].iter().collect());
+    }
+    cache[height][width] = Some(String::new());
+
+    for x in (0..height).rev() {
+        for y in (0..width).rev() {
+            if str1[x] == str2[y] {
+                let prev = cache[x+1][y+1].take().unwrap();
+                let mut str = String::with_capacity(prev.len() + 1);
+                str.push(str1[x]);
+                str.push_str(&prev);
+                cache[x][y] = Some(str);
+                continue;
+            }
+            let prev1 = cache[x][y+1].as_ref().unwrap();
+            let prev2 = cache[x+1][y].as_ref().unwrap();
+            if prev1.len() > prev2.len(){
+                let mut str = String::with_capacity(prev2.len()+1);
+                str.push(str1[x]);
+                str.push_str(prev2);
+                cache[x][y] = Some(str);
+                continue;
+            }
+            let mut str = String::with_capacity(prev1.len()+1);
+            str.push(str2[y]);
+            str.push_str(prev1);
+            cache[x][y] = Some(str);
+        }
+    }
+    return cache[0][0].take().unwrap();
 }
 #[cfg(test)]
 mod test {
