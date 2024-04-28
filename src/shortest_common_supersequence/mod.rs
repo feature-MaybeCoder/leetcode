@@ -50,41 +50,50 @@ pub fn shortest_common_supersequence(str1: String, str2: String) -> String {
     let str2: Vec<_> = str2.chars().collect();
     let height = str1.len();
     let width = str2.len();
-    let mut cache: Vec<Vec<Option<String>>> = vec![vec![None; width + 1]; height + 1];
-    for x in 0..height {
-        cache[x][width] = Some(str1[x..].iter().collect());
-    }
+    let mut dp: Vec<Vec<usize>> = vec![vec![0; width + 1]; height + 1];
     for y in 0..width {
-        cache[height][y] = Some(str2[y..].iter().collect());
+        dp[height][y] = width - y;
     }
-    cache[height][width] = Some(String::new());
-
+    for x in 0..height {
+        dp[x][width] = height - x;
+    }
     for x in (0..height).rev() {
         for y in (0..width).rev() {
             if str1[x] == str2[y] {
-                let prev = cache[x+1][y+1].take().unwrap();
-                let mut str = String::with_capacity(prev.len() + 1);
-                str.push(str1[x]);
-                str.push_str(&prev);
-                cache[x][y] = Some(str);
+                dp[x][y] = dp[x + 1][y + 1] + 1;
                 continue;
             }
-            let prev1 = cache[x][y+1].as_ref().unwrap();
-            let prev2 = cache[x+1][y].as_ref().unwrap();
-            if prev1.len() > prev2.len(){
-                let mut str = String::with_capacity(prev2.len()+1);
-                str.push(str1[x]);
-                str.push_str(prev2);
-                cache[x][y] = Some(str);
-                continue;
-            }
-            let mut str = String::with_capacity(prev1.len()+1);
-            str.push(str2[y]);
-            str.push_str(prev1);
-            cache[x][y] = Some(str);
+            dp[x][y] = dp[x][y + 1].min(dp[x + 1][y]) + 1;
         }
     }
-    return cache[0][0].take().unwrap();
+    let mut res = String::new();
+    let mut x = 0;
+    let mut y = 0;
+    while x < height && y < width {
+        if str1[x] == str2[y] {
+            res.push(str1[x]);
+            x += 1;
+            y += 1;
+            continue;
+        }
+        if dp[x][y + 1] > dp[x + 1][y] {
+            res.push(str1[x]);
+            x += 1;
+            continue;
+        }
+        res.push(str2[y]);
+        y += 1;
+    }
+    while x < height {
+        res.push(str1[x]);
+        x += 1;
+    }
+    while y < width {
+        res.push(str2[y]);
+        y += 1;
+    }
+
+    return res;
 }
 #[cfg(test)]
 mod test {
@@ -95,6 +104,20 @@ mod test {
         assert_eq!(
             shortest_common_supersequence("abac".to_string(), "cab".to_string()),
             "cabac"
+        );
+    }
+    #[test]
+    fn common_start_diff_end() {
+        assert_eq!(
+            shortest_common_supersequence("trpabacrand".to_string(), "trpcabtrp".to_string()),
+            "trpcabtacrapnd"
+        );
+    }
+    #[test]
+    fn revert_case() {
+        assert_eq!(
+            shortest_common_supersequence("baaacbcbc".to_string(), "bacbcaca".to_string()),
+            "baaacbcbaca"
         );
     }
 }
