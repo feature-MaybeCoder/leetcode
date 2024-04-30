@@ -1,9 +1,14 @@
 
 <%*
+let langs = ["rust", "go"]
+let lang = await tp.system.suggester((t) => t, langs, false, "[Select more tags (ESC when finished)]")
+if (!lang) {
+  lang = "rust"
+}
 const title = await tp.system.prompt("Set Folder name")
 const excalidrawTitle = title + ".excalidraw"
 
-const titleRelative = "src/" + title
+const titleRelative = lang + "/src/" + title;
 
 await this.app.vault.createFolder(titleRelative)
 
@@ -44,4 +49,3 @@ Tags: ${selectedTags.join(" ")}
 %>
 
 ## solution explanation:
-
