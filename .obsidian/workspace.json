@@ -11,10 +11,8 @@
             "id": "6056a6298a10e2f4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "src/longest_palindromic_substring/longest_palindromic_substring.excalidraw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/longest_palindromic_substring/longest_palindromic_substring.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/longest_palindromic_substring/longest_palindromic_substring.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/longest_palindromic_substring/longest_palindromic_substring.excalidraw.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,7 +149,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "src/longest_palindromic_substring/longest_palindromic_substring.excalidraw.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -205,17 +198,22 @@
   },
   "active": "6056a6298a10e2f4",
   "lastOpenFiles": [
+    "go/src/go_task/go_task.md",
+    "g/src/rekfmlrefke/rekfmlrefke.md",
+    "go/src/go_task/go_task.excalidraw.md",
+    "go/src/go_task",
+    "rust/src/some_new/some_new.md",
+    "g/src/rekfmlrefke/rekfmlrefke.excalidraw.md",
+    "g/src/rekfmlrefke",
+    "g/src",
+    "g",
+    "rust/src/some_new/some_new.excalidraw.md",
+    "rust/src/some_new",
     "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/yz9dptl251p2e7z.o",
     "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/work-products.bin",
     "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/w4ll3prl3bmu0xy.o",
     "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/vh2m4w14sw4gsil.o",
     "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/query-cache.bin",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/pzcqtv209ni7q47.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/naritft8og5966j.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/n9gph8fwxncziwm.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/juazevlu8wed470.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/jfc5zi3w23wabn5.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/jeubcnpgj931as2.o",
     "src/longest_palindromic_substring/longest_palindromic_substring.md",
     "src/shortest_common_supersequence/shortest_common_supersequence.excalidraw.md",
     "src/longest_palindromic_substring/longest_palindromic_substring.excalidraw.md",
@@ -235,11 +233,6 @@
     "src/last_stone_weight_ii/last_stone_weight_ii.excalidraw.md",
     "src/ones_and_zeroes/ones_and_zeroes.excalidraw.md",
     "src/target_sum/target_sum.excalidraw.md",
-    "src/target_sum/target_sum.md",
-    "src/partition_equal_subset_sum/partition_equal_subset_sum.excalidraw.md",
-    "src/partition_equal_subset_sum/partition_equal_subset_sum.md",
-    "src/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree.md",
-    "src/min_cost_to_connect_all_points/min_cost_to_connect_all_points.md",
-    "src/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree/find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree.excalidraw.md"
+    "src/target_sum/target_sum.md"
   ]
 }
