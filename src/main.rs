@@ -1,3 +1,3 @@
-mod shortest_common_supersequence;
+mod longest_palindromic_substring;
 mod test_helpers;
 fn main() {}
