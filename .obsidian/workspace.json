@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust/src/01-matrix/01-matrix.excalidraw.md",
+                "file": "Templates/rustSubmission.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust/src/01-matrix/01-matrix.excalidraw.md",
+                "file": "Templates/rustSubmission.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust/src/01-matrix/01-matrix.excalidraw.md",
+                "file": "Templates/rustSubmission.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust/src/01-matrix/01-matrix.excalidraw.md"
+                "file": "Templates/rustSubmission.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "rust/src/01-matrix/01-matrix.excalidraw.md",
+                "file": "Templates/rustSubmission.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,41 +207,40 @@
   },
   "active": "6056a6298a10e2f4",
   "lastOpenFiles": [
+    "rust/src/rust_template/rust_template.md",
+    "Templates/rustSubmission.md",
+    "rust/src/rust_template/mod.rs",
+    "rust/src/rust_template/rust_template.excalidraw.md",
+    "rust/src/rust_template",
+    "rust/src/rust_try/rust_try.md",
+    "rust/src/rust_try/mod.rs",
+    "rust/src/rust_try/rust_try.excalidraw.md",
+    "rust/src/rust_try",
+    "rust/src/rust_try/mod.rust",
+    "Templates/goSubmission.md",
+    "go/src/try/try.md",
+    "go/src/try/try_test.go",
+    "go/src/try/try.go",
+    "go/src/try/try.excalidraw.md",
+    "go/src/try",
+    "go/src/try.go",
+    "go/src/null",
+    "go/src/rfwefew/rfwefew.md",
+    "go/src/flatten_nested_list_iterator/flatten_nested_list_iterator.md",
+    "go/src/flatten_nested_list_iterator/flatten_nested_list_iterator.excalidraw.md",
+    "rust/src/accounts-merge/accounts-merge.excalidraw.md",
+    "rust/src/accounts-merge/accounts-merge.md",
+    "rust/src/01-matrix/01-matrix.excalidraw.md",
+    "rust/src/01-matrix/01-matrix.md",
     "go/src/go_task/go_task.md",
     "g/src/rekfmlrefke/rekfmlrefke.md",
     "go/src/go_task/go_task.excalidraw.md",
-    "go/src/go_task",
     "rust/src/some_new/some_new.md",
     "g/src/rekfmlrefke/rekfmlrefke.excalidraw.md",
-    "g/src/rekfmlrefke",
-    "g/src",
-    "g",
     "rust/src/some_new/some_new.excalidraw.md",
-    "rust/src/some_new",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/yz9dptl251p2e7z.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/work-products.bin",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/w4ll3prl3bmu0xy.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/vh2m4w14sw4gsil.o",
-    "target/debug/incremental/leetcode-1c6piyzrn3ecv/s-gvqbp5p5xu-qvvzwi-9pgkc3eg1qix29w3xix1ev788/query-cache.bin",
     "src/longest_palindromic_substring/longest_palindromic_substring.md",
     "src/shortest_common_supersequence/shortest_common_supersequence.excalidraw.md",
     "src/longest_palindromic_substring/longest_palindromic_substring.excalidraw.md",
-    "src/shortest_common_supersequence/shortest_common_supersequence.md",
-    "src/distinct_subsequences/distinct_subsequences.excalidraw.md",
-    "src/distinct_subsequences/distinct_subsequences.md",
-    "src/longest_common_subsequence/longest_common_subsequence.md",
-    "src/longest_common_subsequence/longest_common_subsequence.excalidraw.md",
-    "src/string_to_integer_atoi/string_to_integer_atoi.excalidraw.md",
-    "src/string_to_integer_atoi/string_to_integer_atoi.md",
-    "src/coin_change_ii/coin_change_ii.excalidraw.md",
-    "src/coin_change_ii/coin_change_ii.md",
-    "src/minimum_cost_for_tickets/minimum_cost_for_tickets.excalidraw.md",
-    "src/minimum_cost_for_tickets/minimum_cost_for_tickets.md",
-    "src/last_stone_weight_ii/last_stone_weight_ii.md",
-    "src/ones_and_zeroes/ones_and_zeroes.md",
-    "src/last_stone_weight_ii/last_stone_weight_ii.excalidraw.md",
-    "src/ones_and_zeroes/ones_and_zeroes.excalidraw.md",
-    "src/target_sum/target_sum.excalidraw.md",
-    "src/target_sum/target_sum.md"
+    "src/shortest_common_supersequence/shortest_common_supersequence.md"
   ]
 }

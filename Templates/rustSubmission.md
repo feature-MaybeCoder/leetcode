@@ -1,23 +1,35 @@
 
 <%*
-let langs = ["rust", "go"]
-let lang = await tp.system.suggester((t) => t, langs, false, "[Select more tags (ESC when finished)]")
-if (!lang) {
-  lang = "rust"
-}
 const title = await tp.system.prompt("Set Folder name")
-const excalidrawTitle = title + ".excalidraw"
+const excalidrawName = title + ".excalidraw"
+const rustFileName = "mod.rs"
+const titleRelative = "rust/" + "src/" + title;
 
-const titleRelative = lang + "/src/" + title;
+
 
 await this.app.vault.createFolder(titleRelative)
-
 const folder = await app.vault.getAbstractFileByPath(titleRelative)
 await tp.file.rename(title)
 await tp.file.move(titleRelative + "/" + title)
+tp.file.create_new(tp.file.find_tfile("leetcodeDraw.excalidraw"), excalidrawName, false, folder)
 
-tp.file.create_new(tp.file.find_tfile("leetcodeDraw.excalidraw"), excalidrawTitle, false, folder)
+function rustFileTemplate(name){
+return `
+pub fn ${name}(){
 
+}
+#[cfg(test)]
+mod test {
+    use super::${name};
+
+    #[test]
+    fn base_case() {
+        assert_eq!(${name}(), 0);
+    }
+}
+`
+}
+await this.app.vault.create(titleRelative  + "/"+ rustFileName, rustFileTemplate(title))
 
 const allTags = Object.entries(app.metadataCache.getTags() )
    .sort( (a, b) => a[0].localeCompare(b[0]) ) // Sorted alphabetically
