@@ -1,28 +1,28 @@
-package palindromicSubstrings
+package palindromic_substrings
+func countSubstrings(s string) int{
+	sLen := len(s)
+	// iach charateer is palindrom so we init counter with len
+	amount := sLen
 
-func isPalindrom(s *string) bool {
-	start := 0
-	end := len(s)-1
-	for start < end {
-		if s[start] != s[end] {
-			return false
+	for i := 0; i < sLen; i++ {
+		// we dont need to check each charecter so we can safe one iteration on each step
+		left := i-1;
+		right := i+1;
+		for left >= 0 && right < sLen	&& s[left] == s[right]{
+			amount+=1;
+			left-=1
+			right+=1
 		}
-		start += 1
-		end -= 1
-	}
-	return true
-}
-func countSubstrings(s string) int {
-	num := 0
+		left = i
+		right = i +1
+		for left >= 0 && right < sLen && s[left] == s[right]{
+			amount+=1
+			left-=1
+			right+=1
 
-	for i := 0; i < len(s); i++ {
-		s_l := len(s) - i
-		for j := 0; j + s_l <= len(s); j++ {
-			if (isPalindrom(&s[j:j+s_l])){
-				num+=1
-			}
 		}
 	}
 
-	return num
+	return amount
 }
+

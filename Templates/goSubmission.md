@@ -43,7 +43,7 @@ func TestSolution(t *testing.T) {
         t.Run(tt.name, func(t *testing.T) {
             got := ${name}()
             if !reflect.DeepEqual(got, tt.want) {
-                t.Errorf("${name}$() = %v, want %v", got, tt.want)
+                t.Errorf("${name}() = %v, want %v", got, tt.want)
             }
         })
     }
@@ -83,4 +83,26 @@ Tags: ${selectedTags.join(" ")}
 `
 %>
 
-## solution explanation:
+# Intuition
+
+<!-- Describe your first thoughts on how to solve this problem. -->
+
+  
+
+# Approach
+
+<!-- Describe your approach to solving the problem. -->
+
+  
+
+# Complexity
+
+- Time complexity:
+
+ $$O(n)$$
+
+  
+
+- Space complexity:
+
+$$O(n)$$
