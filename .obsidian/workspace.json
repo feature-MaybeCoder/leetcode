@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/src/palindromic_substrings/palindromic_substrings.md",
+                "file": "Templates/goSubmission.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#matrix",
+                "query": "tag:#subsequence",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go/src/palindromic_substrings/palindromic_substrings.md",
+                "file": "Templates/goSubmission.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "go/src/palindromic_substrings/palindromic_substrings.md",
+                "file": "Templates/goSubmission.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go/src/palindromic_substrings/palindromic_substrings.md"
+                "file": "Templates/goSubmission.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "go/src/palindromic_substrings/palindromic_substrings.md",
+                "file": "Templates/goSubmission.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,9 +207,20 @@
   },
   "active": "6056a6298a10e2f4",
   "lastOpenFiles": [
-    "go/src/palindromic_substrings/palindromic_substrings.excalidraw.md",
-    "go/src/palindromic_substrings/palindromic_substrings.md",
+    "go/src/try/try.md",
     "Templates/goSubmission.md",
+    "go/src/try/try_test.go",
+    "go/src/try/try.go",
+    "go/src/try/try.excalidraw.md",
+    "go/src/try",
+    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.md",
+    "rust/src/shortest_common_supersequence/shortest_common_supersequence.md",
+    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.excalidraw.md",
+    "go/src/palindromic_substrings/palindromic_substrings.md",
+    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence_test.go",
+    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.go",
+    "go/src/longest_palindromic_subsequence",
+    "go/src/palindromic_substrings/palindromic_substrings.excalidraw.md",
     "Templates/rustSubmission.md",
     "go/src/palindromic_substrings/palindromic_substrings_test.go",
     "go/src/palindromic_substrings/palindromic_substrings.go",
@@ -217,16 +228,8 @@
     "rust/src/rust_template/rust_template.md",
     "rust/src/rust_template/mod.rs",
     "rust/src/rust_template/rust_template.excalidraw.md",
-    "rust/src/rust_template",
     "rust/src/rust_try/rust_try.md",
-    "rust/src/rust_try/mod.rs",
     "rust/src/rust_try/rust_try.excalidraw.md",
-    "rust/src/rust_try",
-    "rust/src/rust_try/mod.rust",
-    "go/src/try/try.md",
-    "go/src/try/try_test.go",
-    "go/src/try/try.go",
-    "go/src/try/try.excalidraw.md",
     "go/src/rfwefew/rfwefew.md",
     "go/src/flatten_nested_list_iterator/flatten_nested_list_iterator.md",
     "go/src/flatten_nested_list_iterator/flatten_nested_list_iterator.excalidraw.md",
@@ -237,10 +240,6 @@
     "go/src/go_task/go_task.md",
     "g/src/rekfmlrefke/rekfmlrefke.md",
     "go/src/go_task/go_task.excalidraw.md",
-    "rust/src/some_new/some_new.md",
-    "g/src/rekfmlrefke/rekfmlrefke.excalidraw.md",
-    "rust/src/some_new/some_new.excalidraw.md",
-    "src/longest_palindromic_substring/longest_palindromic_substring.md",
-    "src/shortest_common_supersequence/shortest_common_supersequence.excalidraw.md"
+    "rust/src/some_new/some_new.md"
   ]
 }

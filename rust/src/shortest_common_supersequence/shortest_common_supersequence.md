@@ -2,7 +2,7 @@
 
 ----
 
-Tags: #leetcode #dp #hard #lcs #subsequance #depth-first-search
+Tags: #leetcode #dp #hard #lcs #subsequence #depth-first-search
 
 ----
 
