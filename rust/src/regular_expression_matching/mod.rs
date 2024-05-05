@@ -129,4 +129,8 @@ mod test {
     fn many_remain_case() {
         assert_eq!(is_match("aa".to_string(), "aab*".to_string()), true);
     }
+    #[test]
+    fn large_case() {
+        assert_eq!(is_match("aaewfewpfkewofkwepfepwofkewpofkewofwepofkwefew".to_string(), "*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*.*.*.*.*.*.*.*.*.*.*.*.*".to_string()), true);
+    }
 }
