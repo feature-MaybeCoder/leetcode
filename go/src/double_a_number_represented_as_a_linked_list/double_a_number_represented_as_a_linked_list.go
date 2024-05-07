@@ -4,24 +4,6 @@ type ListNode struct {
 	Val  int
 	Next *ListNode
 }
-func dfs(head *ListNode) int {
-	if head == nil{
-		return 0
-	}
-
-	new_val := head.Val *2 + dfs(head.Next)
-	if new_val >= 10{
-		ones := 0
-		for new_val >= 10{
-			ones += 1
-			new_val -= 10
-		}
-		head.Val = new_val
-		return ones
-	}
-	head.Val = new_val
-	return 0
-}
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -29,13 +11,18 @@ func dfs(head *ListNode) int {
  *     Next *ListNode
  * }
  */
-func doubleIt(head *ListNode) *ListNode {
-	ret := dfs(head)
-	if ret > 0 {
-		return &ListNode{
-			Val: ret,
-			Next: head,
+ func doubleIt(head *ListNode) *ListNode {
+	if head !=nil && head.Val > 4{
+          head = &ListNode{
+              Val: 0,
+              Next: head,
+          }
+      }
+	for cur := head; cur != nil; cur = cur.Next{
+		cur.Val = cur.Val *2 %10
+		if cur.Next != nil && cur.Next.Val > 4{
+			cur.Val +=1
 		}
-	}
+     }
 	return head
-}
+  }

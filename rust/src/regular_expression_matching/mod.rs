@@ -6,7 +6,7 @@ enum Matches {
     ManyAnyChar,
     AnyChar,
 }
-type Cache = [[Option<bool>; 21]; 21];
+type Cache = Vec<Vec<Option<bool>>>;
 fn dfs(
     s_char: &Vec<char>,
     mut s_idx: usize,
@@ -92,7 +92,7 @@ pub fn is_match(s: String, p: String) -> bool {
     }
     stack = stack.into_iter().rev().collect();
     let chars: Vec<char> = s.chars().collect();
-    let mut cache: Cache = [[None; 21]; 21];
+    let mut cache: Cache = vec![vec![None; stack.len() +1]; chars.len()+1];
     return dfs(&chars, 0, &stack, 0, &mut cache);
 }
 #[cfg(test)]
@@ -131,6 +131,6 @@ mod test {
     }
     #[test]
     fn large_case() {
-        assert_eq!(is_match("aaewfewpfkewofkwepfepwofkewpofkewofwepofkwefew".to_string(), "*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*.*.*.*.*.*.*.*.*.*.*.*.*".to_string()), true);
+        assert_eq!(is_match("aaewfewpfkewofkwepfepwofkewpofkewofwepofkwefew".to_string(), "a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*.*.*.*.*.*.*.*.*.*.*.*.*".to_string()), true);
     }
 }

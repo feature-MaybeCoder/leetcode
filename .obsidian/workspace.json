@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/src/boats_to_save_people/boats_to_save_people.md",
+                "file": "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go/src/boats_to_save_people/boats_to_save_people.md",
+                "file": "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "go/src/boats_to_save_people/boats_to_save_people.md",
+                "file": "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go/src/boats_to_save_people/boats_to_save_people.md"
+                "file": "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "go/src/boats_to_save_people/boats_to_save_people.md",
+                "file": "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,27 +207,32 @@
   },
   "active": "6056a6298a10e2f4",
   "lastOpenFiles": [
+    "README.md",
+    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.excalidraw.md",
+    "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list_test.go",
+    "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.go",
+    "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.excalidraw.md",
+    "go/src/double_a_number_represented_as_a_linked_list",
+    "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md",
+    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.md",
+    "rust/src/regular_expression_matching/regular_expression_matching.md",
+    "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gvvtlgdkpy-140vyer-avx167glctl9bafsgagpbngf3/work-products.bin",
+    "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gvvtlgdkpy-140vyer-avx167glctl9bafsgagpbngf3/query-cache.bin",
+    "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gvvtlgdkpy-140vyer-avx167glctl9bafsgagpbngf3/dep-graph.bin",
+    "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gvvtlgdkpy-140vyer-avx167glctl9bafsgagpbngf3",
+    "rust/target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvvtlgdj9h-1m13912-b06g9gtnts9w52mhjil7fybhv/work-products.bin",
+    "rust/target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvvtlgdj9h-1m13912-b06g9gtnts9w52mhjil7fybhv/query-cache.bin",
+    "rust/target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvvtlgdj9h-1m13912-b06g9gtnts9w52mhjil7fybhv/dep-graph.bin",
+    "Templates/rustSubmission.md",
+    "rust/src/regular_expression_matching/regular_expression_matching.excalidraw.md",
     "Templates/goSubmission.md",
-    "go/src/boats_to_save_people/boats_to_save_people_test.go",
-    "go/src/boats_to_save_people/boats_to_save_people.go",
     "go/src/boats_to_save_people/boats_to_save_people.excalidraw.md",
-    "go/src/boats_to_save_people",
     "go/src/boats_to_save_people/boats_to_save_people.md",
     "go/src/try/try.md",
-    "go/src/try/try_test.go",
-    "go/src/try/try.go",
     "go/src/try/try.excalidraw.md",
-    "go/src/try",
-    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.md",
     "rust/src/shortest_common_supersequence/shortest_common_supersequence.md",
-    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.excalidraw.md",
     "go/src/palindromic_substrings/palindromic_substrings.md",
-    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence_test.go",
-    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.go",
-    "go/src/longest_palindromic_subsequence",
     "go/src/palindromic_substrings/palindromic_substrings.excalidraw.md",
-    "Templates/rustSubmission.md",
-    "go/src/palindromic_substrings/palindromic_substrings_test.go",
     "rust/src/rust_template/rust_template.md",
     "rust/src/rust_template/rust_template.excalidraw.md",
     "rust/src/rust_try/rust_try.md",
@@ -237,10 +242,6 @@
     "go/src/flatten_nested_list_iterator/flatten_nested_list_iterator.excalidraw.md",
     "rust/src/accounts-merge/accounts-merge.excalidraw.md",
     "rust/src/accounts-merge/accounts-merge.md",
-    "rust/src/01-matrix/01-matrix.excalidraw.md",
-    "rust/src/01-matrix/01-matrix.md",
-    "go/src/go_task/go_task.md",
-    "g/src/rekfmlrefke/rekfmlrefke.md",
-    "go/src/go_task/go_task.excalidraw.md"
+    "rust/src/01-matrix/01-matrix.excalidraw.md"
   ]
 }
