@@ -1,4 +1,4 @@
-package longest_palindromic_subsequence
+package leetcode
 
 import (
 	"reflect"

@@ -1,4 +1,4 @@
-package palindromic_substrings
+package leetcode
 func countSubstrings(s string) int{
 	sLen := len(s)
 	// iach charateer is palindrom so we init counter with len

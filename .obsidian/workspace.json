@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md",
+                "file": "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md",
+                "file": "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md",
+                "file": "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md"
+                "file": "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md",
+                "file": "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,22 +207,32 @@
   },
   "active": "6056a6298a10e2f4",
   "lastOpenFiles": [
+    "go/src/score_after_flipping_matrix/score_after_flipping_matrix.excalidraw.md",
+    "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
+    "rust/src/reconstruct_itinerary/reconstruct_itinerary.md",
+    "go/src/score_after_flipping_matrix/score_after_flipping_matrix_test.go",
+    "go/src/score_after_flipping_matrix/score_after_flipping_matrix.go",
+    "go/src/score_after_flipping_matrix",
+    "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gw3dfl6dj8-yjnjtd-aqtt93nn4nvj83z3i6fi4hacn/work-products.bin",
+    "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gw3dfl6dj8-yjnjtd-aqtt93nn4nvj83z3i6fi4hacn/query-cache.bin",
+    "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gw3dfl6dj8-yjnjtd-aqtt93nn4nvj83z3i6fi4hacn/dep-graph.bin",
+    "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gw3dfl6dj8-yjnjtd-aqtt93nn4nvj83z3i6fi4hacn",
+    "rust/target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gw3dfl6dtq-1rn41v3-dx9bkmzru7hrd25mqzt7vmxel/work-products.bin",
+    "rust/target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gw3dfl6dtq-1rn41v3-dx9bkmzru7hrd25mqzt7vmxel/query-cache.bin",
+    "rust/target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gw3dfl6dtq-1rn41v3-dx9bkmzru7hrd25mqzt7vmxel/dep-graph.bin",
+    "rust/src/largest_local_values_in_a_matrix/largest_local_values_in_a_matrix.md",
+    "rust/src/largest_local_values_in_a_matrix/largest_local_values_in_a_matrix.excalidraw.md",
+    "go/src/maximize_happiness_of_selected_children/maximize_happiness_of_selected_children.md",
+    "rust/src/reconstruct_itinerary/reconstruct_itinerary.excalidraw.md",
+    "go/src/get_watched_videos_by_your_friends/get_watched_videos_by_your_friends.md",
+    "go/src/maximize_happiness_of_selected_children/maximize_happiness_of_selected_children.excalidraw.md",
+    "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md",
+    "go/src/get_watched_videos_by_your_friends/get_watched_videos_by_your_friends.excalidraw.md",
     "README.md",
     "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.excalidraw.md",
-    "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list_test.go",
-    "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.go",
     "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.excalidraw.md",
-    "go/src/double_a_number_represented_as_a_linked_list",
-    "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md",
     "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.md",
     "rust/src/regular_expression_matching/regular_expression_matching.md",
-    "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gvvtlgdkpy-140vyer-avx167glctl9bafsgagpbngf3/work-products.bin",
-    "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gvvtlgdkpy-140vyer-avx167glctl9bafsgagpbngf3/query-cache.bin",
-    "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gvvtlgdkpy-140vyer-avx167glctl9bafsgagpbngf3/dep-graph.bin",
-    "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gvvtlgdkpy-140vyer-avx167glctl9bafsgagpbngf3",
-    "rust/target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvvtlgdj9h-1m13912-b06g9gtnts9w52mhjil7fybhv/work-products.bin",
-    "rust/target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvvtlgdj9h-1m13912-b06g9gtnts9w52mhjil7fybhv/query-cache.bin",
-    "rust/target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gvvtlgdj9h-1m13912-b06g9gtnts9w52mhjil7fybhv/dep-graph.bin",
     "Templates/rustSubmission.md",
     "rust/src/regular_expression_matching/regular_expression_matching.excalidraw.md",
     "Templates/goSubmission.md",
@@ -231,17 +241,6 @@
     "go/src/try/try.md",
     "go/src/try/try.excalidraw.md",
     "rust/src/shortest_common_supersequence/shortest_common_supersequence.md",
-    "go/src/palindromic_substrings/palindromic_substrings.md",
-    "go/src/palindromic_substrings/palindromic_substrings.excalidraw.md",
-    "rust/src/rust_template/rust_template.md",
-    "rust/src/rust_template/rust_template.excalidraw.md",
-    "rust/src/rust_try/rust_try.md",
-    "rust/src/rust_try/rust_try.excalidraw.md",
-    "go/src/rfwefew/rfwefew.md",
-    "go/src/flatten_nested_list_iterator/flatten_nested_list_iterator.md",
-    "go/src/flatten_nested_list_iterator/flatten_nested_list_iterator.excalidraw.md",
-    "rust/src/accounts-merge/accounts-merge.excalidraw.md",
-    "rust/src/accounts-merge/accounts-merge.md",
-    "rust/src/01-matrix/01-matrix.excalidraw.md"
+    "go/src/palindromic_substrings/palindromic_substrings.md"
   ]
 }

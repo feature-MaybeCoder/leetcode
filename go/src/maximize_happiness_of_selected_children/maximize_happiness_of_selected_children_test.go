@@ -1,4 +1,4 @@
-package maximize_happiness_of_selected_children
+package leetcode
 
 import (
 	"reflect"

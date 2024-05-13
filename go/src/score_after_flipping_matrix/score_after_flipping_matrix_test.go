@@ -8,20 +8,20 @@ import (
 func TestSolution(t *testing.T) {
     tests := []struct {
         name   string
-        nums   []int
-        target int
-        want   []int
+        arg1 [][]int
+		
+        want int
     }{
-        {"basic case", []int{2, 7, 11, 15}, 9, []int{0, 1}},
+        {"base case", [][]int{{0,0,1,1},{1,0,1,0},{1,1,0,0}}, 39},
     }
 
     for _, tt := range tests {
-
         t.Run(tt.name, func(t *testing.T) {
-            got := twoSum(tt.nums, tt.target)
+            got := matrixScore(tt.arg1)
             if !reflect.DeepEqual(got, tt.want) {
-                t.Errorf("twoSum(%v, %v) = %v, want %v", tt.nums, tt.target, got, tt.want)
+                t.Errorf("score_after_flipping_matrix(%v) = %v, want %v", tt.arg1, got, tt.want)
             }
         })
     }
     }
+

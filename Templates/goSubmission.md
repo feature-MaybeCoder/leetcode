@@ -58,7 +58,7 @@ function genTestArgs(amount){
 }
 function goFileTemplate(name, argsAmount){
 
-return `package ${name}
+return `package leetcode
 func ${name}(${genArgs(argsAmount)}){
 
 }
@@ -66,7 +66,7 @@ func ${name}(${genArgs(argsAmount)}){
 `
 }
 function goFileTestTemplate(name, argsAmount){
-return `package ${name}
+return `package leetcode
 
 import (
 	"reflect"

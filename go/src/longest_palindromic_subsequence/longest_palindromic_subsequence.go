@@ -1,4 +1,4 @@
-package longest_palindromic_subsequence
+package leetcode
 func Max(x, y int) int {
  if x > y {
    return x

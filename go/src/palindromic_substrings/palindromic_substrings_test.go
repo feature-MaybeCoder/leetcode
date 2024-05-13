@@ -1,4 +1,4 @@
-package palindromic_substrings
+package leetcode
 
 import (
 	"reflect"
