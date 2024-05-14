@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
+                "file": "go/src/path_with_maximum_gold/path_with_maximum_gold.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
+                "file": "go/src/path_with_maximum_gold/path_with_maximum_gold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
+                "file": "go/src/path_with_maximum_gold/path_with_maximum_gold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md"
+                "file": "go/src/path_with_maximum_gold/path_with_maximum_gold.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
+                "file": "go/src/path_with_maximum_gold/path_with_maximum_gold.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,8 +207,13 @@
   },
   "active": "6056a6298a10e2f4",
   "lastOpenFiles": [
-    "go/src/score_after_flipping_matrix/score_after_flipping_matrix.excalidraw.md",
     "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
+    "go/src/path_with_maximum_gold/path_with_maximum_gold_test.go",
+    "go/src/path_with_maximum_gold/path_with_maximum_gold.go",
+    "go/src/path_with_maximum_gold/path_with_maximum_gold.excalidraw.md",
+    "go/src/path_with_maximum_gold",
+    "go/src/path_with_maximum_gold/path_with_maximum_gold.md",
+    "go/src/score_after_flipping_matrix/score_after_flipping_matrix.excalidraw.md",
     "rust/src/reconstruct_itinerary/reconstruct_itinerary.md",
     "go/src/score_after_flipping_matrix/score_after_flipping_matrix_test.go",
     "go/src/score_after_flipping_matrix/score_after_flipping_matrix.go",
@@ -217,9 +222,6 @@
     "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gw3dfl6dj8-yjnjtd-aqtt93nn4nvj83z3i6fi4hacn/query-cache.bin",
     "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gw3dfl6dj8-yjnjtd-aqtt93nn4nvj83z3i6fi4hacn/dep-graph.bin",
     "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gw3dfl6dj8-yjnjtd-aqtt93nn4nvj83z3i6fi4hacn",
-    "rust/target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gw3dfl6dtq-1rn41v3-dx9bkmzru7hrd25mqzt7vmxel/work-products.bin",
-    "rust/target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gw3dfl6dtq-1rn41v3-dx9bkmzru7hrd25mqzt7vmxel/query-cache.bin",
-    "rust/target/debug/incremental/leetcode-1gp7hj9zgk43a/s-gw3dfl6dtq-1rn41v3-dx9bkmzru7hrd25mqzt7vmxel/dep-graph.bin",
     "rust/src/largest_local_values_in_a_matrix/largest_local_values_in_a_matrix.md",
     "rust/src/largest_local_values_in_a_matrix/largest_local_values_in_a_matrix.excalidraw.md",
     "go/src/maximize_happiness_of_selected_children/maximize_happiness_of_selected_children.md",
@@ -239,8 +241,6 @@
     "go/src/boats_to_save_people/boats_to_save_people.excalidraw.md",
     "go/src/boats_to_save_people/boats_to_save_people.md",
     "go/src/try/try.md",
-    "go/src/try/try.excalidraw.md",
-    "rust/src/shortest_common_supersequence/shortest_common_supersequence.md",
-    "go/src/palindromic_substrings/palindromic_substrings.md"
+    "go/src/try/try.excalidraw.md"
   ]
 }
