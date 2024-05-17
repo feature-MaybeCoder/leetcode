@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aa2459df52c6a5d8",
+        "id": "391b721d4b61d606",
         "type": "tabs",
         "children": [
           {
-            "id": "6056a6298a10e2f4",
+            "id": "76ec5c8745c77763",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.md",
+                "file": "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.md",
+                "file": "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.md",
+                "file": "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.md"
+                "file": "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.md",
+                "file": "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -205,14 +205,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6056a6298a10e2f4",
+  "active": "76ec5c8745c77763",
   "lastOpenFiles": [
+    "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.excalidraw.md",
+    "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md",
+    "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.md",
+    "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value_test.go",
+    "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.go",
+    "go/src/delete_leaves_with_a_given_value",
     "go/src/path_with_maximum_gold/path_with_maximum_gold.md",
     "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid_test.go",
     "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.go",
     "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.excalidraw.md",
     "go/src/find_the_safest_path_in_a_grid",
-    "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.md",
     "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
     "go/src/path_with_maximum_gold/path_with_maximum_gold_test.go",
     "go/src/path_with_maximum_gold/path_with_maximum_gold.go",
@@ -221,9 +226,6 @@
     "go/src/score_after_flipping_matrix/score_after_flipping_matrix.excalidraw.md",
     "rust/src/reconstruct_itinerary/reconstruct_itinerary.md",
     "go/src/score_after_flipping_matrix/score_after_flipping_matrix_test.go",
-    "go/src/score_after_flipping_matrix/score_after_flipping_matrix.go",
-    "go/src/score_after_flipping_matrix",
-    "rust/target/debug/incremental/leetcode-10del9z2dcrp0/s-gw3dfl6dj8-yjnjtd-aqtt93nn4nvj83z3i6fi4hacn/work-products.bin",
     "rust/src/largest_local_values_in_a_matrix/largest_local_values_in_a_matrix.md",
     "rust/src/largest_local_values_in_a_matrix/largest_local_values_in_a_matrix.excalidraw.md",
     "go/src/maximize_happiness_of_selected_children/maximize_happiness_of_selected_children.md",
@@ -239,8 +241,6 @@
     "rust/src/regular_expression_matching/regular_expression_matching.md",
     "Templates/rustSubmission.md",
     "rust/src/regular_expression_matching/regular_expression_matching.excalidraw.md",
-    "Templates/goSubmission.md",
-    "go/src/boats_to_save_people/boats_to_save_people.excalidraw.md",
-    "go/src/boats_to_save_people/boats_to_save_people.md"
+    "Templates/goSubmission.md"
   ]
 }
