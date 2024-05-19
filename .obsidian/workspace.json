@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md",
+                "file": "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md",
+                "file": "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md",
+                "file": "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md"
+                "file": "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md",
+                "file": "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -205,10 +205,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e4c433b66891c2a4",
+  "active": "76ec5c8745c77763",
   "lastOpenFiles": [
-    "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.excalidraw.md",
     "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md",
+    "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes_test.go",
+    "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.go",
+    "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.excalidraw.md",
+    "go/src/validate_binary_tree_nodes",
+    "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.md",
+    "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.excalidraw.md",
     "go/src/distribute_coins_in_binary_tree/distribute_coins_in_binary_tree.md",
     "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values_test.go",
     "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.go",
@@ -221,10 +226,7 @@
     "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.excalidraw.md",
     "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.md",
     "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value_test.go",
-    "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.go",
-    "go/src/delete_leaves_with_a_given_value",
     "go/src/path_with_maximum_gold/path_with_maximum_gold.md",
-    "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid_test.go",
     "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.excalidraw.md",
     "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
     "go/src/path_with_maximum_gold/path_with_maximum_gold.excalidraw.md",
@@ -239,8 +241,6 @@
     "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.md",
     "go/src/get_watched_videos_by_your_friends/get_watched_videos_by_your_friends.excalidraw.md",
     "README.md",
-    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.excalidraw.md",
-    "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.excalidraw.md",
-    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.md"
+    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.excalidraw.md"
   ]
 }
