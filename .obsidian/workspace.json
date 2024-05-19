@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md",
+                "file": "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 527.5
   },
   "right": {
     "id": "98633b25d0fad17d",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md",
+                "file": "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md",
+                "file": "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md"
+                "file": "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md",
+                "file": "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -205,27 +205,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "76ec5c8745c77763",
+  "active": "e4c433b66891c2a4",
   "lastOpenFiles": [
-    "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.excalidraw.md",
+    "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.excalidraw.md",
+    "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md",
+    "go/src/distribute_coins_in_binary_tree/distribute_coins_in_binary_tree.md",
+    "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values_test.go",
+    "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.go",
+    "go/src/find_the_maximum_sum_of_node_values",
     "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md",
+    "go/src/distribute_coins_in_binary_tree/distribute_coins_in_binary_tree_test.go",
+    "go/src/distribute_coins_in_binary_tree/distribute_coins_in_binary_tree.go",
+    "go/src/distribute_coins_in_binary_tree/distribute_coins_in_binary_tree.excalidraw.md",
+    "go/src/distribute_coins_in_binary_tree",
+    "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.excalidraw.md",
     "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.md",
     "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value_test.go",
     "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.go",
     "go/src/delete_leaves_with_a_given_value",
     "go/src/path_with_maximum_gold/path_with_maximum_gold.md",
     "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid_test.go",
-    "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.go",
     "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.excalidraw.md",
-    "go/src/find_the_safest_path_in_a_grid",
     "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
-    "go/src/path_with_maximum_gold/path_with_maximum_gold_test.go",
-    "go/src/path_with_maximum_gold/path_with_maximum_gold.go",
     "go/src/path_with_maximum_gold/path_with_maximum_gold.excalidraw.md",
-    "go/src/path_with_maximum_gold",
     "go/src/score_after_flipping_matrix/score_after_flipping_matrix.excalidraw.md",
     "rust/src/reconstruct_itinerary/reconstruct_itinerary.md",
-    "go/src/score_after_flipping_matrix/score_after_flipping_matrix_test.go",
     "rust/src/largest_local_values_in_a_matrix/largest_local_values_in_a_matrix.md",
     "rust/src/largest_local_values_in_a_matrix/largest_local_values_in_a_matrix.excalidraw.md",
     "go/src/maximize_happiness_of_selected_children/maximize_happiness_of_selected_children.md",
@@ -237,10 +241,6 @@
     "README.md",
     "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.excalidraw.md",
     "go/src/double_a_number_represented_as_a_linked_list/double_a_number_represented_as_a_linked_list.excalidraw.md",
-    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.md",
-    "rust/src/regular_expression_matching/regular_expression_matching.md",
-    "Templates/rustSubmission.md",
-    "rust/src/regular_expression_matching/regular_expression_matching.excalidraw.md",
-    "Templates/goSubmission.md"
+    "go/src/longest_palindromic_subsequence/longest_palindromic_subsequence.md"
   ]
 }
