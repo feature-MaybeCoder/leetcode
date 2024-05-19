@@ -28,7 +28,7 @@ basic union find problem
 
 - Time complexity:
 
- $$O(N log *n)$$
+ $$O(n)$$
 
   
 
