@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "391b721d4b61d606",
+        "id": "571169e5fd46c377",
         "type": "tabs",
         "children": [
           {
-            "id": "76ec5c8745c77763",
+            "id": "9860c85420b3d0d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/src/the_number_of_beautiful_subsets/the_number_of_beautiful_subsets.md",
+                "file": "go/src/word_break_ii/word_break_ii.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go/src/the_number_of_beautiful_subsets/the_number_of_beautiful_subsets.md",
+                "file": "go/src/word_break_ii/word_break_ii.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "go/src/the_number_of_beautiful_subsets/the_number_of_beautiful_subsets.md",
+                "file": "go/src/word_break_ii/word_break_ii.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go/src/the_number_of_beautiful_subsets/the_number_of_beautiful_subsets.md"
+                "file": "go/src/word_break_ii/word_break_ii.md"
               }
             }
           },
@@ -158,7 +158,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "go/src/the_number_of_beautiful_subsets/the_number_of_beautiful_subsets.md",
+                "file": "go/src/word_break_ii/word_break_ii.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -206,27 +206,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "76ec5c8745c77763",
+  "active": "9860c85420b3d0d7",
   "lastOpenFiles": [
+    "go/src/maximum_score_words_formed_by_letters/maximum_score_words_formed_by_letters.md",
+    "go/src/word_break_ii/word_break_ii_test.go",
+    "go/src/word_break_ii/word_break_ii.go",
+    "go/src/word_break_ii/word_break_ii.excalidraw.md",
+    "go/src/word_break_ii",
+    "go/src/word_break_ii/word_break_ii.md",
+    "go/src/maximum_score_words_formed_by_letters/maximum_score_words_formed_by_letters_test.go",
+    "go/src/maximum_score_words_formed_by_letters/maximum_score_words_formed_by_letters.go",
+    "go/src/maximum_score_words_formed_by_letters/maximum_score_words_formed_by_letters.excalidraw.md",
+    "go/src/maximum_score_words_formed_by_letters",
+    "go/src/the_number_of_beautiful_subsets/the_number_of_beautiful_subsets.md",
     "go/src/palindrome_partitioning/palindrome_partitioning.md",
     "go/src/the_number_of_beautiful_subsets/the_number_of_beautiful_subsets_test.go",
     "go/src/the_number_of_beautiful_subsets/the_number_of_beautiful_subsets.go",
     "go/src/the_number_of_beautiful_subsets/the_number_of_beautiful_subsets.excalidraw.md",
     "go/src/the_number_of_beautiful_subsets",
-    "go/src/the_number_of_beautiful_subsets/the_number_of_beautiful_subsets.md",
     "go/src/palindrome_partitioning/palindrome_partitioning.excalidraw.md",
     "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.md",
     "go/src/palindrome_partitioning/palindrome_partitioning_test.go",
-    "go/src/palindrome_partitioning/palindrome_partitioning.go",
-    "go/src/palindrome_partitioning",
     "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md",
-    "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes_test.go",
-    "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.go",
     "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.excalidraw.md",
-    "go/src/validate_binary_tree_nodes",
     "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.excalidraw.md",
     "go/src/distribute_coins_in_binary_tree/distribute_coins_in_binary_tree.md",
-    "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values_test.go",
     "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md",
     "go/src/distribute_coins_in_binary_tree/distribute_coins_in_binary_tree.excalidraw.md",
     "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.excalidraw.md",
@@ -237,11 +241,6 @@
     "go/src/path_with_maximum_gold/path_with_maximum_gold.excalidraw.md",
     "go/src/score_after_flipping_matrix/score_after_flipping_matrix.excalidraw.md",
     "rust/src/reconstruct_itinerary/reconstruct_itinerary.md",
-    "rust/src/largest_local_values_in_a_matrix/largest_local_values_in_a_matrix.md",
-    "rust/src/largest_local_values_in_a_matrix/largest_local_values_in_a_matrix.excalidraw.md",
-    "go/src/maximize_happiness_of_selected_children/maximize_happiness_of_selected_children.md",
-    "rust/src/reconstruct_itinerary/reconstruct_itinerary.excalidraw.md",
-    "go/src/get_watched_videos_by_your_friends/get_watched_videos_by_your_friends.md",
-    "go/src/maximize_happiness_of_selected_children/maximize_happiness_of_selected_children.excalidraw.md"
+    "rust/src/largest_local_values_in_a_matrix/largest_local_values_in_a_matrix.md"
   ]
 }
