@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "571169e5fd46c377",
+        "id": "b91577f8b24111f9",
         "type": "tabs",
         "children": [
           {
-            "id": "9860c85420b3d0d7",
+            "id": "14b44421497b77fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "go/src/student_attendance_record_ii/student_attendance_record_ii.md",
-                "mode": "source",
-                "source": false
+                "file": "go/src/subarray_sums_divisible_by_k/subarray_sums_divisible_by_k.excalidraw.md"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go/src/student_attendance_record_ii/student_attendance_record_ii.md",
+                "file": "go/src/subarray_sums_divisible_by_k/subarray_sums_divisible_by_k.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "go/src/student_attendance_record_ii/student_attendance_record_ii.md",
+                "file": "go/src/subarray_sums_divisible_by_k/subarray_sums_divisible_by_k.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go/src/student_attendance_record_ii/student_attendance_record_ii.md"
+                "file": "go/src/subarray_sums_divisible_by_k/subarray_sums_divisible_by_k.excalidraw.md"
               }
             }
           },
@@ -158,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "go/src/student_attendance_record_ii/student_attendance_record_ii.md",
+                "file": "go/src/subarray_sums_divisible_by_k/subarray_sums_divisible_by_k.excalidraw.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -206,42 +204,42 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9860c85420b3d0d7",
+  "active": "14b44421497b77fb",
   "lastOpenFiles": [
-    "go/src/word_break_ii/word_break_ii.md",
-    "go/src/student_attendance_record_ii/student_attendance_record_ii_test.go",
-    "go/src/student_attendance_record_ii/student_attendance_record_ii.go",
-    "go/src/student_attendance_record_ii/student_attendance_record_ii.excalidraw.md",
-    "go/src/student_attendance_record_ii",
+    "go/src/subarray_sums_divisible_by_k/subarray_sums_divisible_by_k.md",
+    "go/src/continuous_subarray_sum/continuous_subarray_sum.excalidraw.md",
+    "go/src/subarray_sums_divisible_by_k/subarray_sums_divisible_by_k_test.go",
+    "go/src/subarray_sums_divisible_by_k/subarray_sums_divisible_by_k.go",
+    "go/src/subarray_sums_divisible_by_k/subarray_sums_divisible_by_k.excalidraw.md",
+    "go/src/subarray_sums_divisible_by_k",
+    "go/src/continuous_subarray_sum/continuous_subarray_sum.md",
+    "go/src/continuous_subarray_sum/continuous_subarray_sum_test.go",
+    "go/src/continuous_subarray_sum/continuous_subarray_sum.go",
+    "go/src/continuous_subarray_sum",
+    "go/src/append_characters_to_string_to_make_subsequence/append_characters_to_string_to_make_subsequence.md",
+    "go/src/continuous-subarray-sum/continuous-subarray-sum.md",
+    "go/src/continuous-subarray-sum/continuous-subarray-sum_test.go",
+    "go/src/continuous-subarray-sum/continuous-subarray-sum.go",
+    "go/src/continuous-subarray-sum/continuous-subarray-sum.excalidraw.md",
+    "go/src/continuous-subarray-sum",
+    "go/src/append_characters_to_string_to_make_subsequence/append_characters_to_string_to_make_subsequence.excalidraw.md",
+    "go/src/single_number_iii/single_number_iii.excalidraw.md",
+    "go/src/append_characters_to_string_to_make_subsequence/append_characters_to_string_to_make_subsequence_test.go",
+    "go/src/single_number_iii/single_number_iii.md",
+    "go/src/number_of_steps_to_reduce_a_number_in_binary_representation_to_one/number_of_steps_to_reduce_a_number_in_binary_representation_to_one.md",
+    "go/src/get_equal_substrings_within_budget/get_equal_substrings_within_budget.md",
+    "go/src/number_of_steps_to_reduce_a_number_in_binary_representation_to_one/number_of_steps_to_reduce_a_number_in_binary_representation_to_one.excalidraw.md",
+    "go/src/get_equal_substrings_within_budget/get_equal_substrings_within_budget.excalidraw.md",
     "go/src/student_attendance_record_ii/student_attendance_record_ii.md",
+    "go/src/word_break_ii/word_break_ii.md",
+    "go/src/student_attendance_record_ii/student_attendance_record_ii.excalidraw.md",
     "go/src/maximum_score_words_formed_by_letters/maximum_score_words_formed_by_letters.md",
-    "go/src/word_break_ii/word_break_ii_test.go",
-    "go/src/word_break_ii/word_break_ii.go",
     "go/src/word_break_ii/word_break_ii.excalidraw.md",
-    "go/src/word_break_ii",
-    "go/src/maximum_score_words_formed_by_letters/maximum_score_words_formed_by_letters_test.go",
-    "go/src/maximum_score_words_formed_by_letters/maximum_score_words_formed_by_letters.go",
     "go/src/maximum_score_words_formed_by_letters/maximum_score_words_formed_by_letters.excalidraw.md",
-    "go/src/maximum_score_words_formed_by_letters",
     "go/src/the_number_of_beautiful_subsets/the_number_of_beautiful_subsets.md",
     "go/src/palindrome_partitioning/palindrome_partitioning.md",
-    "go/src/the_number_of_beautiful_subsets/the_number_of_beautiful_subsets_test.go",
     "go/src/the_number_of_beautiful_subsets/the_number_of_beautiful_subsets.excalidraw.md",
     "go/src/palindrome_partitioning/palindrome_partitioning.excalidraw.md",
-    "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.md",
-    "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.md",
-    "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.excalidraw.md",
-    "go/src/find_the_maximum_sum_of_node_values/find_the_maximum_sum_of_node_values.excalidraw.md",
-    "go/src/distribute_coins_in_binary_tree/distribute_coins_in_binary_tree.md",
-    "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.md",
-    "go/src/distribute_coins_in_binary_tree/distribute_coins_in_binary_tree.excalidraw.md",
-    "go/src/delete_leaves_with_a_given_value/delete_leaves_with_a_given_value.excalidraw.md",
-    "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.md",
-    "go/src/path_with_maximum_gold/path_with_maximum_gold.md",
-    "go/src/find_the_safest_path_in_a_grid/find_the_safest_path_in_a_grid.excalidraw.md",
-    "go/src/score_after_flipping_matrix/score_after_flipping_matrix.md",
-    "go/src/path_with_maximum_gold/path_with_maximum_gold.excalidraw.md",
-    "go/src/score_after_flipping_matrix/score_after_flipping_matrix.excalidraw.md",
-    "rust/src/reconstruct_itinerary/reconstruct_itinerary.md"
+    "go/src/validate_binary_tree_nodes/validate_binary_tree_nodes.md"
   ]
 }
